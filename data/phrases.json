@@ -22,12 +22,7 @@
             { "en": "I have a reservation under [Name].", "translated": "Ho una prenotazione a nome [Nome].", "pronunciation": "oh oo-nah preh-noh-tah-TSYOH-neh ah NOH-meh [NOH-meh]" },
             { "en": "What time is check-out?", "translated": "A che ora è il check-out?", "pronunciation": "ah keh OH-rah eh eel check-out" },
             { "en": "Could I have extra towels, please?", "translated": "Potrei avere degli asciugamani in più, per favore?", "pronunciation": "poh-TRAY ah-VEH-reh DEL-yee ah-shoo-gah-MAH-nee een pyoo, pehr fah-VOH-reh" },
-            {
-  "en": "Do you have any rooms available for tonight?",
-  "translated": "Ha camere libere per stasera?",
-  "pronunciation": "ah KAH-meh-reh LEE-beh-reh pehr stah-SEH-rah"
-}
-       
+            { "en": "Do you have any rooms available for tonight?", "translated": "Ha camere libere per stasera?", "pronunciation": "ah KAH-meh-reh LEE-beh-reh pehr stah-SEH-rah" }
           ]
         },
         {
@@ -69,6 +64,11 @@
           "icon": "chat",
           "phrases": [
             { "en": "Hello / Good morning", "translated": "Buongiorno", "pronunciation": "bwohn-JOHR-noh" },
+            { "en": "Good evening", "translated": "Buonasera", "pronunciation": "bwohn-ah-SEH-rah" },
+            { "en": "Good night", "translated": "Buonanotte", "pronunciation": "bwohn-ah-NOHT-teh" },
+            { "en": "Thank you", "translated": "Grazie", "pronunciation": "GRAH-tsyeh" },
+            { "en": "Excuse me", "translated": "Mi scusi", "pronunciation": "mee SKOO-zee" },
+            { "en": "Sorry", "translated": "Scusa / Mi dispiace", "pronunciation": "SKOO-zah / mee dees-PYAH-cheh" },
             { "en": "Can you help me, please?", "translated": "Mi può aiutare, per favore?", "pronunciation": "mee pwoh ah-yoo-TAH-reh, pehr fah-VOH-reh" },
             { "en": "Where is the nearest pharmacy?", "translated": "Dov'è la farmacia più vicina?", "pronunciation": "doh-VEH lah far-mah-CHEE-ah pyoo vee-CHEE-nah" },
             { "en": "Do you speak English?", "translated": "Parla inglese?", "pronunciation": "PAHR-lah een-GLEH-zeh" }
@@ -98,11 +98,7 @@
             { "en": "I have a reservation under [Name].", "translated": "J'ai une réservation au nom de [Nom].", "pronunciation": "zhay ewn ray-zair-vah-syohn oh nohm duh [Nohm]" },
             { "en": "What time is check-out?", "translated": "À quelle heure est le départ ?", "pronunciation": "ah kel ur eh luh day-par" },
             { "en": "Could I have extra towels, please?", "translated": "Pourrais-je avoir des serviettes supplémentaires, s'il vous plaît ?", "pronunciation": "poo-ray-zh ah-vwahr day sair-vyet sew-play-mahn-tair, seel voo pleh" },
-            {
-  "en": "Do you have any rooms available for tonight?",
-  "translated": "Avez-vous des chambres de libres pour ce soir ?",
-  "pronunciation": "ah-vay-voo day shahmbr duh lee-bruh poor suh swahr"
-}
+            { "en": "Do you have any rooms available for tonight?", "translated": "Avez-vous des chambres de libres pour ce soir ?", "pronunciation": "ah-vay-voo day shahmbr duh lee-bruh poor suh swahr" }
           ]
         },
         {
@@ -144,9 +140,90 @@
           "icon": "chat",
           "phrases": [
             { "en": "Hello / Good morning", "translated": "Bonjour", "pronunciation": "bohn-zhoor" },
+            { "en": "Good evening", "translated": "Bonsoir", "pronunciation": "bohn-swahr" },
+            { "en": "Good night", "translated": "Bonne nuit", "pronunciation": "bun nwee" },
+            { "en": "Thank you", "translated": "Merci", "pronunciation": "mair-see" },
+            { "en": "Excuse me", "translated": "Excusez-moi", "pronunciation": "ex-kew-zay-mwah" },
+            { "en": "Sorry", "translated": "Pardon / Désolé", "pronunciation": "par-dohn / day-zoh-lay" },
             { "en": "Can you help me, please?", "translated": "Pouvez-vous m'aider, s'il vous plaît ?", "pronunciation": "poo-vay-voo meh-day, seel voo pleh" },
             { "en": "Where is the nearest pharmacy?", "translated": "Où est la pharmacie la plus proche ?", "pronunciation": "oo eh lah far-mah-see lah plew prosh" },
             { "en": "Do you speak English?", "translated": "Parlez-vous anglais ?", "pronunciation": "par-lay-voo ahn-gleh" }
+          ]
+        }
+      ]
+    },
+    "es": {
+      "name": "Spanish",
+      "categories": [
+        {
+          "id": "logistics",
+          "title": "Logistical",
+          "icon": "train",
+          "phrases": [
+            { "en": "Where is the taxi stand?", "translated": "¿Dónde está la parada de taxis?", "pronunciation": "DOHN-deh ehs-tah lah pah-RAH-dah deh TAHK-sees" },
+            { "en": "Take me to this address, please.", "translated": "Lléveme a esta dirección, por favor.", "pronunciation": "LYEH-veh-meh ah EHS-tah dee-rek-SYOHN, pohr fah-BOHR" },
+            { "en": "How much is the fare to the airport?", "translated": "¿Cuánto cuesta ir al aeropuerto?", "pronunciation": "KWAHN-toh KWEHS-tah eer ahl ah-eh-roh-POHR-toh" },
+            { "en": "Does this train go to [Madrid]?", "translated": "¿Este tren va a [Madrid]?", "pronunciation": "EHS-teh trehn vah ah [mah-DREED]" }
+          ]
+        },
+        {
+          "id": "hotels",
+          "title": "Hotels",
+          "icon": "hotel",
+          "phrases": [
+            { "en": "I have a reservation under [Name].", "translated": "Tengo una reserva a nombre de [Nombre].", "pronunciation": "TEHN-goh oo-nah reh-SEHR-bah ah NOHM-breh deh [NOHM-breh]" },
+            { "en": "What time is check-out?", "translated": "¿A qué hora es la salida?", "pronunciation": "ah keh OH-rah ehs lah sah-LEE-dah" },
+            { "en": "Could I have extra towels, please?", "translated": "¿Podría darme más toallas, por favor?", "pronunciation": "poh-DREE-ah DAHR-meh mahs toh-AH-yahs, pohr fah-BOHR" },
+            { "en": "Do you have any rooms available for tonight?", "translated": "¿Tiene habitaciones disponibles para esta noche?", "pronunciation": "TYEH-neh ah-bee-tah-SYOH-nehs dees-poh-NEE-blehs PAH-rah EHS-tah NOH-cheh" }
+          ]
+        },
+        {
+          "id": "restaurants",
+          "title": "Restaurants",
+          "icon": "restaurant",
+          "phrases": [
+            { "en": "A table for two, please.", "translated": "Una mesa para dos, por favor.", "pronunciation": "OO-nah MEH-sah PAH-rah dohs, pohr fah-BOHR" },
+            { "en": "Do you have a vegetarian menu?", "translated": "¿Tiene un menú vegetariano?", "pronunciation": "TYEH-neh oon meh-NOO veh-heh-tah-RYAH-noh" },
+            { "en": "The food was delicious, thank you.", "translated": "La comida estaba deliciosa, gracias.", "pronunciation": "lah koh-MEE-dah ehs-TAH-bah deh-lee-SYOH-sah, GRAH-syahs" },
+            { "en": "The bill, please.", "translated": "La cuenta, por favor.", "pronunciation": "lah KWEHN-tah, pohr fah-BOHR" }
+          ]
+        },
+        {
+          "id": "museums",
+          "title": "Museums",
+          "icon": "museum",
+          "phrases": [
+            { "en": "Two adult tickets, please.", "translated": "Dos entradas para adultos, por favor.", "pronunciation": "dohs ehn-TRAH-dahs PAH-rah ah-DUL-tohs, pohr fah-BOHR" },
+            { "en": "Is this the line for entry?", "translated": "¿Es esta la fila para entrar?", "pronunciation": "ehs EHS-tah lah FEE-lah PAH-rah ehn-TRAHR" },
+            { "en": "Can we rent an audio guide?", "translated": "¿Podemos alquilar una audioguía?", "pronunciation": "poh-DEH-mohs ahl-kee-LAHR OO-nah ow-dyoh-GEE-ah" },
+            { "en": "Where are the restrooms?", "translated": "¿Dónde están los baños?", "pronunciation": "DOHN-deh ehs-TAHN lohs BAH-nyohs" }
+          ]
+        },
+        {
+          "id": "stores",
+          "title": "Stores",
+          "icon": "storefront",
+          "phrases": [
+            { "en": "How much does this cost?", "translated": "¿Cuánto cuesta esto?", "pronunciation": "KWAHN-toh KWEHS-tah EHS-toh" },
+            { "en": "Do you have this in a larger / smaller size?", "translated": "¿Tiene esto en una talla más grande / más pequeña?", "pronunciation": "TYEH-neh EHS-toh ehn OO-nah TAH-lyah mahs GRAHN-deh / mahs peh-KEH-nyah" },
+            { "en": "Could I have a receipt, please?", "translated": "¿Me da un recibo, por favor?", "pronunciation": "meh dah oon reh-SEE-boh, pohr fah-BOHR" },
+            { "en": "Do you accept credit cards?", "translated": "¿Aceptan tarjetas de crédito?", "pronunciation": "ah-SEHP-tahn tahr-HEH-tahs deh KREH-dee-toh" }
+          ]
+        },
+        {
+          "id": "general",
+          "title": "General",
+          "icon": "chat",
+          "phrases": [
+            { "en": "Hello / Good morning", "translated": "Hola / Buenos días", "pronunciation": "OH-lah / BWEH-nohs DEE-ahs" },
+            { "en": "Good evening", "translated": "Buenas tardes", "pronunciation": "BWEH-nahs TAHR-dehs" },
+            { "en": "Good night", "translated": "Buenas noches", "pronunciation": "BWEH-nahs NOH-chehs" },
+            { "en": "Thank you", "translated": "Gracias", "pronunciation": "GRAH-syahs" },
+            { "en": "Excuse me", "translated": "Disculpe", "pronunciation": "dees-KOOL-peh" },
+            { "en": "Sorry", "translated": "Lo siento", "pronunciation": "loh SYEHN-toh" },
+            { "en": "Can you help me, please?", "translated": "¿Puede ayudarme, por favor?", "pronunciation": "PWEH-deh ah-hoo-DAHR-meh, pohr fah-BOHR" },
+            { "en": "Where is the nearest pharmacy?", "translated": "¿Dónde está la farmacia más cercana?", "pronunciation": "DOHN-deh ehs-tah lah fahr-MAH-syah mahs sehr-KAH-nah" },
+            { "en": "Do you speak English?", "translated": "¿Habla inglés?", "pronunciation": "AH-blah een-GLEHS" }
           ]
         }
       ]
