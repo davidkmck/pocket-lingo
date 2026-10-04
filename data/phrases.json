@@ -21,7 +21,13 @@
           "phrases": [
             { "en": "I have a reservation under [Name].", "translated": "Ho una prenotazione a nome [Nome].", "pronunciation": "oh oo-nah preh-noh-tah-TSYOH-neh ah NOH-meh [NOH-meh]" },
             { "en": "What time is check-out?", "translated": "A che ora è il check-out?", "pronunciation": "ah keh OH-rah eh eel check-out" },
-            { "en": "Could I have extra towels, please?", "translated": "Potrei avere degli asciugamani in più, per favore?", "pronunciation": "poh-TRAY ah-VEH-reh DEL-yee ah-shoo-gah-MAH-nee een pyoo, pehr fah-VOH-reh" }
+            { "en": "Could I have extra towels, please?", "translated": "Potrei avere degli asciugamani in più, per favore?", "pronunciation": "poh-TRAY ah-VEH-reh DEL-yee ah-shoo-gah-MAH-nee een pyoo, pehr fah-VOH-reh" },
+            {
+  "en": "Do you have any rooms available for tonight?",
+  "translated": "Ha camere libere per stasera?",
+  "pronunciation": "ah KAH-meh-reh LEE-beh-reh pehr stah-SEH-rah"
+}
+       
           ]
         },
         {
@@ -91,7 +97,12 @@
           "phrases": [
             { "en": "I have a reservation under [Name].", "translated": "J'ai une réservation au nom de [Nom].", "pronunciation": "zhay ewn ray-zair-vah-syohn oh nohm duh [Nohm]" },
             { "en": "What time is check-out?", "translated": "À quelle heure est le départ ?", "pronunciation": "ah kel ur eh luh day-par" },
-            { "en": "Could I have extra towels, please?", "translated": "Pourrais-je avoir des serviettes supplémentaires, s'il vous plaît ?", "pronunciation": "poo-ray-zh ah-vwahr day sair-vyet sew-play-mahn-tair, seel voo pleh" }
+            { "en": "Could I have extra towels, please?", "translated": "Pourrais-je avoir des serviettes supplémentaires, s'il vous plaît ?", "pronunciation": "poo-ray-zh ah-vwahr day sair-vyet sew-play-mahn-tair, seel voo pleh" },
+            {
+  "en": "Do you have any rooms available for tonight?",
+  "translated": "Avez-vous des chambres de libres pour ce soir ?",
+  "pronunciation": "ah-vay-voo day shahmbr duh lee-bruh poor suh swahr"
+}
           ]
         },
         {
