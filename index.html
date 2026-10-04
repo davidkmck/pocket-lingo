@@ -173,7 +173,18 @@
     .speak-btn:active {
       transform: scale(0.9);
     }
-    .hide-cat-btn { background: none; border: none; font-size: 0.85rem; cursor: pointer; color: #666; }
+
+    .hide-cat-btn {
+    background: none;
+    border: none;
+    font-size: 0.85rem;
+    cursor: pointer;
+    color: #666;
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle; /* Ensures it lines up with standard text height */
+}
+    
     .hide-phrase-btn { background: none; border: none; color: #999; font-size: 0.8rem; cursor: pointer; padding: 0; margin-top: 0.5rem; text-decoration: underline; margin-right: 1rem; }
     .delete-cat-btn { width: 100%; padding: 0.5rem; background: #fff; color: #e74c3c; border: 1px solid #e74c3c; border-radius: 8px; font-size: 0.9rem; margin-top: 0.5rem; cursor: pointer; }
     .add-category-btn { width: 100%; padding: 0.75rem; background: var(--secondary); color: white; border: none; border-radius: 8px; font-size: 1rem; font-weight: bold; cursor: pointer; margin-top: 1.5rem; }
