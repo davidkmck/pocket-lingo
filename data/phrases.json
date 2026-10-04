@@ -11,7 +11,8 @@
             { "en": "Where is the taxi stand?", "translated": "Dov'è il posteggio dei taxi?", "pronunciation": "doh-VEH eel poh-STEH-joh day TAHK-see" },
             { "en": "Take me to this address, please.", "translated": "Mi porti a questo indirizzo, per favore.", "pronunciation": "mee POHR-tee ah KWEH-stoh een-dee-REET-zoh, pehr fah-VOH-reh" },
             { "en": "How much is the fare to the airport?", "translated": "Quant'è la tariffa per l'aeroporto?", "pronunciation": "kwahn-TEH lah tah-REEF-fah pehr lah-eh-roh-POHR-toh" },
-            { "en": "Does this train go to [Rome]?", "translated": "Questo treno va a [Roma]?", "pronunciation": "KWEH-stoh TREH-noh vah ah [ROH-mah]" }
+            { "en": "Does this train go to [Rome]?", "translated": "Questo treno va a [Roma]?", "pronunciation": "KWEH-stoh TREH-noh vah ah [ROH-mah]" },
+            { "en": "Where is the nearest train / metro station?", "translated": "Dov'è la stazione dei treni / della metropolitana più vicina?", "pronunciation": "doh-VEH lah stah-TSYOH-nee day TREH-nee / DEL-lah meh-troh-poh-lee-TAH-nah pyoo vee-CHEE-nah" }
           ]
         },
         {
@@ -34,9 +35,11 @@
             { "en": "Do you have a vegetarian menu?", "translated": "Avete un menù vegetariano?", "pronunciation": "ah-VEH-teh oon meh-NOO veh-jeh-tah-RYAH-noh" },
             { "en": "The food was delicious, thank you.", "translated": "Il cibo era delizioso, grazie.", "pronunciation": "eel CHEE-boh EH-rah deh-lee-TSYOH-zoh, GRAH-tsyeh" },
             { "en": "The bill, please.", "translated": "Il conto, per favore.", "pronunciation": "eel KOHN-toh, pehr fah-VOH-reh" },
+            { "en": "Separate bills, please.", "translated": "Conti separati, per favore.", "pronunciation": "KOHN-tee seh-pah-RAH-tee, pehr fah-VOH-reh" },
             { "en": "A glass of red / white wine, please.", "translated": "Un calice di vino rosso / bianco, per favore.", "pronunciation": "oon CAH-lee-cheh dee VEE-noh ROHS-soh / BYAHN-koh, pehr fah-VOH-reh" },
-            { "en": "A draft beer, please.", "translated": "Una alla spina, per favore.", "pronunciation": "OO-nah AHL-lah SPEE-nah, pehr fah-VOH-reh" },
+            { "en": "A draft beer, please.", "translated": "Una birra alla spina, per favore.", "pronunciation": "OO-nah BEER-rah AHL-lah SPEE-nah, pehr fah-VOH-reh" },
             { "en": "Still or sparkling water?", "translated": "Acqua naturale o frizzante?", "pronunciation": "AHK-wah nah-too-RAH-leh oh freet-ZAHN-teh?" },
+            { "en": "Tap water, please.", "translated": "Un bicchiere d'acqua del rubinetto, per favore.", "pronunciation": "oon bek-KYEH-reh DAHK-wah del roo-bee-NET-toh, pehr fah-VOH-reh" },
             { "en": "An espresso, please.", "translated": "Un caffè, per favore.", "pronunciation": "oon kahf-FEH, pehr fah-VOH-reh" },
             { "en": "Is this dish spicy?", "translated": "Questo piatto è piccante?", "pronunciation": "KWEH-stoh PYAT-toh eh peek-KAHN-teh?" },
             { "en": "Do you have English menus?", "translated": "Avete un menù in inglese?", "pronunciation": "ah-VEH-teh oon meh-NOO een een-GLEH-zeh?" }
@@ -79,7 +82,9 @@
             { "en": "Sorry", "translated": "Scusa / Mi dispiace", "pronunciation": "SKOO-zah / mee dees-PYAH-cheh" },
             { "en": "Can you help me, please?", "translated": "Mi può aiutare, per favore?", "pronunciation": "mee pwoh ah-yoo-TAH-reh, pehr fah-VOH-reh" },
             { "en": "Where is the nearest pharmacy?", "translated": "Dov'è la farmacia più vicina?", "pronunciation": "doh-VEH lah far-mah-CHEE-ah pyoo vee-CHEE-nah" },
-            { "en": "Do you speak English?", "translated": "Parla inglese?", "pronunciation": "PAHR-lah een-GLEH-zeh" }
+            { "en": "Do you speak English?", "translated": "Parla inglese?", "pronunciation": "PAHR-lah een-GLEH-zeh" },
+            { "en": "Do you have Wi-Fi?", "translated": "Avete il Wi-Fi?", "pronunciation": "ah-VEH-teh eel way-fay?" },
+            { "en": "Do you accept contactless payment?", "translated": "Accettate pagamenti contactless?", "pronunciation": "ah-chet-TAH-teh pah-gah-MEN-tee kohn-tak-tles?" }
           ]
         }
       ]
@@ -95,7 +100,8 @@
             { "en": "Where is the taxi stand?", "translated": "Où est la station de taxis ?", "pronunciation": "oo eh lah stah-see-ohn duh tahk-see" },
             { "en": "Take me to this address, please.", "translated": "Emmenez-moi à cette adresse, s'il vous plaît.", "pronunciation": "ah-muh-nay-mwah ah set ah-dress, seel voo pleh" },
             { "en": "How much is the fare to the airport?", "translated": "Quel est le tarif pour l'aéroport ?", "pronunciation": "kel eh luh tah-reef poor lah-ay-roh-por" },
-            { "en": "Does this train go to [Paris]?", "translated": "Ce train va-t-il à [Paris] ?", "pronunciation": "suh tran vah-teel ah [pah-REE]" }
+            { "en": "Does this train go to [Paris]?", "translated": "Ce train va-t-il à [Paris] ?", "pronunciation": "suh tran vah-teel ah [pah-REE]" },
+            { "en": "Where is the nearest train / metro station?", "translated": "Où est la station de train / de métro la plus proche ?", "pronunciation": "oo eh lah stah-see-ohn duh tran / duh may-troh lah plew prosh" }
           ]
         },
         {
@@ -106,7 +112,7 @@
             { "en": "I have a reservation under [Name].", "translated": "J'ai une réservation au nom de [Nom].", "pronunciation": "zhay ewn ray-zair-vah-syohn oh nohm duh [Nohm]" },
             { "en": "What time is check-out?", "translated": "À quelle heure est le départ ?", "pronunciation": "ah kel ur eh luh day-par" },
             { "en": "Could I have extra towels, please?", "translated": "Pourrais-je avoir des serviettes supplémentaires, s'il vous plaît ?", "pronunciation": "poo-ray-zh ah-vwahr day sair-vyet sew-play-mahn-tair, seel voo pleh" },
-            { "en": "Do you have any rooms available for tonight?", "translated": "Avez-vous des chambres de libres pour ce soir ?", "pronunciation": "ah-vay-voo day shahmbr duh lee-bruh poor suh swahr" }
+            { "en": "Do you have any rooms available for tonight?", "translated": "Avez-vous des chambres libres pour ce soir ?", "pronunciation": "ah-vay-voo day shahmbr lee-bruh poor suh swahr" }
           ]
         },
         {
@@ -118,9 +124,11 @@
             { "en": "Do you have a vegetarian menu?", "translated": "Avez-vous un menu végétarien ?", "pronunciation": "ah-vay-voo uh muh-new vay-zhay-tah-ryan" },
             { "en": "The food was delicious, thank you.", "translated": "Le repas était délicieux, merci.", "pronunciation": "luh ruh-pah ay-teh day-lee-syuh, mair-see" },
             { "en": "The bill, please.", "translated": "L'addition, s'il vous plaît.", "pronunciation": "lah-dee-see-ohn, seel voo pleh" },
+            { "en": "Separate bills, please.", "translated": "L'addition séparée, s'il vous plaît.", "pronunciation": "lah-dee-see-ohn say-pah-ray, seel voo pleh" },
             { "en": "A glass of red / white wine, please.", "translated": "Un verre de vin rouge / blanc, s'il vous plaît.", "pronunciation": "uh vair duh van rooj / blahn, seel voo pleh" },
             { "en": "A draft beer, please.", "translated": "Une bière pression, s'il vous plaît.", "pronunciation": "ewn byair preh-syohn, seel voo pleh" },
             { "en": "Still or sparkling water?", "translated": "De l'eau plate ou gazeuse ?", "pronunciation": "duh loh plaht oo gah-zuhz?" },
+            { "en": "Tap water, please.", "translated": "Une carafe d'eau, s'il vous plaît.", "pronunciation": "ewn kah-rahf doh, seel voo pleh" },
             { "en": "An espresso, please.", "translated": "Un café, s'il vous plaît.", "pronunciation": "uh kah-fay, seel voo pleh" },
             { "en": "Is this dish spicy?", "translated": "Ce plat est-il épicé ?", "pronunciation": "suh plah ay-teel ay-pee-say?" },
             { "en": "Do you have English menus?", "translated": "Avez-vous des menus en anglais ?", "pronunciation": "ah-vay-voo day muh-new ahn ahn-glay?" }
@@ -163,7 +171,9 @@
             { "en": "Sorry", "translated": "Pardon / Désolé", "pronunciation": "par-dohn / day-zoh-lay" },
             { "en": "Can you help me, please?", "translated": "Pouvez-vous m'aider, s'il vous plaît ?", "pronunciation": "poo-vay-voo meh-day, seel voo pleh" },
             { "en": "Where is the nearest pharmacy?", "translated": "Où est la pharmacie la plus proche ?", "pronunciation": "oo eh lah far-mah-see lah plew prosh" },
-            { "en": "Do you speak English?", "translated": "Parlez-vous anglais ?", "pronunciation": "par-lay-voo ahn-gleh" }
+            { "en": "Do you speak English?", "translated": "Parlez-vous anglais ?", "pronunciation": "par-lay-voo ahn-gleh" },
+            { "en": "Do you have Wi-Fi?", "translated": "Avez-vous le Wi-Fi ?", "pronunciation": "ah-vay-voo luh way-fy?" },
+            { "en": "Do you accept contactless payment?", "translated": "Acceptez-vous le paiement sans contact ?", "pronunciation": "ahk-sep-tay-voo luh pay-mahn sahn kohn-takt?" }
           ]
         }
       ]
@@ -179,7 +189,8 @@
             { "en": "Where is the taxi stand?", "translated": "¿Dónde está la parada de taxis?", "pronunciation": "DOHN-deh ehs-tah lah pah-RAH-dah deh TAHK-sees" },
             { "en": "Take me to this address, please.", "translated": "Lléveme a esta dirección, por favor.", "pronunciation": "LYEH-veh-meh ah EHS-tah dee-rek-SYOHN, pohr fah-BOHR" },
             { "en": "How much is the fare to the airport?", "translated": "¿Cuánto cuesta ir al aeropuerto?", "pronunciation": "KWAHN-toh KWEHS-tah eer ahl ah-eh-roh-POHR-toh" },
-            { "en": "Does this train go to [Madrid]?", "translated": "¿Este tren va a [Madrid]?", "pronunciation": "EHS-teh trehn vah ah [mah-DREED]" }
+            { "en": "Does this train go to [Madrid]?", "translated": "¿Este tren va a [Madrid]?", "pronunciation": "EHS-teh trehn vah ah [mah-DREED]" },
+            { "en": "Where is the nearest train / metro station?", "translated": "¿Dónde está la estación de tren / metro más cercana?", "pronunciation": "DOHN-deh ehs-tah lah ehs-tah-SYOH-n deh trehn / meh-troh mahs sehr-KAH-nah" }
           ]
         },
         {
@@ -202,9 +213,11 @@
             { "en": "Do you have a vegetarian menu?", "translated": "¿Tiene un menú vegetariano?", "pronunciation": "TYEH-neh oon meh-NOO veh-heh-tah-RYAH-noh" },
             { "en": "The food was delicious, thank you.", "translated": "La comida estaba deliciosa, gracias.", "pronunciation": "lah koh-MEE-dah ehs-TAH-bah deh-lee-SYOH-sah, GRAH-syahs" },
             { "en": "The bill, please.", "translated": "La cuenta, por favor.", "pronunciation": "lah KWEHN-tah, pohr fah-BOHR" },
+            { "en": "Separate bills, please.", "translated": "Cuentas separadas, por favor.", "pronunciation": "KWEHN-tahs seh-pah-RAH-dahs, pohr fah-BOHR" },
             { "en": "A glass of red / white wine, please.", "translated": "Una copa de vino tinto / blanco, por favor.", "pronunciation": "OO-nah KOH-pah deh VEE-noh TEEN-toh / BLAHN-koh, pohr fah-BOHR" },
             { "en": "A draft beer, please.", "translated": "Una caña, por favor.", "pronunciation": "OO-nah KAH-nyah, pohr fah-BOHR" },
             { "en": "Still or sparkling water?", "translated": "¿Agua sin gas o con gas?", "pronunciation": "AH-gwah seen gahs oh kohn gahs?" },
+            { "en": "Tap water, please.", "translated": "Agua de la llave, por favor.", "pronunciation": "AH-gwah deh lah YAH-veh, pohr fah-BOHR" },
             { "en": "An espresso, please.", "translated": "Un café solo, por favor.", "pronunciation": "oon kah-FEH SOH-loh, pohr fah-BOHR" },
             { "en": "Is this dish spicy?", "translated": "¿Este plato está picante?", "pronunciation": "EHS-teh PLAH-toh ehs-TAH pee-KAHN-teh?" },
             { "en": "Do you have English menus?", "translated": "¿Tiene menús en inglés?", "pronunciation": "TYEH-neh meh-NOO-sehn een-GLEHS?" }
@@ -247,7 +260,9 @@
             { "en": "Sorry", "translated": "Lo siento", "pronunciation": "loh SYEHN-toh" },
             { "en": "Can you help me, please?", "translated": "¿Me puede ayudar, por favor?", "pronunciation": "meh PWEH-deh ah-yoo-DAHR, pohr fah-BOHR" },
             { "en": "Where is the nearest pharmacy?", "translated": "¿Dónde está la farmacia más cercana?", "pronunciation": "DOHN-deh ehs-tah lah fahr-MAH-syah mahs sehr-KAH-nah" },
-            { "en": "Do you speak English?", "translated": "¿Habla inglés?", "pronunciation": "AH-blah een-GLEHS" }
+            { "en": "Do you speak English?", "translated": "¿Habla inglés?", "pronunciation": "AH-blah een-GLEHS" },
+            { "en": "Do you have Wi-Fi?", "translated": "¿Tiene Wi-Fi?", "pronunciation": "TYEH-neh way-fy?" },
+            { "en": "Do you accept contactless payment?", "translated": "¿Aceptan pagos sin contacto?", "pronunciation": "ah-SEHP-tahn PAH-gohs seen kohn-TAHK-toh?" }
           ]
         }
       ]
@@ -263,7 +278,8 @@
             { "en": "Where is the taxi stand?", "translated": "Onde fica o ponto de táxi?", "pronunciation": "OHN-deh FEE-kah oo POHN-toh deh TAHK-see" },
             { "en": "Take me to this address, please.", "translated": "Leva-me para esta morada, por favor.", "pronunciation": "LEH-vah-meh PAH-rah EHS-tah moh-RAH-dah, pohr fah-VOHR" },
             { "en": "How much is the fare to the airport?", "translated": "Quanto custa a tarifa para o aeroporto?", "pronunciation": "KWAHN-toh KOOS-tah ah tah-REE-fah PAH-rah oo ah-eh-roh-POHR-too" },
-            { "en": "Does this train go to [Lisbon]?", "translated": "Este comboio vai para [Lisboa]?", "pronunciation": "EHS-tah kohm-BOY-oo vigh PAH-rah [leez-BOH-ah]" }
+            { "en": "Does this train go to [Lisbon]?", "translated": "Este comboio vai para [Lisboa]?", "pronunciation": "EHS-tah kohm-BOY-oo vigh PAH-rah [leez-BOH-ah]" },
+            { "en": "Where is the nearest train / metro station?", "translated": "Onde fica a estação de comboio / metro mais próxima?", "pronunciation": "OHN-deh FEE-kah ah ehs-tah-SYOWN deh kohm-BOY-oo / MEH-troh mighs PROH-ksee-mah" }
           ]
         },
         {
@@ -285,11 +301,13 @@
             { "en": "A table for two, please.", "translated": "Uma mesa para dois, por favor.", "pronunciation": "OO-nah MEH-sah PAH-rah DOYSH, pohr fah-VOHR" },
             { "en": "Do you have a vegetarian menu?", "translated": "Tem um menu vegetariano?", "pronunciation": "taym oon meh-NOO veh-jeh-tah-ree-AH-noo" },
             { "en": "The food was delicious, thank you.", "translated": "A comida estava deliciosa, obrigado.", "pronunciation": "ah koo-MEE-dah ehs-TAH-bah deh-lee-syoh-ZAH, oh-bree-GAH-doo" },
-            { "en": "The bill, please.", "translated": "A conta, por favor.", "pronunciation": "ah KOHN-tah, pohr fah-BOHR" },
-            { "en": "A glass of red / white wine, please.", "translated": "Um copo de vinho tinto / branco, por favor.", "pronunciation": "oon KOH-poo deh VEE-nyoo TEEN-too / BLAHN-koo, pohr fah-BOHR" },
+            { "en": "The bill, please.", "translated": "A conta, por favor.", "pronunciation": "ah KOHN-tah, pohr fah-VOHR" },
+            { "en": "Separate bills, please.", "translated": "Contas separadas, por favor.", "pronunciation": "KOHN-tahs seh-pah-RAH-dahs, pohr fah-VOHR" },
+            { "en": "A glass of red / white wine, please.", "translated": "Um copo de vinho tinto / branco, por favor.", "pronunciation": "oon KOH-poo deh VEE-nyoo TEEN-too / BLAHN-koo, pohr fah-VOHR" },
             { "en": "A draft beer, please.", "translated": "Um imperial / cerveja à pressão, por favor.", "pronunciation": "oon eem-peh-ree-AL / sehr-VAY-zhah ah preh-SYOH-un, pohr fah-VOHR" },
             { "en": "Still or sparkling water?", "translated": "Água natural ou com gás?", "pronunciation": "AH-gwah nah-too-RAHL oh kohn gahsh?" },
-            { "en": "An espresso, please.", "translated": "Uma bica / um café, por favor.", "pronunciation": "OO-nah BEE-kah / oon kah-FEH, pohr fah-BOHR" },
+            { "en": "Tap water, please.", "translated": "Água da torneira, por favor.", "pronunciation": "AH-gwah dah tor-NAY-rah, pohr fah-VOHR" },
+            { "en": "An espresso, please.", "translated": "Uma bica / um café, por favor.", "pronunciation": "OO-nah BEE-kah / oon kah-FEH, pohr fah-VOHR" },
             { "en": "Is this dish spicy?", "translated": "Este prato é picante?", "pronunciation": "EHS-teh PRAH-too eh pee-KAHN-teh?" },
             { "en": "Do you have English menus?", "translated": "Tem menus em inglês?", "pronunciation": "taym meh-NOO-zhaym een-GLEHSH?" }
           ]
@@ -299,7 +317,7 @@
           "title": "Museums",
           "icon": "museum",
           "phrases": [
-            { "en": "Two adult tickets, please.", "translated": "Dois bilhetes de adulto, por favor.", "pronunciation": "doysh beel-YET-shayz deh ah-DOOL-too, pohr fah-BOHR" },
+            { "en": "Two adult tickets, please.", "translated": "Dois bilhetes de adulto, por favor.", "pronunciation": "doysh beel-YET-shayz deh ah-DOOL-too, pohr fah-VOHR" },
             { "en": "Is this the line for entry?", "translated": "É esta a fila para a entrada?", "pronunciation": "eh EHS-tah ah FEE-lah PAH-rah ah ehn-TRAH-dah" },
             { "en": "Can we rent an audio guide?", "translated": "Podemos alugar um audioguia?", "pronunciation": "poh-DEH-mohs ah-loo-GAHR oon ow-dyoh-GEE-ah" },
             { "en": "Where are the restrooms?", "translated": "Onde ficam as casas de banho?", "pronunciation": "OHN-deh FEE-kahm ahsh KAH-zahsh deh BAH-nyoo" }
@@ -328,10 +346,12 @@
             { "en": "Please", "translated": "Por favor", "pronunciation": "pohr fah-VOHR" },
             { "en": "Thank you", "translated": "Obrigado", "pronunciation": "oh-bree-GAH-doo" },
             { "en": "Excuse me", "translated": "Com licença", "pronunciation": "kohm lee-SEHN-sah" },
-            { "en": "Sorry", "translated": "Desculpa", "pronunciation": "deesh-KOOL-pah" },
+            { "en": "Sorry", "translated": "Desculpe", "pronunciation": "deesh-KOOL-peh" },
             { "en": "Can you help me, please?", "translated": "Pode ajudar-me, por favor?", "pronunciation": "poh-deh ah-joo-DAHR-meh, pohr fah-VOHR" },
             { "en": "Where is the nearest pharmacy?", "translated": "Onde fica a farmácia mais próxima?", "pronunciation": "OHN-deh FEE-kah ah fahr-MAH-syah mighs PROH-ksee-mah" },
-            { "en": "Do you speak English?", "translated": "Fala inglês?", "pronunciation": "FAH-lah een-GLEHSH" }
+            { "en": "Do you speak English?", "translated": "Fala inglês?", "pronunciation": "FAH-lah een-GLEHSH" },
+            { "en": "Do you have Wi-Fi?", "translated": "Tem Wi-Fi?", "pronunciation": "taym way-fy?" },
+            { "en": "Do you accept contactless payment?", "translated": "Aceitam pagamento por proximidade / contactless?", "pronunciation": "ah-SAY-tahm pah-gah-MEN-too pohr proks-ee-mah-dee-de / kohn-tak-tles?" }
           ]
         }
       ]
