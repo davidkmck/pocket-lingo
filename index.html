@@ -175,15 +175,16 @@
     }
 
     .hide-cat-btn {
-    background: none;
-    border: none;
-    font-size: 0.85rem;
-    cursor: pointer;
-    color: #666;
-    display: inline-flex;
-    align-items: center;
-    vertical-align: middle; /* Ensures it lines up with standard text height */
-}
+      background: none;
+      border: none;
+      font-size: 0.85rem;
+      cursor: pointer;
+      color: #666;
+      display: inline-flex;
+      align-items: center;
+      vertical-align: middle;
+      margin-left: 0.75rem;
+    }
     
     .hide-phrase-btn { background: none; border: none; color: #999; font-size: 0.8rem; cursor: pointer; padding: 0; margin-top: 0.5rem; text-decoration: underline; margin-right: 1rem; }
     .delete-cat-btn { width: 100%; padding: 0.5rem; background: #fff; color: #e74c3c; border: 1px solid #e74c3c; border-radius: 8px; font-size: 0.9rem; margin-top: 0.5rem; cursor: pointer; }
@@ -275,18 +276,20 @@
       renderPhrases(Object.keys(phraseData)[0]);
     }
 
-function getCategoryIcon(iconKey) {
-    const iconMap = {
+    function getCategoryIcon(iconKey) {
+      const iconMap = {
         'train': '🚆',
         'hotel': '🏨',
         'restaurant': '🍽️',
+        'restaurant_menu': '🍲',
+        'pin': '🔢',
         'museum': '🏛️',
-        'storefront': '🛍️️',
+        'storefront': '🛍',
         'chat': '💬',
         'default': '📂'
-    };
-    return iconMap[iconKey] || iconMap['default'];
-}
+      };
+      return iconMap[iconKey] || iconMap['default'];
+    }
     
     function renderPhrases(langKey) {
       const content = document.getElementById('app-content');
@@ -308,18 +311,15 @@ function getCategoryIcon(iconKey) {
 
         const isOpen = currentOpenCategory === category.id ? 'open' : '';
         const isCustomCat = category.isCustom ? true : false;
-
-const iconSymbol = getCategoryIcon(category.icon);
+        const iconSymbol = getCategoryIcon(category.icon);
 
         html += `<details class="category" id="cat-${category.id}" ${isOpen} ontoggle="trackOpenCategory(this, '${category.id}')">
             <summary>
               <span style="display: flex; align-items: center; gap: 0.75rem;">
-                <!-- Category Title / Icon -->
-                <i class="material-icons">...</i> Category Name
-                <!-- Hide Button -->
-                <button class="hide-cat-btn">Hide</button>
+                <span>${iconSymbol}</span>
+                <span>${category.title}</span>
+                <button class="hide-cat-btn" onclick="toggleHideCategory(event, '${langKey}', '${category.id}')">Hide</button>
               </span>
-              <!-- The CSS pseudo-element ::after handles the + / - arrow automatically on the right -->
             </summary>
             <div class="phrases-container">`;
 
@@ -524,7 +524,8 @@ const iconSymbol = getCategoryIcon(category.icon);
       const langMap = {
         'it': 'it-IT',
         'fr': 'fr-FR',
-        'es': 'es-ES'
+        'es': 'es-ES',
+        'pt': 'pt-PT'
       };
       
       utterance.lang = langMap[langKey] || 'en-US';
