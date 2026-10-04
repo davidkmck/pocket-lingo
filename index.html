@@ -5,14 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Pocket Lingo</title>
   
-  <!-- Link to PWA Manifest (You'll create this next) -->
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#2c3e50">
 
   <style>
-    /* Basic Mobile-First Styling */
     :root {
       --primary: #2c3e50;
+      --secondary: #3498db;
       --bg: #f8f9fa;
       --card-bg: #ffffff;
       --text: #333333;
@@ -35,10 +34,7 @@
       top: 0;
       z-index: 100;
     }
-    h1 {
-      margin: 0;
-      font-size: 1.5rem;
-    }
+    h1 { margin: 0; font-size: 1.5rem; }
     select {
       padding: 0.5rem;
       border-radius: 4px;
@@ -50,55 +46,127 @@
       max-width: 600px;
       margin: 0 auto;
     }
-    .category {
-      margin-bottom: 2rem;
-    }
-    .category h2 {
-      font-size: 1.25rem;
-      border-bottom: 2px solid var(--primary);
-      padding-bottom: 0.5rem;
-    }
-    .phrase-card {
+    
+    /* Collapsible Details Styling */
+    details.category {
       background: var(--card-bg);
-      padding: 1rem;
-      border-radius: 8px;
       margin-bottom: 1rem;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      overflow: hidden;
     }
-    .phrase-en {
+    summary {
+      font-size: 1.25rem;
       font-weight: bold;
-      margin-bottom: 0.5rem;
+      padding: 1rem;
+      cursor: pointer;
+      background: #e9ecef;
+      list-style: none; /* Hide default arrow in some browsers */
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
-    .phrase-translated {
+    summary::-webkit-details-marker { display: none; } /* Hide default arrow in Safari */
+    summary::after { content: '+'; font-size: 1.5rem; color: var(--primary); }
+    details[open] summary::after { content: '-'; }
+    details[open] summary { border-bottom: 2px solid var(--primary); }
+    
+    .phrases-container { padding: 1rem; }
+    
+    .phrase-card {
+      border-bottom: 1px solid #eee;
+      padding-bottom: 1rem;
+      margin-bottom: 1rem;
+    }
+    .phrase-card:last-child { border-bottom: none; margin-bottom: 0; }
+    .phrase-en { font-weight: bold; margin-bottom: 0.5rem; }
+    .phrase-translated { color: var(--primary); font-size: 1.1rem; margin-bottom: 0.25rem; }
+    .phrase-pronunciation { font-size: 0.9rem; color: #666; font-style: italic; }
+    
+    /* Add Button & Modal */
+    .add-btn {
+      width: 100%;
+      padding: 0.75rem;
+      background: #e9ecef;
       color: var(--primary);
-      font-size: 1.1rem;
-      margin-bottom: 0.25rem;
+      border: 2px dashed #ccc;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 1rem;
     }
-    .phrase-pronunciation {
-      font-size: 0.9rem;
-      color: #666;
-      font-style: italic;
+    
+    #add-modal {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.5);
+      z-index: 200;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
     }
+    .modal-content {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      width: 100%;
+      max-width: 400px;
+    }
+    .modal-content input {
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    .modal-actions { display: flex; gap: 1rem; justify-content: flex-end; }
+    .btn-save { background: var(--secondary); color: white; border: none; padding: 0.5rem 1rem; border-radius: 4px; }
+    .btn-cancel { background: #ccc; border: none; padding: 0.5rem 1rem; border-radius: 4px; }
   </style>
 </head>
 <body>
 
   <header>
     <h1>Pocket Lingo</h1>
-    <select id="language-selector">
-      <!-- Options populated by JS -->
-    </select>
+    <select id="language-selector"></select>
   </header>
 
   <main id="app-content">
-    <!-- Phrases injected here -->
     <p>Loading phrases...</p>
   </main>
 
+  <!-- Add Phrase Modal -->
+  <div id="add-modal">
+    <div class="modal-content">
+      <h3 id="modal-title">Add Phrase</h3>
+      <input type="hidden" id="modal-lang">
+      <input type="hidden" id="modal-cat">
+      
+      <label>English Phrase</label>
+      <input type="text" id="input-en" placeholder="e.g., Where is the bus?">
+      
+      <label>Translation</label>
+      <input type="text" id="input-translated" placeholder="e.g., Dov'è l'autobus?">
+      
+      <label>Pronunciation (Optional)</label>
+      <input type="text" id="input-pronunciation" placeholder="e.g., DOH-veh LAU-toh-boos">
+      
+      <div class="modal-actions">
+        <button class="btn-cancel" onclick="closeModal()">Cancel</button>
+        <button class="btn-save" onclick="savePhrase()">Save</button>
+      </div>
+    </div>
+  </div>
+
   <script>
     let phraseData = {};
+    // Load custom phrases from device storage
+    let customPhrases = JSON.parse(localStorage.getItem('lingo_custom_phrases')) || {};
+    let currentOpenCategory = null;
 
-    // Fetch the JSON payload
     fetch('data/phrases.json')
       .then(response => response.json())
       .then(data => {
@@ -112,7 +180,6 @@
     function initApp() {
       const selector = document.getElementById('language-selector');
       
-      // Populate language dropdown
       for (const [key, lang] of Object.entries(phraseData)) {
         const option = document.createElement('option');
         option.value = key;
@@ -120,10 +187,7 @@
         selector.appendChild(option);
       }
 
-      // Listen for language changes
       selector.addEventListener('change', (e) => renderPhrases(e.target.value));
-
-      // Initial render (default to first language, 'it')
       renderPhrases(Object.keys(phraseData)[0]);
     }
 
@@ -133,28 +197,91 @@
       let html = '';
 
       lang.categories.forEach(category => {
-        html += `<div class="category">
-                  <h2>${category.title}</h2>`;
+        // Keep the previously edited category open
+        const isOpen = currentOpenCategory === category.id ? 'open' : '';
         
-        category.phrases.forEach(phrase => {
+        html += `<details class="category" id="cat-${category.id}" ${isOpen} ontoggle="trackOpenCategory(this, '${category.id}')">
+                  <summary>${category.title}</summary>
+                  <div class="phrases-container">`;
+        
+        // Merge official JSON phrases with user's local custom phrases
+        const defaultPhrases = category.phrases || [];
+        const userPhrases = (customPhrases[langKey] && customPhrases[langKey][category.id]) || [];
+        const allPhrases = [...defaultPhrases, ...userPhrases];
+
+        allPhrases.forEach(phrase => {
           html += `<div class="phrase-card">
                     <div class="phrase-en">${phrase.en}</div>
                     <div class="phrase-translated">${phrase.translated}</div>
-                    <div class="phrase-pronunciation">${phrase.pronunciation}</div>
+                    <div class="phrase-pronunciation">${phrase.pronunciation || ''}</div>
                    </div>`;
         });
         
-        html += `</div>`;
+        html += `<button class="add-btn" onclick="openModal('${langKey}', '${category.id}', '${category.title}')">+ Add Phrase</button>`;
+        html += `</div></details>`;
       });
 
       content.innerHTML = html;
     }
 
-    // Register Service Worker for Offline Support
+    function trackOpenCategory(detailsElement, catId) {
+      if (detailsElement.open) {
+        currentOpenCategory = catId;
+      } else if (currentOpenCategory === catId) {
+        currentOpenCategory = null;
+      }
+    }
+
+    // --- Modal Logic ---
+    function openModal(langKey, catId, catTitle) {
+      document.getElementById('modal-lang').value = langKey;
+      document.getElementById('modal-cat').value = catId;
+      document.getElementById('modal-title').innerText = `Add to ${catTitle}`;
+      
+      // Clear inputs
+      document.getElementById('input-en').value = '';
+      document.getElementById('input-translated').value = '';
+      document.getElementById('input-pronunciation').value = '';
+      
+      document.getElementById('add-modal').style.display = 'flex';
+    }
+
+    function closeModal() {
+      document.getElementById('add-modal').style.display = 'none';
+    }
+
+    function savePhrase() {
+      const langKey = document.getElementById('modal-lang').value;
+      const catId = document.getElementById('modal-cat').value;
+      
+      const en = document.getElementById('input-en').value.trim();
+      const translated = document.getElementById('input-translated').value.trim();
+      const pronunciation = document.getElementById('input-pronunciation').value.trim();
+
+      if (!en || !translated) {
+        alert('Please fill out at least the English and Translated fields.');
+        return;
+      }
+
+      // Initialize nested objects if they don't exist in local storage yet
+      if (!customPhrases[langKey]) customPhrases[langKey] = {};
+      if (!customPhrases[langKey][catId]) customPhrases[langKey][catId] = [];
+
+      customPhrases[langKey][catId].push({ en, translated, pronunciation });
+      
+      // Save to device
+      localStorage.setItem('lingo_custom_phrases', JSON.stringify(customPhrases));
+      
+      closeModal();
+      
+      // Ensure this category stays open after rendering
+      currentOpenCategory = catId; 
+      renderPhrases(document.getElementById('language-selector').value);
+    }
+
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
         navigator.serviceWorker.register('sw.js')
-          .then(registration => console.log('ServiceWorker registered'))
           .catch(err => console.log('ServiceWorker registration failed: ', err));
       });
     }
