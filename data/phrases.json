@@ -35,9 +35,11 @@
             { "en": "The food was delicious, thank you.", "translated": "Il cibo era delizioso, grazie.", "pronunciation": "eel CHEE-boh EH-rah deh-lee-TSYOH-zoh, GRAH-tsyeh" },
             { "en": "The bill, please.", "translated": "Il conto, per favore.", "pronunciation": "eel KOHN-toh, pehr fah-VOH-reh" },
             { "en": "A glass of red / white wine, please.", "translated": "Un calice di vino rosso / bianco, per favore.", "pronunciation": "oon CAH-lee-cheh dee VEE-noh ROHS-soh / BYAHN-koh, pehr fah-VOH-reh" },
-{ "en": "A draft beer, please.", "translated": "Una alla spina, per favore.", "pronunciation": "OO-nah AHL-lah SPEE-nah, pehr fah-VOH-reh" },
-{ "en": "Still or sparkling water?", "translated": "Acqua naturale o frizzante?", "pronunciation": "AHK-wah nah-too-RAH-leh oh freet-ZAHN-teh?" },
-{ "en": "An espresso, please.", "translated": "Un caffè, per favore.", "pronunciation": "oon kahf-FEH, pehr fah-VOH-reh" }
+            { "en": "A draft beer, please.", "translated": "Una alla spina, per favore.", "pronunciation": "OO-nah AHL-lah SPEE-nah, pehr fah-VOH-reh" },
+            { "en": "Still or sparkling water?", "translated": "Acqua naturale o frizzante?", "pronunciation": "AHK-wah nah-too-RAH-leh oh freet-ZAHN-teh?" },
+            { "en": "An espresso, please.", "translated": "Un caffè, per favore.", "pronunciation": "oon kahf-FEH, pehr fah-VOH-reh" },
+            { "en": "Is this dish spicy?", "translated": "Questo piatto è piccante?", "pronunciation": "KWEH-stoh PYAT-toh eh peek-KAHN-teh?" },
+            { "en": "Do you have English menus?", "translated": "Avete un menù in inglese?", "pronunciation": "ah-VEH-teh oon meh-NOO een een-GLEH-zeh?" }
           ]
         },
         {
@@ -70,6 +72,8 @@
             { "en": "Hello / Good morning", "translated": "Buongiorno", "pronunciation": "bwohn-JOHR-noh" },
             { "en": "Good evening", "translated": "Buonasera", "pronunciation": "bwohn-ah-SEH-rah" },
             { "en": "Good night", "translated": "Buonanotte", "pronunciation": "bwohn-ah-NOHT-teh" },
+            { "en": "Goodbye", "translated": "Arrivederci", "pronunciation": "ah-ree-veh-DEHR-chee" },
+            { "en": "Please", "translated": "Per favore", "pronunciation": "pehr fah-VOH-reh" },
             { "en": "Thank you", "translated": "Grazie", "pronunciation": "GRAH-tsyeh" },
             { "en": "Excuse me", "translated": "Mi scusi", "pronunciation": "mee SKOO-zee" },
             { "en": "Sorry", "translated": "Scusa / Mi dispiace", "pronunciation": "SKOO-zah / mee dees-PYAH-cheh" },
@@ -115,9 +119,11 @@
             { "en": "The food was delicious, thank you.", "translated": "Le repas était délicieux, merci.", "pronunciation": "luh ruh-pah ay-teh day-lee-syuh, mair-see" },
             { "en": "The bill, please.", "translated": "L'addition, s'il vous plaît.", "pronunciation": "lah-dee-see-ohn, seel voo pleh" },
             { "en": "A glass of red / white wine, please.", "translated": "Un verre de vin rouge / blanc, s'il vous plaît.", "pronunciation": "uh vair duh van rooj / blahn, seel voo pleh" },
-{ "en": "A draft beer, please.", "translated": "Une bière pression, s'il vous plaît.", "pronunciation": "ewn byair preh-syohn, seel voo pleh" },
-{ "en": "Still or sparkling water?", "translated": "De l'eau plate ou gazeuse ?", "pronunciation": "duh loh plaht oo gah-zuhz?" },
-{ "en": "An espresso, please.", "translated": "Un café, s'il vous plaît.", "pronunciation": "uh kah-fay, seel voo pleh" }
+            { "en": "A draft beer, please.", "translated": "Une bière pression, s'il vous plaît.", "pronunciation": "ewn byair preh-syohn, seel voo pleh" },
+            { "en": "Still or sparkling water?", "translated": "De l'eau plate ou gazeuse ?", "pronunciation": "duh loh plaht oo gah-zuhz?" },
+            { "en": "An espresso, please.", "translated": "Un café, s'il vous plaît.", "pronunciation": "uh kah-fay, seel voo pleh" },
+            { "en": "Is this dish spicy?", "translated": "Ce plat est-il épicé ?", "pronunciation": "suh plah ay-teel ay-pee-say?" },
+            { "en": "Do you have English menus?", "translated": "Avez-vous des menus en anglais ?", "pronunciation": "ah-vay-voo day muh-new ahn ahn-glay?" }
           ]
         },
         {
@@ -150,6 +156,8 @@
             { "en": "Hello / Good morning", "translated": "Bonjour", "pronunciation": "bohn-zhoor" },
             { "en": "Good evening", "translated": "Bonsoir", "pronunciation": "bohn-swahr" },
             { "en": "Good night", "translated": "Bonne nuit", "pronunciation": "bun nwee" },
+            { "en": "Goodbye", "translated": "Au revoir", "pronunciation": "oh ruh-vwahr" },
+            { "en": "Please", "translated": "S'il vous plaît", "pronunciation": "seel voo pleh" },
             { "en": "Thank you", "translated": "Merci", "pronunciation": "mair-see" },
             { "en": "Excuse me", "translated": "Excusez-moi", "pronunciation": "ex-kew-zay-mwah" },
             { "en": "Sorry", "translated": "Pardon / Désolé", "pronunciation": "par-dohn / day-zoh-lay" },
@@ -195,9 +203,11 @@
             { "en": "The food was delicious, thank you.", "translated": "La comida estaba deliciosa, gracias.", "pronunciation": "lah koh-MEE-dah ehs-TAH-bah deh-lee-SYOH-sah, GRAH-syahs" },
             { "en": "The bill, please.", "translated": "La cuenta, por favor.", "pronunciation": "lah KWEHN-tah, pohr fah-BOHR" },
             { "en": "A glass of red / white wine, please.", "translated": "Una copa de vino tinto / blanco, por favor.", "pronunciation": "OO-nah KOH-pah deh VEE-noh TEEN-toh / BLAHN-koh, pohr fah-BOHR" },
-{ "en": "A draft beer, please.", "translated": "Una caña, por favor.", "pronunciation": "OO-nah KAH-nyah, pohr fah-BOHR" },
-{ "en": "Still or sparkling water?", "translated": "¿Agua sin gas o con gas?", "pronunciation": "AH-gwah seen gahs oh kohn gahs?" },
-{ "en": "An espresso, please.", "translated": "Un café solo, por favor.", "pronunciation": "oon kah-FEH SOH-loh, pohr fah-BOHR" }
+            { "en": "A draft beer, please.", "translated": "Una caña, por favor.", "pronunciation": "OO-nah KAH-nyah, pohr fah-BOHR" },
+            { "en": "Still or sparkling water?", "translated": "¿Agua sin gas o con gas?", "pronunciation": "AH-gwah seen gahs oh kohn gahs?" },
+            { "en": "An espresso, please.", "translated": "Un café solo, por favor.", "pronunciation": "oon kah-FEH SOH-loh, pohr fah-BOHR" },
+            { "en": "Is this dish spicy?", "translated": "¿Este plato está picante?", "pronunciation": "EHS-teh PLAH-toh ehs-TAH pee-KAHN-teh?" },
+            { "en": "Do you have English menus?", "translated": "¿Tiene menús en inglés?", "pronunciation": "TYEH-neh meh-NOO-sehn een-GLEHS?" }
           ]
         },
         {
@@ -217,7 +227,7 @@
           "icon": "storefront",
           "phrases": [
             { "en": "How much does this cost?", "translated": "¿Cuánto cuesta esto?", "pronunciation": "KWAHN-toh KWEHS-tah EHS-toh" },
-            { "en": "Do you have this in a larger / smaller size?", "translated": "¿Tiene esto en una talla más grande / más pequeña?", "pronunciation": "TYEH-neh EHS-toh ehn OO-nah TAH-lyah mahs GRAHN-deh / mahs peh-KEH-nyah" },
+            { "en": "Do you have this in a larger / smaller size?", "translated": "¿Tiene esto en una talla más grande / más pequeña?", "pronunciation": "TYEH-neh EHS-toh een oo-nah TAH-lyah mahs GRAHN-deh / mahs peh-KEH-nyah" },
             { "en": "Could I have a receipt, please?", "translated": "¿Me da un recibo, por favor?", "pronunciation": "meh dah oon reh-SEE-boh, pohr fah-BOHR" },
             { "en": "Do you accept credit cards?", "translated": "¿Aceptan tarjetas de crédito?", "pronunciation": "ah-SEHP-tahn tahr-HEH-tahs deh KREH-dee-toh" }
           ]
@@ -227,15 +237,101 @@
           "title": "General",
           "icon": "chat",
           "phrases": [
-            { "en": "Hello / Good morning", "translated": "Hola / Buenos días", "pronunciation": "OH-lah / BWEH-nohs DEE-ahs" },
+            { "en": "Hello / Good morning", "translated": "Buenos días", "pronunciation": "BWEH-nohs DEE-ahs" },
             { "en": "Good evening", "translated": "Buenas tardes", "pronunciation": "BWEH-nahs TAHR-dehs" },
             { "en": "Good night", "translated": "Buenas noches", "pronunciation": "BWEH-nahs NOH-chehs" },
+            { "en": "Goodbye", "translated": "Adiós", "pronunciation": "ah-DYOHS" },
+            { "en": "Please", "translated": "Por favor", "pronunciation": "pohr fah-BOHR" },
             { "en": "Thank you", "translated": "Gracias", "pronunciation": "GRAH-syahs" },
             { "en": "Excuse me", "translated": "Disculpe", "pronunciation": "dees-KOOL-peh" },
             { "en": "Sorry", "translated": "Lo siento", "pronunciation": "loh SYEHN-toh" },
-            { "en": "Can you help me, please?", "translated": "¿Puede ayudarme, por favor?", "pronunciation": "PWEH-deh ah-hoo-DAHR-meh, pohr fah-BOHR" },
+            { "en": "Can you help me, please?", "translated": "¿Me puede ayudar, por favor?", "pronunciation": "meh PWEH-deh ah-yoo-DAHR, pohr fah-BOHR" },
             { "en": "Where is the nearest pharmacy?", "translated": "¿Dónde está la farmacia más cercana?", "pronunciation": "DOHN-deh ehs-tah lah fahr-MAH-syah mahs sehr-KAH-nah" },
             { "en": "Do you speak English?", "translated": "¿Habla inglés?", "pronunciation": "AH-blah een-GLEHS" }
+          ]
+        }
+      ]
+    },
+    "pt": {
+      "name": "Portuguese",
+      "categories": [
+        {
+          "id": "logistics",
+          "title": "Logistical",
+          "icon": "train",
+          "phrases": [
+            { "en": "Where is the taxi stand?", "translated": "Onde fica o ponto de táxi?", "pronunciation": "OHN-deh FEE-kah oo POHN-toh deh TAHK-see" },
+            { "en": "Take me to this address, please.", "translated": "Leva-me para esta morada, por favor.", "pronunciation": "LEH-vah-meh PAH-rah EHS-tah moh-RAH-dah, pohr fah-VOHR" },
+            { "en": "How much is the fare to the airport?", "translated": "Quanto custa a tarifa para o aeroporto?", "pronunciation": "KWAHN-toh KOOS-tah ah tah-REE-fah PAH-rah oo ah-eh-roh-POHR-too" },
+            { "en": "Does this train go to [Lisbon]?", "translated": "Este comboio vai para [Lisboa]?", "pronunciation": "EHS-tah kohm-BOY-oo vigh PAH-rah [leez-BOH-ah]" }
+          ]
+        },
+        {
+          "id": "hotels",
+          "title": "Hotels",
+          "icon": "hotel",
+          "phrases": [
+            { "en": "I have a reservation under [Name].", "translated": "Tenho uma reserva em nome de [Nome].", "pronunciation": "TEHN-yoo OO-nah reh-ZEHR-bah aym NOH-meh deh [NOH-meh]" },
+            { "en": "What time is check-out?", "translated": "A que horas é o check-out?", "pronunciation": "ah keh OH-rahs eh oo check-out" },
+            { "en": "Could I have extra towels, please?", "translated": "Podia dar-me toalhas extra, por favor?", "pronunciation": "poh-DEE-ah DAHR-meh twah-LYAHHS EKS-trah, pohr fah-VOHR" },
+            { "en": "Do you have any rooms available for tonight?", "translated": "Tem quartos disponíveis para esta noite?", "pronunciation": "taym KWAHR-tohs dees-poh-NEE-vehs PAH-rah EHS-tah NOY-teh" }
+          ]
+        },
+        {
+          "id": "restaurants",
+          "title": "Restaurants",
+          "icon": "restaurant",
+          "phrases": [
+            { "en": "A table for two, please.", "translated": "Uma mesa para dois, por favor.", "pronunciation": "OO-nah MEH-sah PAH-rah DOYSH, pohr fah-VOHR" },
+            { "en": "Do you have a vegetarian menu?", "translated": "Tem um menu vegetariano?", "pronunciation": "taym oon meh-NOO veh-jeh-tah-ree-AH-noo" },
+            { "en": "The food was delicious, thank you.", "translated": "A comida estava deliciosa, obrigado.", "pronunciation": "ah koo-MEE-dah ehs-TAH-bah deh-lee-syoh-ZAH, oh-bree-GAH-doo" },
+            { "en": "The bill, please.", "translated": "A conta, por favor.", "pronunciation": "ah KOHN-tah, pohr fah-BOHR" },
+            { "en": "A glass of red / white wine, please.", "translated": "Um copo de vinho tinto / branco, por favor.", "pronunciation": "oon KOH-poo deh VEE-nyoo TEEN-too / BLAHN-koo, pohr fah-BOHR" },
+            { "en": "A draft beer, please.", "translated": "Um imperial / cerveja à pressão, por favor.", "pronunciation": "oon eem-peh-ree-AL / sehr-VAY-zhah ah preh-SYOH-un, pohr fah-VOHR" },
+            { "en": "Still or sparkling water?", "translated": "Água natural ou com gás?", "pronunciation": "AH-gwah nah-too-RAHL oh kohn gahsh?" },
+            { "en": "An espresso, please.", "translated": "Uma bica / um café, por favor.", "pronunciation": "OO-nah BEE-kah / oon kah-FEH, pohr fah-BOHR" },
+            { "en": "Is this dish spicy?", "translated": "Este prato é picante?", "pronunciation": "EHS-teh PRAH-too eh pee-KAHN-teh?" },
+            { "en": "Do you have English menus?", "translated": "Tem menus em inglês?", "pronunciation": "taym meh-NOO-zhaym een-GLEHSH?" }
+          ]
+        },
+        {
+          "id": "museums",
+          "title": "Museums",
+          "icon": "museum",
+          "phrases": [
+            { "en": "Two adult tickets, please.", "translated": "Dois bilhetes de adulto, por favor.", "pronunciation": "doysh beel-YET-shayz deh ah-DOOL-too, pohr fah-BOHR" },
+            { "en": "Is this the line for entry?", "translated": "É esta a fila para a entrada?", "pronunciation": "eh EHS-tah ah FEE-lah PAH-rah ah ehn-TRAH-dah" },
+            { "en": "Can we rent an audio guide?", "translated": "Podemos alugar um audioguia?", "pronunciation": "poh-DEH-mohs ah-loo-GAHR oon ow-dyoh-GEE-ah" },
+            { "en": "Where are the restrooms?", "translated": "Onde ficam as casas de banho?", "pronunciation": "OHN-deh FEE-kahm ahsh KAH-zahsh deh BAH-nyoo" }
+          ]
+        },
+        {
+          "id": "stores",
+          "title": "Stores",
+          "icon": "storefront",
+          "phrases": [
+            { "en": "How much does this cost?", "translated": "Quanto custa isto?", "pronunciation": "KWAHN-toh KOOS-tah EES-too" },
+            { "en": "Do you have this in a larger / smaller size?", "translated": "Tem isto num tamanho maior / mais pequeno?", "pronunciation": "taym EES-too noom tah-MAH-nyoo mah-YOHR / migh peh-KEH-noo" },
+            { "en": "Could I have a receipt, please?", "translated": "Pode dar-me o talão, por favor?", "pronunciation": "poh-deh DAHR-meh oo tah-LAOHN, pohr fah-VOHR" },
+            { "en": "Do you accept credit cards?", "translated": "Aceitam cartões de crédito?", "pronunciation": "ah-SAY-tahm kahr-TOH-yzh deh KREH-dee-too" }
+          ]
+        },
+        {
+          "id": "general",
+          "title": "General",
+          "icon": "chat",
+          "phrases": [
+            { "en": "Hello / Good morning", "translated": "Bom dia", "pronunciation": "bohm DEE-ah" },
+            { "en": "Good evening", "translated": "Boa tarde", "pronunciation": "BOH-ah TAHR-deh" },
+            { "en": "Good night", "translated": "Boa noite", "pronunciation": "BOH-ah NOY-teh" },
+            { "en": "Goodbye", "translated": "Adeus", "pronunciation": "ah-DAY-oosh" },
+            { "en": "Please", "translated": "Por favor", "pronunciation": "pohr fah-VOHR" },
+            { "en": "Thank you", "translated": "Obrigado", "pronunciation": "oh-bree-GAH-doo" },
+            { "en": "Excuse me", "translated": "Com licença", "pronunciation": "kohm lee-SEHN-sah" },
+            { "en": "Sorry", "translated": "Desculpa", "pronunciation": "deesh-KOOL-pah" },
+            { "en": "Can you help me, please?", "translated": "Pode ajudar-me, por favor?", "pronunciation": "poh-deh ah-joo-DAHR-meh, pohr fah-VOHR" },
+            { "en": "Where is the nearest pharmacy?", "translated": "Onde fica a farmácia mais próxima?", "pronunciation": "OHN-deh FEE-kah ah fahr-MAH-syah mighs PROH-ksee-mah" },
+            { "en": "Do you speak English?", "translated": "Fala inglês?", "pronunciation": "FAH-lah een-GLEHSH" }
           ]
         }
       ]
