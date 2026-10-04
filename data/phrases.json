@@ -1,0 +1,104 @@
+{
+  "languages": {
+    "it": {
+      "name": "Italian",
+      "categories": [
+        {
+          "id": "logistics",
+          "title": "Logistical",
+          "icon": "train",
+          "phrases": [
+            { "en": "Where is the taxi stand?", "translated": "Dov'è il posteggio dei taxi?", "pronunciation": "doh-VEH eel poh-STEH-joh day TAHK-see" },
+            { "en": "Take me to this address, please.", "translated": "Mi porti a questo indirizzo, per favore.", "pronunciation": "mee POHR-tee ah KWEH-stoh een-dee-REET-zoh, pehr fah-VOH-reh" }
+          ]
+        },
+        {
+          "id": "restaurants",
+          "title": "Restaurants",
+          "icon": "restaurant",
+          "phrases": [
+            { "en": "A table for two, please.", "translated": "Un tavolo per due, per favore.", "pronunciation": "oon TAH-voh-loh pehr DOO-eh, pehr fah-VOH-reh" },
+            { "en": "The bill, please.", "translated": "Il conto, per favore.", "pronunciation": "eel KOHN-toh, pehr fah-VOH-reh" }
+          ]
+        },
+        {
+          "id": "museums",
+          "title": "Museums",
+          "icon": "museum",
+          "phrases": [
+            { "en": "Two adult tickets, please.", "translated": "Due biglietti interi, per favore.", "pronunciation": "DOO-eh beel-YET-tee een-TEH-ree, pehr fah-VOH-reh" },
+            { "en": "Where are the restrooms?", "translated": "Dove sono i bagni?", "pronunciation": "DOH-veh SOH-noh ee BAH-nyee" }
+          ]
+        },
+        {
+          "id": "stores",
+          "title": "Stores",
+          "icon": "storefront",
+          "phrases": [
+            { "en": "How much does this cost?", "translated": "Quanto costa questo?", "pronunciation": "KWAHN-toh KOH-stah KWEH-stoh" },
+            { "en": "Do you accept credit cards?", "translated": "Accettate carte di credito?", "pronunciation": "ah-chet-TAH-teh KAHR-teh dee KREH-dee-toh" }
+          ]
+        },
+        {
+          "id": "general",
+          "title": "General",
+          "icon": "chat",
+          "phrases": [
+            { "en": "Hello / Good morning", "translated": "Buongiorno", "pronunciation": "bwohn-JOHR-noh" },
+            { "en": "Do you speak English?", "translated": "Parla inglese?", "pronunciation": "PAHR-lah een-GLEH-zeh" }
+          ]
+        }
+      ]
+    },
+    "fr": {
+      "name": "French",
+      "categories": [
+        {
+          "id": "logistics",
+          "title": "Logistical",
+          "icon": "train",
+          "phrases": [
+            { "en": "Where is the taxi stand?", "translated": "Où est la station de taxis ?", "pronunciation": "oo eh lah stah-see-ohn duh tahk-see" },
+            { "en": "Take me to this address, please.", "translated": "Emmenez-moi à cette adresse, s'il vous plaît.", "pronunciation": "ah-muh-nay-mwah ah set ah-dress, seel voo pleh" }
+          ]
+        },
+        {
+          "id": "restaurants",
+          "title": "Restaurants",
+          "icon": "restaurant",
+          "phrases": [
+            { "en": "A table for two, please.", "translated": "Une table pour deux, s'il vous plaît.", "pronunciation": "ewn tah-bluh poor duh, seel voo pleh" },
+            { "en": "The bill, please.", "translated": "L'addition, s'il vous plaît.", "pronunciation": "lah-dee-see-ohn, seel voo pleh" }
+          ]
+        },
+        {
+          "id": "museums",
+          "title": "Museums",
+          "icon": "museum",
+          "phrases": [
+            { "en": "Two adult tickets, please.", "translated": "Deux billets plein tarif, s'il vous plaît.", "pronunciation": "duh bee-yeh plan tah-reef, seel voo pleh" },
+            { "en": "Where are the restrooms?", "translated": "Où sont les toilettes ?", "pronunciation": "oo sohn lay twah-let" }
+          ]
+        },
+        {
+          "id": "stores",
+          "title": "Stores",
+          "icon": "storefront",
+          "phrases": [
+            { "en": "How much does this cost?", "translated": "Combien ça coûte ?", "pronunciation": "kohm-byan sah koot" },
+            { "en": "Do you accept credit cards?", "translated": "Acceptez-vous les cartes de crédit ?", "pronunciation": "ahk-sep-tay-voo lay kahrt duh kray-dee" }
+          ]
+        },
+        {
+          "id": "general",
+          "title": "General",
+          "icon": "chat",
+          "phrases": [
+            { "en": "Hello / Good morning", "translated": "Bonjour", "pronunciation": "bohn-zhoor" },
+            { "en": "Do you speak English?", "translated": "Parlez-vous anglais ?", "pronunciation": "par-lay-voo ahn-gleh" }
+          ]
+        }
+      ]
+    }
+  }
+}
