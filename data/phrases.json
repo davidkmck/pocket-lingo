@@ -46,6 +46,38 @@
           ]
         },
         {
+          "id": "foods",
+          "title": "Foods & Dietary",
+          "icon": "restaurant_menu",
+          "phrases": [
+            { "en": "I am allergic to [nuts / shellfish / gluten].", "translated": "Sono allergico/a a [frutta secca / crostacei / glutine].", "pronunciation": "SOH-noh ah-LEHR-jee-koh/kah ah [FROOT-tah SEK-kah / kroh-STAH-chey / GLOO-tee-neh]" },
+            { "en": "I am vegetarian / vegan.", "translated": "Sono vegetariano/a / vegano/a.", "pronunciation": "SOH-noh veh-jeh-tah-RYAH-noh/nah / veh-GAH-noh/nah" },
+            { "en": "Without cheese, please.", "translated": "Senza formaggio, per favore.", "pronunciation": "SEN-tsah for-MAH-joh, pehr fah-VOH-reh" },
+            { "en": "Bread, please.", "translated": "Del pane, per favore.", "pronunciation": "del PAH-neh, pehr fah-VOH-reh" },
+            { "en": "Meat / Fish / Chicken", "translated": "Carne / Pesce / Pollo", "pronunciation": "KAR-neh / PES-cheh / POHL-loh" }
+          ]
+        },
+        {
+          "id": "numbers",
+          "title": "Numbers",
+          "icon": "pin",
+          "phrases": [
+            { "en": "One", "translated": "Uno", "pronunciation": "OO-noh" },
+            { "en": "Two", "translated": "Due", "pronunciation": "DOO-eh" },
+            { "en": "Three", "translated": "Tre", "pronunciation": "treh" },
+            { "en": "Four", "translated": "Quattro", "pronunciation": "KWAHT-troh" },
+            { "en": "Five", "translated": "Cinque", "pronunciation": "CHEEN-kweh" },
+            { "en": "Six", "translated": "Sei", "pronunciation": "say" },
+            { "en": "Seven", "translated": "Sette", "pronunciation": "SET-teh" },
+            { "en": "Eight", "translated": "Otto", "pronunciation": "OHT-toh" },
+            { "en": "Nine", "translated": "Nove", "pronunciation": "NOH-veh" },
+            { "en": "Ten", "translated": "Dieci", "pronunciation": "Dyeh-chee" },
+            { "en": "Twenty", "translated": "Venti", "pronunciation": "VEN-tee" },
+            { "en": "Fifty", "translated": "Cinquanta", "pronunciation": "cheen-KWAN-tah" },
+            { "en": "One hundred", "translated": "Cento", "pronunciation": "CHEN-toh" }
+          ]
+        },
+        {
           "id": "museums",
           "title": "Museums",
           "icon": "museum",
@@ -132,6 +164,38 @@
             { "en": "An espresso, please.", "translated": "Un café, s'il vous plaît.", "pronunciation": "uh kah-fay, seel voo pleh" },
             { "en": "Is this dish spicy?", "translated": "Ce plat est-il épicé ?", "pronunciation": "suh plah ay-teel ay-pee-say?" },
             { "en": "Do you have English menus?", "translated": "Avez-vous des menus en anglais ?", "pronunciation": "ah-vay-voo day muh-new ahn ahn-glay?" }
+          ]
+        },
+        {
+          "id": "foods",
+          "title": "Foods & Dietary",
+          "icon": "restaurant_menu",
+          "phrases": [
+            { "en": "I am allergic to [nuts / shellfish / gluten].", "translated": "Je suis allergique aux [fruits à coque / crustacés / au gluten].", "pronunciation": "zhuh swee ah-lair-zheek oh [frwee ah kohk / kroos-tah-say / oh gloo-tahn]" },
+            { "en": "I am vegetarian / vegan.", "translated": "Je suis végétarien(ne) / végan(e).", "pronunciation": "zhuh swee vay-zhay-tah-ryan(yen) / vay-gahn" },
+            { "en": "Without cheese, please.", "translated": "Sans fromage, s'il vous plaît.", "pronunciation": "sahn fro-mahzh, seel voo pleh" },
+            { "en": "Bread, please.", "translated": "Du pain, s'il vous plaît.", "pronunciation": "dew pan, seel voo pleh" },
+            { "en": "Meat / Fish / Chicken", "translated": "Viande / Poisson / Poulet", "pronunciation": "vyahnd / pwah-sohn / poo-lay" }
+          ]
+        },
+        {
+          "id": "numbers",
+          "title": "Numbers",
+          "icon": "pin",
+          "phrases": [
+            { "en": "One", "translated": "Un", "pronunciation": "uhn" },
+            { "en": "Two", "translated": "Deux", "pronunciation": "duh" },
+            { "en": "Three", "translated": "Trois", "trwa", "pronunciation": "trwah" },
+            { "en": "Four", "translated": "Quatre", "pronunciation": "ka-truh" },
+            { "en": "Five", "translated": "Cinq", "pronunciation": "sank" },
+            { "en": "Six", "translated": "Six", "pronunciation": "sees" },
+            { "en": "Seven", "translated": "Sept", "pronunciation": "set" },
+            { "en": "Eight", "translated": "Huit", "pronunciation": "weet" },
+            { "en": "Nine", "translated": "Neuf", "pronunciation": "nuhf" },
+            { "en": "Ten", "translated": "Dix", "pronunciation": "dees" },
+            { "en": "Twenty", "translated": "Vingt", "pronunciation": "van" },
+            { "en": "Fifty", "translated": "Cinquante", "pronunciation": "sank-ahnt" },
+            { "en": "One hundred", "translated": "Cent", "pronunciation": "sahn" }
           ]
         },
         {
@@ -224,6 +288,38 @@
           ]
         },
         {
+          "id": "foods",
+          "title": "Foods & Dietary",
+          "icon": "restaurant_menu",
+          "phrases": [
+            { "en": "I am allergic to [nuts / shellfish / gluten].", "translated": "Tengo alergia a [los frutos secos / los mariscos / al gluten].", "pronunciation": "TEHN-goh ah-LEHR-hyah ah [lohs FROOT-ohs SEH-kohs / lohs mah-REES-kohs / ahl GLOO-tehn]" },
+            { "en": "I am vegetarian / vegan.", "translated": "Soy vegetariano/a / vegano/a.", "pronunciation": "soy veh-heh-tah-RYAH-noh/nah / veh-GAH-noh/nah" },
+            { "en": "Without cheese, please.", "translated": "Sin queso, por favor.", "pronunciation": "seen KEH-soh, pohr fah-BOHR" },
+            { "en": "Bread, please.", "translated": "Pan, por favor.", "pronunciation": "pahn, pohr fah-BOHR" },
+            { "en": "Meat / Fish / Chicken", "translated": "Carne / Pescado / Pollo", "pronunciation": "KAHR-neh / pehs-KAH-doh / POH-lyoh" }
+          ]
+        },
+        {
+          "id": "numbers",
+          "title": "Numbers",
+          "icon": "pin",
+          "phrases": [
+            { "en": "One", "translated": "Uno", "pronunciation": "OO-noh" },
+            { "en": "Two", "translated": "Dos", "pronunciation": "dohs" },
+            { "en": "Three", "translated": "Tres", "pronunciation": "trehs" },
+            { "en": "Four", "translated": "Cuatro", "pronunciation": "KWAH-troh" },
+            { "en": "Five", "translated": "Cinco", "pronunciation": "SEEN-koh" },
+            { "en": "Six", "translated": "Seis", "pronunciation": "says" },
+            { "en": "Seven", "translated": "Siete", "pronunciation": "SYEH-teh" },
+            { "en": "Eight", "translated": "Ocho", "pronunciation": "OH-choh" },
+            { "en": "Nine", "translated": "Nueve", "pronunciation": "NWEH-veh" },
+            { "en": "Ten", "translated": "Diez", "pronunciation": "dyehs" },
+            { "en": "Twenty", "translated": "Veinte", "pronunciation": "BEYN-teh" },
+            { "en": "Fifty", "translated": "Cincuenta", "pronunciation": "seen-KWEHN-tah" },
+            { "en": "One hundred", "translated": "Cien", "pronunciation": "syen" }
+          ]
+        },
+        {
           "id": "museums",
           "title": "Museums",
           "icon": "museum",
@@ -313,6 +409,38 @@
           ]
         },
         {
+          "id": "foods",
+          "title": "Foods & Dietary",
+          "icon": "restaurant_menu",
+          "phrases": [
+            { "en": "I am allergic to [nuts / shellfish / gluten].", "translated": "Sou alérgico/a a [frutos secos / marisco / glúten].", "pronunciation": "soh oo-AL-er-zhee-koo/kah ah [FROO-tohs SEH-koos / mah-REES-koo / GLOO-tahn]" },
+            { "en": "I am vegetarian / vegan.", "translated": "Sou vegetariano/a / vegano/a.", "pronunciation": "soh veh-jeh-tah-ree-AH-noo/nah / veh-GAH-noo/nah" },
+            { "en": "Without cheese, please.", "translated": "Sem queijo, por favor.", "pronunciation": "saym KAY-zhoo, pohr fah-VOHR" },
+            { "en": "Bread, please.", "translated": "Pão, por favor.", "pronunciation": "pah-ohn, pohr fah-VOHR" },
+            { "en": "Meat / Fish / Chicken", "translated": "Carne / Peixe / Frango", "pronunciation": "KAHR-neh / PAY-sheh / FRAHN-goo" }
+          ]
+        },
+        {
+          "id": "numbers",
+          "title": "Numbers",
+          "icon": "pin",
+          "phrases": [
+            { "en": "One", "translated": "Um", "pronunciation": "oon" },
+            { "en": "Two", "translated": "Dois", "pronunciation": "doysh" },
+            { "en": "Three", "translated": "Três", "pronunciation": "trayzh" },
+            { "en": "Four", "translated": "Quatro", "pronunciation": "KWAH-troo" },
+            { "en": "Five", "translated": "Cinco", "pronunciation": "SEEN-koo" },
+            { "en": "Six", "translated": "Seis", "pronunciation": "says" },
+            { "en": "Seven", "translated": "Sete", "pronunciation": "SEH-teh" },
+            { "en": "Eight", "translated": "Oito", "pronunciation": "OY-too" },
+            { "en": "Nine", "translated": "Nove", "pronunciation": "NOH-veh" },
+            { "en": "Ten", "translated": "Dez", "pronunciation": "dayzh" },
+            { "en": "Twenty", "translated": "Vinte", "pronunciation": "VEEN-teh" },
+            { "en": "Fifty", "translated": "Cinquenta", "pronunciation": "seen-KWEHN-tah" },
+            { "en": "One hundred", "translated": "Cem", "pronunciation": "saym" }
+          ]
+        },
+        {
           "id": "museums",
           "title": "Museums",
           "icon": "museum",
@@ -331,7 +459,7 @@
             { "en": "How much does this cost?", "translated": "Quanto custa isto?", "pronunciation": "KWAHN-toh KOOS-tah EES-too" },
             { "en": "Do you have this in a larger / smaller size?", "translated": "Tem isto num tamanho maior / mais pequeno?", "pronunciation": "taym EES-too noom tah-MAH-nyoo mah-YOHR / migh peh-KEH-noo" },
             { "en": "Could I have a receipt, please?", "translated": "Pode dar-me o talão, por favor?", "pronunciation": "poh-deh DAHR-meh oo tah-LAOHN, pohr fah-VOHR" },
-            { "en": "Do you accept credit cards?", "translated": "Aceitam cartões de crédito?", "pronunciation": "ah-SAY-tahm kahr-TOH-yzh deh KREH-dee-too" }
+            { "en": "Do you accept credit cards?", "translated": "Aceitam cartões de crédito?", "pronunciation": "ah-SAY-tahm kahr-TOH-yzh deh KREH-dee-toh" }
           ]
         },
         {
