@@ -125,6 +125,22 @@
     .modal-actions { display: flex; gap: 1rem; justify-content: flex-end; }
     .btn-save { background: var(--secondary); color: white; border: none; padding: 0.5rem 1rem; border-radius: 4px; }
     .btn-cancel { background: #ccc; border: none; padding: 0.5rem 1rem; border-radius: 4px; }
+
+    .custom-phrase {
+      position: relative;
+      background: #fffdf5; /* Soft highlight to show it's user-added */
+      border-left: 3px solid var(--secondary);
+    }
+    .delete-btn {
+      background: none;
+      border: none;
+      color: #e74c3c;
+      font-size: 0.8rem;
+      cursor: pointer;
+      padding: 0;
+      margin-top: 0.5rem;
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
@@ -205,15 +221,25 @@
                   <div class="phrases-container">`;
         
         // Merge official JSON phrases with user's local custom phrases
-        const defaultPhrases = category.phrases || [];
+const defaultPhrases = category.phrases || [];
         const userPhrases = (customPhrases[langKey] && customPhrases[langKey][category.id]) || [];
-        const allPhrases = [...defaultPhrases, ...userPhrases];
-
-        allPhrases.forEach(phrase => {
+        
+        // Render official phrases (no delete button)
+        defaultPhrases.forEach(phrase => {
           html += `<div class="phrase-card">
                     <div class="phrase-en">${phrase.en}</div>
                     <div class="phrase-translated">${phrase.translated}</div>
                     <div class="phrase-pronunciation">${phrase.pronunciation || ''}</div>
+                   </div>`;
+        });
+
+        // Render custom user phrases with a delete option
+        userPhrases.forEach((phrase, index) => {
+          html += `<div class="phrase-card custom-phrase">
+                    <div class="phrase-en">${phrase.en}</div>
+                    <div class="phrase-translated">${phrase.translated}</div>
+                    <div class="phrase-pronunciation">${phrase.pronunciation || ''}</div>
+                    <button class="delete-btn" onclick="deleteCustomPhrase('${langKey}', '${category.id}', ${index})">Remove</button>
                    </div>`;
         });
         
@@ -250,6 +276,25 @@
       document.getElementById('add-modal').style.display = 'none';
     }
 
+    function deleteCustomPhrase(langKey, catId, index) {
+      if (confirm('Are you sure you want to remove this custom phrase?')) {
+        // Remove the phrase from the specific category array by its index
+        customPhrases[langKey][catId].splice(index, 1);
+        
+        // Clean up empty arrays/objects to keep localStorage tidy
+        if (customPhrases[langKey][catId].length === 0) {
+          delete customPhrases[langKey][catId];
+        }
+        
+        // Update device storage
+        localStorage.setItem('lingo_custom_phrases', JSON.stringify(customPhrases));
+        
+        // Keep category open and re-render
+        currentOpenCategory = catId;
+        renderPhrases(document.getElementById('language-selector').value);
+      }
+    }
+    
     function savePhrase() {
       const langKey = document.getElementById('modal-lang').value;
       const catId = document.getElementById('modal-cat').value;
