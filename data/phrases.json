@@ -33,7 +33,11 @@
             { "en": "A table for two, please.", "translated": "Un tavolo per due, per favore.", "pronunciation": "oon TAH-voh-loh pehr DOO-eh, pehr fah-VOH-reh" },
             { "en": "Do you have a vegetarian menu?", "translated": "Avete un menù vegetariano?", "pronunciation": "ah-VEH-teh oon meh-NOO veh-jeh-tah-RYAH-noh" },
             { "en": "The food was delicious, thank you.", "translated": "Il cibo era delizioso, grazie.", "pronunciation": "eel CHEE-boh EH-rah deh-lee-TSYOH-zoh, GRAH-tsyeh" },
-            { "en": "The bill, please.", "translated": "Il conto, per favore.", "pronunciation": "eel KOHN-toh, pehr fah-VOH-reh" }
+            { "en": "The bill, please.", "translated": "Il conto, per favore.", "pronunciation": "eel KOHN-toh, pehr fah-VOH-reh" },
+            { "en": "A glass of red / white wine, please.", "translated": "Un calice di vino rosso / bianco, per favore.", "pronunciation": "oon CAH-lee-cheh dee VEE-noh ROHS-soh / BYAHN-koh, pehr fah-VOH-reh" },
+{ "en": "A draft beer, please.", "translated": "Una alla spina, per favore.", "pronunciation": "OO-nah AHL-lah SPEE-nah, pehr fah-VOH-reh" },
+{ "en": "Still or sparkling water?", "translated": "Acqua naturale o frizzante?", "pronunciation": "AHK-wah nah-too-RAH-leh oh freet-ZAHN-teh?" },
+{ "en": "An espresso, please.", "translated": "Un caffè, per favore.", "pronunciation": "oon kahf-FEH, pehr fah-VOH-reh" }
           ]
         },
         {
@@ -109,7 +113,11 @@
             { "en": "A table for two, please.", "translated": "Une table pour deux, s'il vous plaît.", "pronunciation": "ewn tah-bluh poor duh, seel voo pleh" },
             { "en": "Do you have a vegetarian menu?", "translated": "Avez-vous un menu végétarien ?", "pronunciation": "ah-vay-voo uh muh-new vay-zhay-tah-ryan" },
             { "en": "The food was delicious, thank you.", "translated": "Le repas était délicieux, merci.", "pronunciation": "luh ruh-pah ay-teh day-lee-syuh, mair-see" },
-            { "en": "The bill, please.", "translated": "L'addition, s'il vous plaît.", "pronunciation": "lah-dee-see-ohn, seel voo pleh" }
+            { "en": "The bill, please.", "translated": "L'addition, s'il vous plaît.", "pronunciation": "lah-dee-see-ohn, seel voo pleh" },
+            { "en": "A glass of red / white wine, please.", "translated": "Un verre de vin rouge / blanc, s'il vous plaît.", "pronunciation": "uh vair duh van rooj / blahn, seel voo pleh" },
+{ "en": "A draft beer, please.", "translated": "Une bière pression, s'il vous plaît.", "pronunciation": "ewn byair preh-syohn, seel voo pleh" },
+{ "en": "Still or sparkling water?", "translated": "De l'eau plate ou gazeuse ?", "pronunciation": "duh loh plaht oo gah-zuhz?" },
+{ "en": "An espresso, please.", "translated": "Un café, s'il vous plaît.", "pronunciation": "uh kah-fay, seel voo pleh" }
           ]
         },
         {
@@ -185,7 +193,11 @@
             { "en": "A table for two, please.", "translated": "Una mesa para dos, por favor.", "pronunciation": "OO-nah MEH-sah PAH-rah dohs, pohr fah-BOHR" },
             { "en": "Do you have a vegetarian menu?", "translated": "¿Tiene un menú vegetariano?", "pronunciation": "TYEH-neh oon meh-NOO veh-heh-tah-RYAH-noh" },
             { "en": "The food was delicious, thank you.", "translated": "La comida estaba deliciosa, gracias.", "pronunciation": "lah koh-MEE-dah ehs-TAH-bah deh-lee-SYOH-sah, GRAH-syahs" },
-            { "en": "The bill, please.", "translated": "La cuenta, por favor.", "pronunciation": "lah KWEHN-tah, pohr fah-BOHR" }
+            { "en": "The bill, please.", "translated": "La cuenta, por favor.", "pronunciation": "lah KWEHN-tah, pohr fah-BOHR" },
+            { "en": "A glass of red / white wine, please.", "translated": "Una copa de vino tinto / blanco, por favor.", "pronunciation": "OO-nah KOH-pah deh VEE-noh TEEN-toh / BLAHN-koh, pohr fah-BOHR" },
+{ "en": "A draft beer, please.", "translated": "Una caña, por favor.", "pronunciation": "OO-nah KAH-nyah, pohr fah-BOHR" },
+{ "en": "Still or sparkling water?", "translated": "¿Agua sin gas o con gas?", "pronunciation": "AH-gwah seen gahs oh kohn gahs?" },
+{ "en": "An espresso, please.", "translated": "Un café solo, por favor.", "pronunciation": "oon kah-FEH SOH-loh, pohr fah-BOHR" }
           ]
         },
         {
