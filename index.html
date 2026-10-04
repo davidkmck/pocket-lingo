@@ -70,20 +70,20 @@
       box-shadow: 0 2px 4px rgba(0,0,0,0.05);
       overflow: hidden;
     }
+   
     summary {
       font-size: 1.25rem;
       font-weight: bold;
       padding: 1rem;
       cursor: pointer;
       background: #e9ecef;
-      list-style: none; /* Hide default arrow in some browsers */
+      list-style: none;
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
-    summary::-webkit-details-marker { display: none; } /* Hide default arrow in Safari */
-    summary::after { content: '+'; font-size: 1.5rem; color: var(--primary); }
-    details[open] summary::after { content: '-'; }
+    summary::-webkit-details-marker { display: none; }
+
     details[open] summary { border-bottom: 2px solid var(--primary); }
     
     .phrases-container { padding: 1rem; }
@@ -278,13 +278,13 @@
       renderPhrases(Object.keys(phraseData)[0]);
     }
 
-    function getCategoryIcon(iconKey) {
+function getCategoryIcon(iconKey) {
       const iconMap = {
         'train': '🚆',
         'hotel': '🏨',
         'restaurant': '🍽️',
-        'restaurant_menu': '🍲',
-        'pin': '🔢',
+        'restaurant_menu': '🍲', // Icon for Foods & Dietary
+        'pin': '🔢',             // Icon for Numbers
         'museum': '🏛️',
         'storefront': '🛍',
         'chat': '💬',
@@ -315,14 +315,18 @@
         const isCustomCat = category.isCustom ? true : false;
         const iconSymbol = getCategoryIcon(category.icon);
         
-html += `<details class="category" id="cat-${category.id}" ${isOpen} ontoggle="trackOpenCategory(this, '${category.id}')">
+
+        const toggleSymbol = isOpen ? '-' : '+';
+
+        html += `<details class="category" id="cat-${category.id}" ${isOpen} ontoggle="trackOpenCategory(this, '${category.id}')">
             <summary>
               <span style="display: flex; align-items: center; gap: 0.75rem;">
                 <span>${iconSymbol}</span>
                 <span>${category.title}</span>
               </span>
-              <span style="display: flex; align-items: center;">
-                <button class="hide-cat-btn" onclick="toggleHideCategory(event, '${langKey}', '${category.id}')" title="Hide Category">👁️‍🗨️</button>
+              <span style="display: flex; align-items: center; gap: 0.5rem;">
+                <button class="hide-cat-btn" onclick="toggleHideCategory(event, '${langKey}', '${category.id}')" title="Hide Category">👁️‍‍🗨️</button>
+                <span style="font-size: 1.5rem; color: var(--primary); width: 1rem; text-align: center;" class="toggle-indicator">${toggleSymbol}</span>
               </span>
             </summary>
             <div class="phrases-container">`;
@@ -508,11 +512,16 @@ html += `<details class="category" id="cat-${category.id}" ${isOpen} ontoggle="t
       renderPhrases(langKey); 
     }
     
-    function trackOpenCategory(detailsElement, catId) {
+function trackOpenCategory(detailsElement, catId) {
+      const indicator = detailsElement.querySelector('.toggle-indicator');
       if (detailsElement.open) {
         currentOpenCategory = catId;
-      } else if (currentOpenCategory === catId) {
-        currentOpenCategory = null;
+        if (indicator) indicator.textContent = '-';
+      } else {
+        if (currentOpenCategory === catId) {
+          currentOpenCategory = null;
+        }
+        if (indicator) indicator.textContent = '+';
       }
     }
 
