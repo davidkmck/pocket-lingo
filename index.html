@@ -143,6 +143,19 @@
       margin-top: 0.5rem;
       text-decoration: underline;
     }
+
+    .speak-btn {
+      background: none;
+      border: none;
+      font-size: 1.1rem;
+      cursor: pointer;
+      margin-left: 0.5rem;
+      vertical-align: middle;
+      padding: 0;
+    }
+    .speak-btn:active {
+      transform: scale(0.9);
+    }
   </style>
 </head>
 <body>
@@ -209,6 +222,7 @@
       renderPhrases(Object.keys(phraseData)[0]);
     }
 
+    /*
     function renderPhrases(langKey) {
       const content = document.getElementById('app-content');
       const lang = phraseData[langKey];
@@ -251,7 +265,58 @@ const defaultPhrases = category.phrases || [];
 
       content.innerHTML = html;
     }
+*/
+function renderPhrases(langKey) {
+      const content = document.getElementById('app-content');
+      const lang = phraseData[langKey];
+      let html = '';
 
+      lang.categories.forEach(category => {
+        // Keep the previously edited category open
+        const isOpen = currentOpenCategory === category.id ? 'open' : '';
+        
+        html += `<details class="category" id="cat-${category.id}" ${isOpen} ontoggle="trackOpenCategory(this, '${category.id}')">
+                  <summary>${category.title}</summary>
+                  <div class="phrases-container">`;
+        
+        // Merge official JSON phrases with user's local custom phrases
+        const defaultPhrases = category.phrases || [];
+        const userPhrases = (customPhrases[langKey] && customPhrases[langKey][category.id]) || [];
+        
+        // Render official phrases with speech button
+        defaultPhrases.forEach(phrase => {
+          const safeText = phrase.translated.replace(/'/g, "\\'");
+          html += `<div class="phrase-card">
+                    <div class="phrase-en">${phrase.en}</div>
+                    <div class="phrase-translated">
+                      ${phrase.translated}
+                      <button class="speak-btn" onclick="speakText('${safeText}', '${langKey}')" title="Listen">🔊</button>
+                    </div>
+                    <div class="phrase-pronunciation">${phrase.pronunciation || ''}</div>
+                   </div>`;
+        });
+
+        // Render custom user phrases with speech button and delete option
+        userPhrases.forEach((phrase, index) => {
+          const safeText = phrase.translated.replace(/'/g, "\\'");
+          html += `<div class="phrase-card custom-phrase">
+                    <div class="phrase-en">${phrase.en}</div>
+                    <div class="phrase-translated">
+                      ${phrase.translated}
+                      <button class="speak-btn" onclick="speakText('${safeText}', '${langKey}')" title="Listen">🔊</button>
+                    </div>
+                    <div class="phrase-pronunciation">${phrase.pronunciation || ''}</div>
+                    <button class="delete-btn" onclick="deleteCustomPhrase('${langKey}', '${category.id}', ${index})">Remove</button>
+                   </div>`;
+        });
+        
+        html += `<button class="add-btn" onclick="openModal('${langKey}', '${category.id}', '${category.title}')">+ Add Phrase</button>`;
+        html += `</div></details>`;
+      });
+
+      content.innerHTML = html;
+    }
+    
     function trackOpenCategory(detailsElement, catId) {
       if (detailsElement.open) {
         currentOpenCategory = catId;
@@ -260,6 +325,30 @@ const defaultPhrases = category.phrases || [];
       }
     }
 
+    function speakText(text, langKey) {
+      if (!('speechSynthesis' in window)) {
+        alert('Text-to-speech is not supported on this browser.');
+        return;
+      }
+
+      // Cancel any ongoing speech
+      window.speechSynthesis.cancel();
+
+      const utterance = new SpeechSynthesisUtterance(text);
+      
+      // Map your language keys to proper BCP 47 language codes
+      const langMap = {
+        'it': 'it-IT',
+        'fr': 'fr-FR',
+        'es': 'es-ES'
+      };
+      
+      utterance.lang = langMap[langKey] || 'en-US';
+      utterance.rate = 0.9; // Slightly slower speed for better clarity while traveling
+      
+      window.speechSynthesis.speak(utterance);
+    }
+    
     // --- Modal Logic ---
     function openModal(langKey, catId, catTitle) {
       document.getElementById('modal-lang').value = langKey;
