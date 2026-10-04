@@ -9,7 +9,19 @@
           "icon": "train",
           "phrases": [
             { "en": "Where is the taxi stand?", "translated": "Dov'è il posteggio dei taxi?", "pronunciation": "doh-VEH eel poh-STEH-joh day TAHK-see" },
-            { "en": "Take me to this address, please.", "translated": "Mi porti a questo indirizzo, per favore.", "pronunciation": "mee POHR-tee ah KWEH-stoh een-dee-REET-zoh, pehr fah-VOH-reh" }
+            { "en": "Take me to this address, please.", "translated": "Mi porti a questo indirizzo, per favore.", "pronunciation": "mee POHR-tee ah KWEH-stoh een-dee-REET-zoh, pehr fah-VOH-reh" },
+            { "en": "How much is the fare to the airport?", "translated": "Quant'è la tariffa per l'aeroporto?", "pronunciation": "kwahn-TEH lah tah-REEF-fah pehr lah-eh-roh-POHR-toh" },
+            { "en": "Does this train go to [Rome]?", "translated": "Questo treno va a [Roma]?", "pronunciation": "KWEH-stoh TREH-noh vah ah [ROH-mah]" }
+          ]
+        },
+        {
+          "id": "hotels",
+          "title": "Hotels",
+          "icon": "hotel",
+          "phrases": [
+            { "en": "I have a reservation under [Name].", "translated": "Ho una prenotazione a nome [Nome].", "pronunciation": "oh oo-nah preh-noh-tah-TSYOH-neh ah NOH-meh [NOH-meh]" },
+            { "en": "What time is check-out?", "translated": "A che ora è il check-out?", "pronunciation": "ah keh OH-rah eh eel check-out" },
+            { "en": "Could I have extra towels, please?", "translated": "Potrei avere degli asciugamani in più, per favore?", "pronunciation": "poh-TRAY ah-VEH-reh DEL-yee ah-shoo-gah-MAH-nee een pyoo, pehr fah-VOH-reh" }
           ]
         },
         {
@@ -18,6 +30,8 @@
           "icon": "restaurant",
           "phrases": [
             { "en": "A table for two, please.", "translated": "Un tavolo per due, per favore.", "pronunciation": "oon TAH-voh-loh pehr DOO-eh, pehr fah-VOH-reh" },
+            { "en": "Do you have a vegetarian menu?", "translated": "Avete un menù vegetariano?", "pronunciation": "ah-VEH-teh oon meh-NOO veh-jeh-tah-RYAH-noh" },
+            { "en": "The food was delicious, thank you.", "translated": "Il cibo era delizioso, grazie.", "pronunciation": "eel CHEE-boh EH-rah deh-lee-TSYOH-zoh, GRAH-tsyeh" },
             { "en": "The bill, please.", "translated": "Il conto, per favore.", "pronunciation": "eel KOHN-toh, pehr fah-VOH-reh" }
           ]
         },
@@ -27,6 +41,8 @@
           "icon": "museum",
           "phrases": [
             { "en": "Two adult tickets, please.", "translated": "Due biglietti interi, per favore.", "pronunciation": "DOO-eh beel-YET-tee een-TEH-ree, pehr fah-VOH-reh" },
+            { "en": "Is this the line for entry?", "translated": "È questa la fila per l'ingresso?", "pronunciation": "eh KWEH-stah lah FEE-lah pehr leen-GRES-soh" },
+            { "en": "Can we rent an audio guide?", "translated": "Possiamo noleggiare un'audioguida?", "pronunciation": "pohs-SYAH-moh noh-lej-JAH-reh oon-ow-dyoh-GWEE-dah" },
             { "en": "Where are the restrooms?", "translated": "Dove sono i bagni?", "pronunciation": "DOH-veh SOH-noh ee BAH-nyee" }
           ]
         },
@@ -36,6 +52,8 @@
           "icon": "storefront",
           "phrases": [
             { "en": "How much does this cost?", "translated": "Quanto costa questo?", "pronunciation": "KWAHN-toh KOH-stah KWEH-stoh" },
+            { "en": "Do you have this in a larger / smaller size?", "translated": "Avete questo in una taglia più grande / piccola?", "pronunciation": "ah-VEH-teh KWEH-stoh een oo-nah TAH-lyah pyoo GRAHN-deh / PEEK-koh-lah" },
+            { "en": "Could I have a receipt, please?", "translated": "Potrei avere una ricevuta, per favore?", "pronunciation": "poh-TRAY ah-VEH-reh oo-nah ree-cheh-VOO-tah, pehr fah-VOH-reh" },
             { "en": "Do you accept credit cards?", "translated": "Accettate carte di credito?", "pronunciation": "ah-chet-TAH-teh KAHR-teh dee KREH-dee-toh" }
           ]
         },
@@ -45,6 +63,8 @@
           "icon": "chat",
           "phrases": [
             { "en": "Hello / Good morning", "translated": "Buongiorno", "pronunciation": "bwohn-JOHR-noh" },
+            { "en": "Can you help me, please?", "translated": "Mi può aiutare, per favore?", "pronunciation": "mee pwoh ah-yoo-TAH-reh, pehr fah-VOH-reh" },
+            { "en": "Where is the nearest pharmacy?", "translated": "Dov'è la farmacia più vicina?", "pronunciation": "doh-VEH lah far-mah-CHEE-ah pyoo vee-CHEE-nah" },
             { "en": "Do you speak English?", "translated": "Parla inglese?", "pronunciation": "PAHR-lah een-GLEH-zeh" }
           ]
         }
@@ -59,7 +79,19 @@
           "icon": "train",
           "phrases": [
             { "en": "Where is the taxi stand?", "translated": "Où est la station de taxis ?", "pronunciation": "oo eh lah stah-see-ohn duh tahk-see" },
-            { "en": "Take me to this address, please.", "translated": "Emmenez-moi à cette adresse, s'il vous plaît.", "pronunciation": "ah-muh-nay-mwah ah set ah-dress, seel voo pleh" }
+            { "en": "Take me to this address, please.", "translated": "Emmenez-moi à cette adresse, s'il vous plaît.", "pronunciation": "ah-muh-nay-mwah ah set ah-dress, seel voo pleh" },
+            { "en": "How much is the fare to the airport?", "translated": "Quel est le tarif pour l'aéroport ?", "pronunciation": "kel eh luh tah-reef poor lah-ay-roh-por" },
+            { "en": "Does this train go to [Paris]?", "translated": "Ce train va-t-il à [Paris] ?", "pronunciation": "suh tran vah-teel ah [pah-REE]" }
+          ]
+        },
+        {
+          "id": "hotels",
+          "title": "Hotels",
+          "icon": "hotel",
+          "phrases": [
+            { "en": "I have a reservation under [Name].", "translated": "J'ai une réservation au nom de [Nom].", "pronunciation": "zhay ewn ray-zair-vah-syohn oh nohm duh [Nohm]" },
+            { "en": "What time is check-out?", "translated": "À quelle heure est le départ ?", "pronunciation": "ah kel ur eh luh day-par" },
+            { "en": "Could I have extra towels, please?", "translated": "Pourrais-je avoir des serviettes supplémentaires, s'il vous plaît ?", "pronunciation": "poo-ray-zh ah-vwahr day sair-vyet sew-play-mahn-tair, seel voo pleh" }
           ]
         },
         {
@@ -68,6 +100,8 @@
           "icon": "restaurant",
           "phrases": [
             { "en": "A table for two, please.", "translated": "Une table pour deux, s'il vous plaît.", "pronunciation": "ewn tah-bluh poor duh, seel voo pleh" },
+            { "en": "Do you have a vegetarian menu?", "translated": "Avez-vous un menu végétarien ?", "pronunciation": "ah-vay-voo uh muh-new vay-zhay-tah-ryan" },
+            { "en": "The food was delicious, thank you.", "translated": "Le repas était délicieux, merci.", "pronunciation": "luh ruh-pah ay-teh day-lee-syuh, mair-see" },
             { "en": "The bill, please.", "translated": "L'addition, s'il vous plaît.", "pronunciation": "lah-dee-see-ohn, seel voo pleh" }
           ]
         },
@@ -77,6 +111,8 @@
           "icon": "museum",
           "phrases": [
             { "en": "Two adult tickets, please.", "translated": "Deux billets plein tarif, s'il vous plaît.", "pronunciation": "duh bee-yeh plan tah-reef, seel voo pleh" },
+            { "en": "Is this the line for entry?", "translated": "Est-ce la file pour l'entrée ?", "pronunciation": "ess lah feel poor lahn-tray" },
+            { "en": "Can we rent an audio guide?", "translated": "Pouvons-nous louer un audioguide ?", "pronunciation": "poo-vohn-noo loo-ay uh oh-dyoh-geed" },
             { "en": "Where are the restrooms?", "translated": "Où sont les toilettes ?", "pronunciation": "oo sohn lay twah-let" }
           ]
         },
@@ -86,6 +122,8 @@
           "icon": "storefront",
           "phrases": [
             { "en": "How much does this cost?", "translated": "Combien ça coûte ?", "pronunciation": "kohm-byan sah koot" },
+            { "en": "Do you have this in a larger / smaller size?", "translated": "Avez-vous une taille plus grande / plus petite ?", "pronunciation": "ah-vay-voo ewn ty plew grahnd / plew puh-teet" },
+            { "en": "Could I have a receipt, please?", "translated": "Pourrais-je avoir un reçu, s'il vous plaît ?", "pronunciation": "poo-ray-zh ah-vwahr uh ruh-sew, seel voo pleh" },
             { "en": "Do you accept credit cards?", "translated": "Acceptez-vous les cartes de crédit ?", "pronunciation": "ahk-sep-tay-voo lay kahrt duh kray-dee" }
           ]
         },
@@ -95,6 +133,8 @@
           "icon": "chat",
           "phrases": [
             { "en": "Hello / Good morning", "translated": "Bonjour", "pronunciation": "bohn-zhoor" },
+            { "en": "Can you help me, please?", "translated": "Pouvez-vous m'aider, s'il vous plaît ?", "pronunciation": "poo-vay-voo meh-day, seel voo pleh" },
+            { "en": "Where is the nearest pharmacy?", "translated": "Où est la pharmacie la plus proche ?", "pronunciation": "oo eh lah far-mah-see lah plew prosh" },
             { "en": "Do you speak English?", "translated": "Parlez-vous anglais ?", "pronunciation": "par-lay-voo ahn-gleh" }
           ]
         }
