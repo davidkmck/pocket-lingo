@@ -185,7 +185,7 @@
           "phrases": [
             { "en": "One", "translated": "Un", "pronunciation": "uhn" },
             { "en": "Two", "translated": "Deux", "pronunciation": "duh" },
-            { "en": "Three", "translated": "Trois", "trwa", "pronunciation": "trwah" },
+            { "en": "Three", "translated": "Trois", "pronunciation": "trwah" },
             { "en": "Four", "translated": "Quatre", "pronunciation": "ka-truh" },
             { "en": "Five", "translated": "Cinq", "pronunciation": "sank" },
             { "en": "Six", "translated": "Six", "pronunciation": "sees" },
@@ -486,3 +486,4 @@
     }
   }
 }
+
