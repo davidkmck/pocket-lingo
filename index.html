@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Pocket Lingo</title>
+  
+  <!-- Link to PWA Manifest (You'll create this next) -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#2c3e50">
+
+  <style>
+    /* Basic Mobile-First Styling */
+    :root {
+      --primary: #2c3e50;
+      --bg: #f8f9fa;
+      --card-bg: #ffffff;
+      --text: #333333;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: var(--bg);
+      color: var(--text);
+    }
+    header {
+      background-color: var(--primary);
+      color: white;
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    h1 {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+    select {
+      padding: 0.5rem;
+      border-radius: 4px;
+      border: none;
+      font-size: 1rem;
+    }
+    main {
+      padding: 1rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .category {
+      margin-bottom: 2rem;
+    }
+    .category h2 {
+      font-size: 1.25rem;
+      border-bottom: 2px solid var(--primary);
+      padding-bottom: 0.5rem;
+    }
+    .phrase-card {
+      background: var(--card-bg);
+      padding: 1rem;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .phrase-en {
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+    .phrase-translated {
+      color: var(--primary);
+      font-size: 1.1rem;
+      margin-bottom: 0.25rem;
+    }
+    .phrase-pronunciation {
+      font-size: 0.9rem;
+      color: #666;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Pocket Lingo</h1>
+    <select id="language-selector">
+      <!-- Options populated by JS -->
+    </select>
+  </header>
+
+  <main id="app-content">
+    <!-- Phrases injected here -->
+    <p>Loading phrases...</p>
+  </main>
+
+  <script>
+    let phraseData = {};
+
+    // Fetch the JSON payload
+    fetch('data/phrases.json')
+      .then(response => response.json())
+      .then(data => {
+        phraseData = data.languages;
+        initApp();
+      })
+      .catch(err => {
+        document.getElementById('app-content').innerHTML = '<p>Error loading phrases. Are you offline?</p>';
+      });
+
+    function initApp() {
+      const selector = document.getElementById('language-selector');
+      
+      // Populate language dropdown
+      for (const [key, lang] of Object.entries(phraseData)) {
+        const option = document.createElement('option');
+        option.value = key;
+        option.textContent = lang.name;
+        selector.appendChild(option);
+      }
+
+      // Listen for language changes
+      selector.addEventListener('change', (e) => renderPhrases(e.target.value));
+
+      // Initial render (default to first language, 'it')
+      renderPhrases(Object.keys(phraseData)[0]);
+    }
+
+    function renderPhrases(langKey) {
+      const content = document.getElementById('app-content');
+      const lang = phraseData[langKey];
+      let html = '';
+
+      lang.categories.forEach(category => {
+        html += `<div class="category">
+                  <h2>${category.title}</h2>`;
+        
+        category.phrases.forEach(phrase => {
+          html += `<div class="phrase-card">
+                    <div class="phrase-en">${phrase.en}</div>
+                    <div class="phrase-translated">${phrase.translated}</div>
+                    <div class="phrase-pronunciation">${phrase.pronunciation}</div>
+                   </div>`;
+        });
+        
+        html += `</div>`;
+      });
+
+      content.innerHTML = html;
+    }
+
+    // Register Service Worker for Offline Support
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('sw.js')
+          .then(registration => console.log('ServiceWorker registered'))
+          .catch(err => console.log('ServiceWorker registration failed: ', err));
+      });
+    }
+  </script>
+</body>
+</html>
