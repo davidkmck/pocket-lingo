@@ -264,6 +264,19 @@
       renderPhrases(Object.keys(phraseData)[0]);
     }
 
+function getCategoryIcon(iconKey) {
+    const iconMap = {
+        'train': '🚆',
+        'hotel': '🏨',
+        'restaurant': '🍽️',
+        'museum': '🏛️',
+        'storefront': '🛍️️',
+        'chat': '💬',
+        'default': '📂'
+    };
+    return iconMap[iconKey] || iconMap['default'];
+}
+    
     function renderPhrases(langKey) {
       const content = document.getElementById('app-content');
       const lang = phraseData[langKey];
@@ -285,9 +298,11 @@
         const isOpen = currentOpenCategory === category.id ? 'open' : '';
         const isCustomCat = category.isCustom ? true : false;
 
+const iconSymbol = getCategoryIcon(category.icon);
+
         html += `<details class="category" id="cat-${category.id}" ${isOpen} ontoggle="trackOpenCategory(this, '${category.id}')">
             <summary>
-                <span>${category.title}</span>
+                <span>${iconSymbol} ${category.title}</span>
                 <button class="hide-cat-btn" onclick="toggleHideCategory(event, '${langKey}', '${category.id}')" title="Hide Category">👁️‍🗨️ Hide</button>
             </summary>
             <div class="phrases-container">`;
