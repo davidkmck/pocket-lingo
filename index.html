@@ -156,6 +156,11 @@
     .speak-btn:active {
       transform: scale(0.9);
     }
+    .hide-cat-btn { background: none; border: none; font-size: 0.85rem; cursor: pointer; color: #666; }
+.hide-phrase-btn { background: none; border: none; color: #999; font-size: 0.8rem; cursor: pointer; padding: 0; margin-top: 0.5rem; text-decoration: underline; margin-right: 1rem; }
+.delete-cat-btn { width: 100%; padding: 0.5rem; background: #fff; color: #e74c3c; border: 1px solid #e74c3c; border-radius: 8px; font-size: 0.9rem; margin-top: 0.5rem; cursor: pointer; }
+.add-category-btn { width: 100%; padding: 0.75rem; background: var(--secondary); color: white; border: none; border-radius: 8px; font-size: 1rem; font-weight: bold; cursor: pointer; margin-top: 1.5rem; }
+    
   </style>
 </head>
 <body>
@@ -194,9 +199,14 @@
 
   <script>
     let phraseData = {};
-    // Load custom phrases from device storage
-    let customPhrases = JSON.parse(localStorage.getItem('lingo_custom_phrases')) || {};
-    let currentOpenCategory = null;
+
+    // Load user preferences and customizations from storage
+let customPhrases = JSON.parse(localStorage.getItem('lingo_custom_phrases')) || {};
+let hiddenCategories = JSON.parse(localStorage.getItem('lingo_hidden_categories')) || {};
+let hiddenPhrases = JSON.parse(localStorage.getItem('lingo_hidden_phrases')) || {};
+let customCategories = JSON.parse(localStorage.getItem('lingo_custom_categories')) || {};
+    
+      let currentOpenCategory = null;
 
     fetch('data/phrases.json')
       .then(response => response.json())
@@ -266,56 +276,134 @@ const defaultPhrases = category.phrases || [];
       content.innerHTML = html;
     }
 */
-function renderPhrases(langKey) {
-      const content = document.getElementById('app-content');
-      const lang = phraseData[langKey];
-      let html = '';
 
-      lang.categories.forEach(category => {
-        // Keep the previously edited category open
+    function renderPhrases(langKey) {
+    const content = document.getElementById('app-content');
+    const lang = phraseData[langKey];
+    if (!lang) return;
+
+    let html = '';
+
+    // Combine official categories with user-created custom categories for this language
+    const officialCategories = lang.categories || [];
+    const userCats = (customCategories[langKey]) || [];
+    const allCategories = [...officialCategories, ...userCats];
+
+    allCategories.forEach(category => {
+        // Skip if the user has hidden this category
+        if (hiddenCategories[langKey] && hiddenCategories[langKey].includes(category.id)) {
+            return;
+        }
+
         const isOpen = currentOpenCategory === category.id ? 'open' : '';
-        
+        const isCustomCat = category.isCustom ? true : false;
+
         html += `<details class="category" id="cat-${category.id}" ${isOpen} ontoggle="trackOpenCategory(this, '${category.id}')">
-                  <summary>${category.title}</summary>
-                  <div class="phrases-container">`;
-        
-        // Merge official JSON phrases with user's local custom phrases
+            <summary>
+                <span>${category.title}</span>
+                <button class="hide-cat-btn" onclick="toggleHideCategory(event, '${langKey}', '${category.id}')" title="Hide Category">👁️‍🗨️ Hide</button>
+            </summary>
+            <div class="phrases-container">`;
+
         const defaultPhrases = category.phrases || [];
         const userPhrases = (customPhrases[langKey] && customPhrases[langKey][category.id]) || [];
-        
-        // Render official phrases with speech button
-        defaultPhrases.forEach(phrase => {
-          const safeText = phrase.translated.replace(/'/g, "\\'");
-          html += `<div class="phrase-card">
-                    <div class="phrase-en">${phrase.en}</div>
-                    <div class="phrase-translated">
-                      ${phrase.translated}
-                      <button class="speak-btn" onclick="speakText('${safeText}', '${langKey}')" title="Listen">🔊</button>
-                    </div>
-                    <div class="phrase-pronunciation">${phrase.pronunciation || ''}</div>
-                   </div>`;
+
+        // Render official/default phrases (with Hide option)
+        defaultPhrases.forEach((phrase, pIndex) => {
+            const phraseKey = `${category.id}-${pIndex}`;
+            const isHidden = hiddenPhrases[langKey] && hiddenPhrases[langKey].includes(phraseKey);
+            if (isHidden) return; // Skip hidden phrases
+
+            const safeText = phrase.translated.replace(/'/g, "\\'");
+            html += `<div class="phrase-card">
+                <div class="phrase-en">${phrase.en}</div>
+                <div class="phrase-translated">
+                    ${phrase.translated} 
+                    <button class="speak-btn" onclick="speakText('${safeText}', '${langKey}')" title="Listen">🔊</button>
+                </div>
+                <div class="phrase-pronunciation">${phrase.pronunciation || ''}</div>
+                <button class="hide-phrase-btn" onclick="toggleHidePhrase('${langKey}', '${category.id}', '${phraseKey}')">Hide Phrase</button>
+            </div>`;
         });
 
-        // Render custom user phrases with speech button and delete option
+        // Render custom phrases
         userPhrases.forEach((phrase, index) => {
-          const safeText = phrase.translated.replace(/'/g, "\\'");
-          html += `<div class="phrase-card custom-phrase">
-                    <div class="phrase-en">${phrase.en}</div>
-                    <div class="phrase-translated">
-                      ${phrase.translated}
-                      <button class="speak-btn" onclick="speakText('${safeText}', '${langKey}')" title="Listen">🔊</button>
-                    </div>
-                    <div class="phrase-pronunciation">${phrase.pronunciation || ''}</div>
-                    <button class="delete-btn" onclick="deleteCustomPhrase('${langKey}', '${category.id}', ${index})">Remove</button>
-                   </div>`;
+            const safeText = phrase.translated.replace(/'/g, "\\'");
+            html += `<div class="phrase-card custom-phrase">
+                <div class="phrase-en">${phrase.en}</div>
+                <div class="phrase-translated">
+                    ${phrase.translated} 
+                    <button class="speak-btn" onclick="speakText('${safeText}', '${langKey}')" title="Listen">🔊</button>
+                </div>
+                <div class="phrase-pronunciation">${phrase.pronunciation || ''}</div>
+                <button class="delete-btn" onclick="deleteCustomPhrase('${langKey}', '${category.id}', ${index})">Remove</button>
+            </div>`;
         });
-        
-        html += `<button class="add-btn" onclick="openModal('${langKey}', '${category.id}', '${category.title}')">+ Add Phrase</button>`;
-        html += `</div></details>`;
-      });
 
-      content.innerHTML = html;
+        html += `<button class="add-btn" onclick="openModal('${langKey}', '${category.id}', '${category.title}')">+ Add Phrase</button>`;
+        
+        // Allow deleting custom categories entirely
+        if (isCustomCat) {
+            html += `<button class="delete-cat-btn" onclick="deleteCustomCategory('${langKey}', '${category.id}')">Delete Category</button>`;
+        }
+
+        html += `</div></details>`;
+    });
+
+    // Button to add a brand new category
+    html += `<button class="add-category-btn" onclick="openCategoryModal('${langKey}')">+ Add New Category</button>`;
+    
+    content.innerHTML = html;
+}
+
+    // --- Category Management ---
+function toggleHideCategory(event, langKey, catId) {
+    event.stopPropagation(); // Prevent closing/opening the <details> tag
+    if (!hiddenCategories[langKey]) hiddenCategories[langKey] = [];
+    
+    if (!hiddenCategories[langKey].includes(catId)) {
+        hiddenCategories[langKey].push(catId);
     }
+    localStorage.setItem('lingo_hidden_categories', JSON.stringify(hiddenCategories));
+    renderPhrases(document.getElementById('language-selector').value);
+}
+
+function openCategoryModal(langKey) {
+    const title = prompt("Enter new category name:");
+    if (!title || !title.trim()) return;
+
+    const catId = 'custom_cat_' + Date.now();
+    if (!customCategories[langKey]) customCategories[langKey] = [];
+
+    customCategories[langKey].push({
+        id: catId,
+        title: title.trim(),
+        isCustom: true,
+        phrases: []
+    });
+
+    localStorage.setItem('lingo_custom_categories', JSON.stringify(customCategories));
+    renderPhrases(langKey);
+}
+
+function deleteCustomCategory(langKey, catId) {
+    if (confirm("Are you sure you want to delete this custom category and its contents?")) {
+        customCategories[langKey] = customCategories[langKey].filter(c => c.id !== catId);
+        localStorage.setItem('lingo_custom_categories', JSON.stringify(customCategories));
+        renderPhrases(langKey);
+    }
+}
+
+// --- Phrase Visibility Management ---
+function toggleHidePhrase(langKey, catId, phraseKey) {
+    if (!hiddenPhrases[langKey]) hiddenPhrases[langKey] = [];
+    if (!hiddenPhrases[langKey].includes(phraseKey)) {
+        hiddenPhrases[langKey].push(phraseKey);
+    }
+    localStorage.setItem('lingo_hidden_phrases', JSON.stringify(hiddenPhrases));
+    currentOpenCategory = catId;
+    renderPhrases(document.getElementById('language-selector').value);
+}
     
     function trackOpenCategory(detailsElement, catId) {
       if (detailsElement.open) {
