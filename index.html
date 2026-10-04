@@ -173,17 +173,19 @@
     .speak-btn:active {
       transform: scale(0.9);
     }
-
-    .hide-cat-btn {
+    
+.hide-cat-btn {
       background: none;
       border: none;
-      font-size: 0.85rem;
+      font-size: 1.1rem;
       cursor: pointer;
-      color: #666;
+      color: #777;
+      padding: 0 0.5rem;
       display: inline-flex;
       align-items: center;
-      vertical-align: middle;
-      margin-left: 0.75rem;
+    }
+    .hide-cat-btn:hover {
+      color: #e74c3c;
     }
     
     .hide-phrase-btn { background: none; border: none; color: #999; font-size: 0.8rem; cursor: pointer; padding: 0; margin-top: 0.5rem; text-decoration: underline; margin-right: 1rem; }
@@ -312,13 +314,15 @@
         const isOpen = currentOpenCategory === category.id ? 'open' : '';
         const isCustomCat = category.isCustom ? true : false;
         const iconSymbol = getCategoryIcon(category.icon);
-
-        html += `<details class="category" id="cat-${category.id}" ${isOpen} ontoggle="trackOpenCategory(this, '${category.id}')">
+        
+html += `<details class="category" id="cat-${category.id}" ${isOpen} ontoggle="trackOpenCategory(this, '${category.id}')">
             <summary>
               <span style="display: flex; align-items: center; gap: 0.75rem;">
                 <span>${iconSymbol}</span>
                 <span>${category.title}</span>
-                <button class="hide-cat-btn" onclick="toggleHideCategory(event, '${langKey}', '${category.id}')">Hide</button>
+              </span>
+              <span style="display: flex; align-items: center;">
+                <button class="hide-cat-btn" onclick="toggleHideCategory(event, '${langKey}', '${category.id}')" title="Hide Category">👁️‍🗨️</button>
               </span>
             </summary>
             <div class="phrases-container">`;
