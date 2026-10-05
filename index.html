@@ -279,19 +279,20 @@
     }
 
 function getCategoryIcon(iconKey) {
-      const iconMap = {
-        'train': '🚆',
-        'hotel': '🏨',
-        'restaurant': '🍽️',
-        'restaurant_menu': '🍲', // Icon for Foods & Dietary
-        'pin': '🔢',             // Icon for Numbers
-        'museum': '🏛️',
-        'storefront': '🛍',
-        'chat': '💬',
-        'default': '📂'
-      };
-      return iconMap[iconKey] || iconMap['default'];
-    }
+  const iconMap = {
+    'train': '🚆',
+    'hotel': '🏨',
+    'restaurant': '🍽️',
+    'restaurant_menu': '🍲',
+    'calendar_today': '📅', // Add this line
+    'pin': '🔢',
+    'museum': '🏛️',
+    'storefront': '🛍',
+    'chat': '💬',
+    'default': '📂'
+  };
+  return iconMap[iconKey] || iconMap['default'];
+}
     
     function renderPhrases(langKey) {
       const content = document.getElementById('app-content');
