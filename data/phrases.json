@@ -129,4 +129,560 @@
         },
         {
           "id": "museums",
-          "title": "Museums
+          "title": "Museums",
+          "icon": "museum",
+          "phrases": [
+            { "en": "Two adult tickets, please.", "translated": "Due biglietti interi, per favore.", "pronunciation": "DOO-eh beel-YET-tee een-TEH-ree, per fah-VOH-reh" },
+            { "en": "Is this the line for entry?", "translated": "È questa la fila per l'ingresso?", "pronunciation": "eh KWEH-stah lah FEE-lah per leen-GRES-soh" },
+            { "en": "Can we rent an audio guide?", "translated": "Possiamo noleggiare un'audioguida?", "pronunciation": "pohs-SYAH-moh noh-lej-JAH-reh oon-ow-dyoh-GWEE-dah" },
+            { "en": "Where are the restrooms?", "translated": "Dove sono i bagni?", "pronunciation": "DOH-veh SOH-noh ee BAH-nyee" }
+          ]
+        },
+        {
+          "id": "stores",
+          "title": "Stores",
+          "icon": "storefront",
+          "phrases": [
+            { "en": "How much does this cost?", "translated": "Quanto costa questo?", "pronunciation": "KWAHN-toh KOH-stah KWEH-stoh" },
+            { "en": "Do you have this in a larger / smaller size?", "translated": "Avete questo in una taglia più grande / piccola?", "pronunciation": "ah-VEH-teh KWEH-stoh een oo-nah TAH-lyah pyoo GRAHN-deh / PEEK-koh-lah" },
+            { "en": "Could I have a receipt, please?", "translated": "Potrei avere una ricevuta, per favore?", "pronunciation": "poh-TRAY ah-VEH-reh oo-nah ree-cheh-VOO-tah, per fah-VOH-reh" },
+            { "en": "Do you accept credit cards?", "translated": "Accettate carte di credito?", "pronunciation": "ah-chet-TAH-teh KAHR-teh dee KREH-dee-toh" }
+          ]
+        },
+        {
+          "id": "general",
+          "title": "General",
+          "icon": "chat",
+          "phrases": [
+            { "en": "Hello / Good morning", "translated": "Buongiorno", "pronunciation": "bwohn-JOHR-noh" },
+            { "en": "Good evening", "translated": "Buonasera", "pronunciation": "bwohn-ah-SEH-rah" },
+            { "en": "Good night", "translated": "Buonanotte", "pronunciation": "bwohn-ah-NOHT-teh" },
+            { "en": "Goodbye", "translated": "Arrivederci", "pronunciation": "ah-ree-veh-DEHR-chee" },
+            { "en": "Please", "translated": "Per favore", "pronunciation": "per fah-VOH-reh" },
+            { "en": "Thank you", "translated": "Grazie", "pronunciation": "GRAH-tsyeh" },
+            { "en": "Excuse me", "translated": "Mi scusi", "pronunciation": "mee SKOO-zee" },
+            { "en": "Sorry", "translated": "Scusa / Mi dispiace", "pronunciation": "SKOO-zah / mee dees-PYAH-cheh" },
+            { "en": "Can you help me, please?", "translated": "Mi può aiutare, per favore?", "pronunciation": "mee pwoh ah-yoo-TAH-reh, per fah-VOH-reh" },
+            { "en": "Where is the nearest pharmacy?", "translated": "Dov'è la farmacia più vicina?", "pronunciation": "doh-VEH lah far-mah-CHEE-ah pyoo vee-CHEE-nah" },
+            { "en": "Do you speak English?", "translated": "Parla inglese?", "pronunciation": "PAHR-lah een-GLEH-zeh" },
+            { "en": "Do you have Wi-Fi?", "translated": "Avete il Wi-Fi?", "pronunciation": "ah-VEH-teh eel way-fay?" },
+            { "en": "Do you accept contactless payment?", "translated": "Accettate pagamenti contactless?", "pronunciation": "ah-chet-TAH-teh pah-gah-MEN-tee kohn-tak-tles?" }
+          ]
+        }
+      ]
+    },
+    "fr": {
+      "name": "French",
+      "categories": [
+        {
+          "id": "logistics",
+          "title": "Logistical",
+          "icon": "train",
+          "phrases": [
+            { "en": "Where is the taxi stand?", "translated": "Où est la station de taxis ?", "pronunciation": "oo eh lah stah-see-ohn duh tahk-see" },
+            { "en": "Take me to this address, please.", "translated": "Emmenez-moi à cette adresse, s'il vous plaît.", "pronunciation": "ah-muh-nay-mwah ah set ah-dress, seel voo pleh" },
+            { "en": "How much is the fare to the airport?", "translated": "Quel est le tarif pour l'aéroport ?", "pronunciation": "kel eh luh tah-reef poor lah-ay-roh-por" },
+            { "en": "Does this train go to [Paris]?", "translated": "Ce train va-t-il à [Paris] ?", "pronunciation": "suh tran vah-teel ah [pah-REE]" },
+            { "en": "Where is the nearest train / metro station?", "translated": "Où est la station de train / de métro la plus proche ?", "pronunciation": "oo eh lah stah-see-ohn duh tran / duh may-troh lah plew prosh" }
+          ]
+        },
+        {
+          "id": "hotels",
+          "title": "Hotels",
+          "icon": "hotel",
+          "phrases": [
+            { "en": "I have a reservation under [Name].", "translated": "J'ai une réservation au nom de [Nom].", "pronunciation": "zhay ewn ray-zair-vah-syohn oh nohm duh [Nohm]" },
+            { "en": "What time is check-out?", "translated": "À quelle heure est le départ ?", "pronunciation": "ah kel ur eh luh day-par" },
+            { "en": "Could I have extra towels, please?", "translated": "Pourrais-je avoir des serviettes supplémentaires, s'il vous plaît ?", "pronunciation": "poo-ray-zh ah-vwahr day sair-vyet sew-play-mahn-tair, seel voo pleh" },
+            { "en": "Do you have any rooms available for tonight?", "translated": "Avez-vous des chambres libres pour ce soir ?", "pronunciation": "ah-vay-voo day shahmbr lee-bruh poor suh swahr" }
+          ]
+        },
+        {
+          "id": "restaurants",
+          "title": "Restaurants",
+          "icon": "restaurant",
+          "phrases": [
+            { "en": "A table for two, please.", "translated": "Une table pour deux, s'il vous plaît.", "pronunciation": "ewn tah-bluh poor duh, seel voo pleh" },
+            { "en": "Do you have a vegetarian menu?", "translated": "Avez-vous un menu végétarien ?", "pronunciation": "ah-vay-voo uh muh-new vay-zhay-tah-ryan" },
+            { "en": "Can you recommend a dish?", "translated": "Que nous conseillez-vous ?", "pronunciation": "kuh noo kohn-say-yay-voo" },
+            { "en": "Do you have outdoor seating?", "translated": "Avez-vous une terrasse ?", "pronunciation": "ah-vay-voo ewn teh-rahs" },
+            { "en": "We are ready to order.", "translated": "Nous sommes prêts à commander.", "pronunciation": "noo sohm preh ah koh-mahn-day" },
+            { "en": "The food was delicious, thank you.", "translated": "Le repas était délicieux, merci.", "pronunciation": "luh ruh-pah ay-teh day-lee-syuh, mair-see" },
+            { "en": "The bill, please.", "translated": "L'addition, s'il vous plaît.", "pronunciation": "lah-dee-see-ohn, seel voo pleh" },
+            { "en": "Separate bills, please.", "translated": "L'addition séparée, s'il vous plaît.", "pronunciation": "lah-dee-see-ohn say-pah-ray, seel voo pleh" },
+            { "en": "A glass of red / white wine, please.", "translated": "Un verre de vin rouge / blanc, s'il vous plaît.", "pronunciation": "uh vair duh van rooj / blahn, seel voo pleh" },
+            { "en": "A draft beer, please.", "translated": "Une bière pression, s'il vous plaît.", "pronunciation": "ewn byair preh-syohn, seel voo pleh" },
+            { "en": "Still or sparkling water?", "translated": "De l'eau plate ou gazeuse ?", "pronunciation": "duh loh plaht oo gah-zuhz?" },
+            { "en": "Tap water, please.", "translated": "Une carafe d'eau, s'il vous plaît.", "pronunciation": "ewn kah-rahf doh, seel voo pleh" },
+            { "en": "An espresso, please.", "translated": "Un café, s'il vous plaît.", "pronunciation": "uh kah-fay, seel voo pleh" },
+            { "en": "Is this dish spicy?", "translated": "Ce plat est-il épicé ?", "pronunciation": "suh plah ay-teel ay-pee-say?" },
+            { "en": "Do you have English menus?", "translated": "Avez-vous des menus en anglais ?", "pronunciation": "ah-vay-voo day muh-new ahn ahn-glay?" }
+          ]
+        },
+        {
+          "id": "foods",
+          "title": "Foods & Dietary",
+          "icon": "restaurant_menu",
+          "phrases": [
+            { "en": "I am vegetarian / vegan.", "translated": "Je suis végétarien(ne) / végan(e).", "pronunciation": "zhuh swee vay-zhay-tah-ryan(yen) / vay-gahn" },
+            { "en": "Without cheese, please.", "translated": "Sans fromage, s'il vous plaît.", "pronunciation": "sahn fro-mahzh, seel voo pleh" },
+            { "en": "Milk", "translated": "Lait", "pronunciation": "lay" },
+            { "en": "Juice", "translated": "Jus", "pronunciation": "zhoo" },
+            { "en": "Orange", "translated": "Orange", "pronunciation": "oh-rahnzh" },
+            { "en": "Strawberry", "translated": "Fraise", "pronunciation": "frehz" },
+            { "en": "Broccoli", "translated": "Brocoli", "pronunciation": "broh-koh-lee" },
+            { "en": "Steak", "translated": "Steak", "pronunciation": "stek" },
+            { "en": "Vegetables", "translated": "Légumes", "pronunciation": "lay-goom" },
+            { "en": "Salad", "translated": "Salade", "pronunciation": "sah-lahd" },
+            { "en": "Dessert", "translated": "Dessert", "pronunciation": "deh-zair" },
+            { "en": "Burger", "translated": "Burger", "pronunciation": "bœr-ɡœr" },
+            { "en": "Bread, please.", "translated": "Du pain, s'il vous plaît.", "pronunciation": "dew pan, seel voo pleh" },
+            { "en": "Meat / Fish / Chicken", "translated": "Viande / Poisson / Poulet", "pronunciation": "vyahnd / pwah-sohn / poo-lay" },
+            { "en": "Apple", "translated": "Pomme", "pronunciation": "pum" },
+            { "en": "Banana", "translated": "Banane", "pronunciation": "bah-nahn" },
+            { "en": "Lemon", "translated": "Citron", "pronunciation": "see-trohn" },
+            { "en": "Tomato", "translated": "Tomate", "pronunciation": "toh-maht" },
+            { "en": "Potato", "translated": "Pomme de terre", "pronunciation": "pum duh tair" },
+            { "en": "Carrot", "translated": "Carotte", "pronunciation": "kah-roht" }
+          ]
+        },
+        {
+          "id": "calendar",
+          "title": "Calendar & Time",
+          "icon": "calendar_today",
+          "phrases": [
+            { "en": "Monday", "translated": "Lundi", "pronunciation": "luhn-dee" },
+            { "en": "Tuesday", "translated": "Mardi", "pronunciation": "mahr-dee" },
+            { "en": "Wednesday", "translated": "Mercredi", "pronunciation": "mair-cruh-dee" },
+            { "en": "Thursday", "translated": "Jeudi", "pronunciation": "zhuh-dee" },
+            { "en": "Friday", "translated": "Vendredi", "pronunciation": "vahn-druh-dee" },
+            { "en": "Saturday", "translated": "Samedi", "pronunciation": "sahm-dee" },
+            { "en": "Sunday", "translated": "Dimanche", "pronunciation": "dee-mahnsh" },
+            { "en": "January", "translated": "Janvier", "pronunciation": "zhahn-vyay" },
+            { "en": "February", "translated": "Février", "pronunciation": "fay-vree-ay" },
+            { "en": "March", "translated": "Mars", "pronunciation": "mahrs" },
+            { "en": "April", "translated": "Avril", "pronunciation": "ah-vreel" },
+            { "en": "May", "translated": "Mai", "pronunciation": "may" },
+            { "en": "June", "translated": "Juin", "pronunciation": "zhwahn" },
+            { "en": "July", "translated": "Juillet", "pronunciation": "zhwee-ay" },
+            { "en": "August", "translated": "Août", "pronunciation": "oot" },
+            { "en": "September", "translated": "Septembre", "pronunciation": "sep-tahm-bruh" },
+            { "en": "October", "translated": "Octobre", "pronunciation": "ok-toh-bruh" },
+            { "en": "November", "translated": "Novembre", "pronunciation": "noh-vahm-bruh" },
+            { "en": "December", "translated": "Décembre", "pronunciation": "day-sahm-bruh" },
+            { "en": "Today / Tomorrow", "translated": "Aujourd'hui / Demain", "pronunciation": "oh-zhoor-wee / duh-man" },
+            { "en": "Morning", "translated": "Matin", "pronunciation": "mah-tan" },
+            { "en": "Noon", "translated": "Midi", "pronunciation": "mee-dee" },
+            { "en": "Afternoon", "translated": "Après-midi", "pronunciation": "ah-preh-mee-dee" },
+            { "en": "Evening", "translated": "Soir", "pronunciation": "swahr" },
+            { "en": "Night", "translated": "Nuit", "pronunciation": "nwee" }
+          ]
+        },
+        {
+          "id": "numbers",
+          "title": "Numbers",
+          "icon": "pin",
+          "phrases": [
+            { "en": "One", "translated": "Un", "pronunciation": "uhn" },
+            { "en": "Two", "translated": "Deux", "pronunciation": "duh" },
+            { "en": "Three", "translated": "Trois", "pronunciation": "trwah" },
+            { "en": "Four", "translated": "Quatre", "pronunciation": "ka-truh" },
+            { "en": "Five", "translated": "Cinq", "pronunciation": "sank" },
+            { "en": "Six", "translated": "Six", "pronunciation": "sees" },
+            { "en": "Seven", "translated": "Sept", "pronunciation": "set" },
+            { "en": "Eight", "translated": "Huit", "pronunciation": "weet" },
+            { "en": "Nine", "translated": "Neuf", "pronunciation": "nuhf" },
+            { "en": "Ten", "translated": "Dix", "pronunciation": "dees" },
+            { "en": "Twenty", "translated": "Vingt", "pronunciation": "van" },
+            { "en": "Fifty", "translated": "Cinquante", "pronunciation": "sank-ahnt" },
+            { "en": "One hundred", "translated": "Cent", "pronunciation": "sahn" }
+          ]
+        },
+        {
+          "id": "museums",
+          "title": "Museums",
+          "icon": "museum",
+          "phrases": [
+            { "en": "Two adult tickets, please.", "translated": "Deux billets plein tarif, s'il vous plaît.", "pronunciation": "duh bee-yeh plan tah-reef, seel voo pleh" },
+            { "en": "Is this the line for entry?", "translated": "Est-ce la file pour l'entrée ?", "pronunciation": "ess lah feel poor lahn-tray" },
+            { "en": "Can we rent an audio guide?", "translated": "Pouvons-nous louer un audioguide ?", "pronunciation": "poo-vohn-noo loo-ay uh oh-dyoh-geed" },
+            { "en": "Where are the restrooms?", "translated": "Où sont les toilettes ?", "pronunciation": "oo sohn lay twah-let" }
+          ]
+        },
+        {
+          "id": "stores",
+          "title": "Stores",
+          "icon": "storefront",
+          "phrases": [
+            { "en": "How much does this cost?", "translated": "Combien ça coûte ?", "pronunciation": "kohm-byan sah koot" },
+            { "en": "Do you have this in a larger / smaller size?", "translated": "Avez-vous une taille plus grande / plus petite ?", "pronunciation": "ah-vay-voo ewn ty plew grahnd / plew puh-teet" },
+            { "en": "Could I have a receipt, please?", "translated": "Pourrais-je avoir un reçu, s'il vous plaît ?", "pronunciation": "poo-ray-zh ah-vwahr uh ruh-sew, seel voo pleh" },
+            { "en": "Do you accept credit cards?", "translated": "Acceptez-vous les cartes de crédit ?", "pronunciation": "ahk-sep-tay-voo lay kahrt duh kray-dee" }
+          ]
+        },
+        {
+          "id": "general",
+          "title": "General",
+          "icon": "chat",
+          "phrases": [
+            { "en": "Hello / Good morning", "translated": "Bonjour", "pronunciation": "bohn-zhoor" },
+            { "en": "Good evening", "translated": "Bonsoir", "pronunciation": "bohn-swahr" },
+            { "en": "Good night", "translated": "Bonne nuit", "pronunciation": "bun nwee" },
+            { "en": "Goodbye", "translated": "Au revoir", "pronunciation": "oh ruh-vwahr" },
+            { "en": "Please", "translated": "S'il vous plaît", "pronunciation": "seel voo pleh" },
+            { "en": "Thank you", "translated": "Merci", "pronunciation": "mair-see" },
+            { "en": "Excuse me", "translated": "Excusez-moi", "pronunciation": "ex-kew-zay-mwah" },
+            { "en": "Sorry", "translated": "Pardon / Désolé", "pronunciation": "par-dohn / day-zoh-lay" },
+            { "en": "Can you help me, please?", "translated": "Pouvez-vous m'aider, s'il vous plaît ?", "pronunciation": "poo-vay-voo meh-day, seel voo pleh" },
+            { "en": "Where is the nearest pharmacy?", "translated": "Où est la pharmacie la plus proche ?", "pronunciation": "oo eh lah far-mah-see lah plew prosh" },
+            { "en": "Do you speak English?", "translated": "Parlez-vous anglais ?", "pronunciation": "par-lay-voo ahn-gleh" },
+            { "en": "Do you have Wi-Fi?", "translated": "Avez-vous le Wi-Fi ?", "pronunciation": "ah-vay-voo luh way-fy?" },
+            { "en": "Do you accept contactless payment?", "translated": "Acceptez-vous le paiement sans contact ?", "pronunciation": "ahk-sep-tay-voo luh pay-mahn sahn kohn-takt?" }
+          ]
+        }
+      ]
+    },
+    "es": {
+      "name": "Spanish",
+      "categories": [
+        {
+          "id": "logistics",
+          "title": "Logistical",
+          "icon": "train",
+          "phrases": [
+            { "en": "Where is the taxi stand?", "translated": "¿Dónde está la parada de taxis?", "pronunciation": "DOHN-deh ehs-tah lah pah-RAH-dah deh TAHK-sees" },
+            { "en": "Take me to this address, please.", "translated": "Lléveme a esta dirección, por favor.", "pronunciation": "LYEH-veh-meh ah EHS-tah dee-rek-SYOHN, pohr fah-BOHR" },
+            { "en": "How much is the fare to the airport?", "translated": "¿Cuánto cuesta ir al aeropuerto?", "pronunciation": "KWAHN-toh KWEHS-tah eer ahl ah-eh-roh-POHR-toh" },
+            { "en": "Does this train go to [Madrid]?", "translated": "¿Este tren va a [Madrid]?", "pronunciation": "EHS-teh trehn vah ah [mah-DREED]" },
+            { "en": "Where is the nearest train / metro station?", "translated": "¿Dónde está la estación de tren / metro más cercana?", "pronunciation": "DOHN-deh ehs-tah lah ehs-tah-SYOH-n deh trehn / meh-troh mahs sehr-KAH-nah" }
+          ]
+        },
+        {
+          "id": "hotels",
+          "title": "Hotels",
+          "icon": "hotel",
+          "phrases": [
+            { "en": "I have a reservation under [Name].", "translated": "Tengo una reserva a nombre de [Nombre].", "pronunciation": "TEHN-goh oo-nah reh-SEHR-bah ah NOHM-breh deh [NOHM-breh]" },
+            { "en": "What time is check-out?", "translated": "¿A qué hora es la salida?", "pronunciation": "ah keh OH-rah ehs lah sah-LEE-dah" },
+            { "en": "Could I have extra towels, please?", "translated": "¿Podría darme más toallas, por favor?", "pronunciation": "poh-DREE-ah DAHR-meh mahs toh-AH-yahs, pohr fah-BOHR" },
+            { "en": "Do you have any rooms available for tonight?", "translated": "¿Tiene habitaciones disponibles para esta noche?", "pronunciation": "TYEH-neh ah-bee-tah-SYOH-nehs dees-poh-NEE-blehs PAH-rah EHS-tah NOH-cheh" }
+          ]
+        },
+        {
+          "id": "restaurants",
+          "title": "Restaurants",
+          "icon": "restaurant",
+          "phrases": [
+            { "en": "A table for two, please.", "translated": "Una mesa para dos, por favor.", "pronunciation": "OO-nah MEH-sah PAH-rah dohs, pohr fah-BOHR" },
+            { "en": "Do you have a vegetarian menu?", "translated": "¿Tiene un menú vegetariano?", "pronunciation": "TYEH-neh oon meh-NOO veh-heh-tah-RYAH-noh" },
+            { "en": "Can you recommend a dish?", "translated": "¿Qué plato nos recomienda?", "pronunciation": "keh PLAH-toh nohs reh-koh-MYEHN-dah" },
+            { "en": "Do you have outdoor seating?", "translated": "¿Tienen terraza?", "pronunciation": "TYEH-nehn teh-RAH-sah" },
+            { "en": "We are ready to order.", "translated": "Estamos listos para ordenar.", "pronunciation": "ehs-TAH-mohs LEES-tohs PAH-rah or-deh-NAHR" },
+            { "en": "The food was delicious, thank you.", "translated": "La comida estaba deliciosa, gracias.", "pronunciation": "lah koh-MEE-dah ehs-TAH-bah deh-lee-SYOH-sah, GRAH-syahs" },
+            { "en": "The bill, please.", "translated": "La cuenta, por favor.", "pronunciation": "lah KWEHN-tah, pohr fah-BOHR" },
+            { "en": "Separate bills, please.", "translated": "Cuentas separadas, por favor.", "pronunciation": "KWEHN-tahs seh-pah-RAH-dahs, pohr fah-BOHR" },
+            { "en": "A glass of red / white wine, please.", "translated": "Una copa de vino tinto / blanco, por favor.", "pronunciation": "OO-nah KOH-pah deh VEE-noh TEEN-toh / BLAHN-koh, pohr fah-BOHR" },
+            { "en": "A draft beer, please.", "translated": "Una caña, por favor.", "pronunciation": "OO-nah KAH-nyah, pohr fah-BOHR" },
+            { "en": "Still or sparkling water?", "translated": "¿Agua sin gas o con gas?", "pronunciation": "AH-gwah seen gahs oh kohn gahs?" },
+            { "en": "Tap water, please.", "translated": "Agua de la llave, por favor.", "pronunciation": "AH-gwah deh lah YAH-veh, pohr fah-BOHR" },
+            { "en": "An espresso, please.", "translated": "Un café solo, por favor.", "pronunciation": "oon kah-FEH SOH-loh, pohr fah-BOHR" },
+            { "en": "Is this dish spicy?", "translated": "¿Este plato está picante?", "pronunciation": "EHS-teh PLAH-toh ehs-TAH pee-KAHN-teh?" },
+            { "en": "Do you have English menus?", "translated": "¿Tiene menús en inglés?", "pronunciation": "TYEH-neh meh-NOO-sehn een-GLEHS?" }
+          ]
+        },
+        {
+          "id": "foods",
+          "title": "Foods & Dietary",
+          "icon": "restaurant_menu",
+          "phrases": [
+            { "en": "I am vegetarian / vegan.", "translated": "Soy vegetariano/a / vegano/a.", "pronunciation": "soy veh-heh-tah-RYAH-noh/nah / veh-GAH-noh/nah" },
+            { "en": "Without cheese, please.", "translated": "Sin queso, por favor.", "pronunciation": "seen KEH-soh, pohr fah-BOHR" },
+            { "en": "Milk", "translated": "Leche", "pronunciation": "LEH-cheh" },
+            { "en": "Juice", "translated": "Jugo", "pronunciation": "HOO-goh" },
+            { "en": "Orange", "translated": "Naranja", "pronunciation": "nah-RAHN-hah" },
+            { "en": "Strawberry", "translated": "Fresa", "pronunciation": "FREH-sah" },
+            { "en": "Broccoli", "translated": "Brócoli", "pronunciation": "BROH-koh-lee" },
+            { "en": "Steak", "translated": "Bistec", "pronunciation": "bees-TEHK" },
+            { "en": "Vegetables", "translated": "Verduras", "pronunciation": "behr-DOO-rahs" },
+            { "en": "Salad", "translated": "Ensalada", "pronunciation": "ehn-sah-LAH-dah" },
+            { "en": "Dessert", "translated": "Postre", "pronunciation": "POHS-treh" },
+            { "en": "Burger", "translated": "Hamburguesa", "pronunciation": "ahm-boor-GEH-sah" },
+            { "en": "Bread, please.", "translated": "Pan, por favor.", "pronunciation": "pahn, pohr fah-BOHR" },
+            { "en": "Meat / Fish / Chicken", "translated": "Carne / Pescado / Pollo", "pronunciation": "KAHR-neh / pehs-KAH-doh / POH-lyoh" },
+            { "en": "Apple", "translated": "Manzana", "pronunciation": "mahn-ZAH-nah" },
+            { "en": "Banana", "translated": "Plátano", "pronunciation": "PLAH-tah-noh" },
+            { "en": "Lemon", "translated": "Limón", "pronunciation": "lee-MOHN" },
+            { "en": "Tomato", "translated": "Tomate", "pronunciation": "toh-MAH-teh" },
+            { "en": "Potato", "translated": "Patata / Papa", "pronunciation": "pah-TAH-tah / PAH-pah" },
+            { "en": "Carrot", "translated": "Zanahoria", "pronunciation": "sah-nah-OH-ryah" }
+          ]
+        },
+        {
+          "id": "calendar",
+          "title": "Calendar & Time",
+          "icon": "calendar_today",
+          "phrases": [
+            { "en": "Monday", "translated": "Lunes", "pronunciation": "LOO-nehs" },
+            { "en": "Tuesday", "translated": "Martes", "pronunciation": "MAHR-tehs" },
+            { "en": "Wednesday", "translated": "Miércoles", "pronunciation": "MYEHR-koh-lehs" },
+            { "en": "Thursday", "translated": "Jueves", "pronunciation": "HWEH-vehs" },
+            { "en": "Friday", "translated": "Viernes", "pronunciation": "BYEHR-nehs" },
+            { "en": "Saturday", "translated": "Sábado", "pronunciation": "SAH-bah-doh" },
+            { "en": "Sunday", "translated": "Domingo", "pronunciation": "doh-MEEN-goh" },
+            { "en": "January", "translated": "Enero", "pronunciation": "eh-NEH-roh" },
+            { "en": "February", "translated": "Febrero", "pronunciation": "feh-BREH-roh" },
+            { "en": "March", "translated": "Marzo", "pronunciation": "MAHR-soh" },
+            { "en": "April", "translated": "Abril", "pronunciation": "ah-BREEL" },
+            { "en": "May", "translated": "Mayo", "pronunciation": "MAH-yoh" },
+            { "en": "June", "translated": "Junio", "pronunciation": "HOO-nyoh" },
+            { "en": "July", "translated": "Julio", "pronunciation": "HOO-lyoh" },
+            { "en": "August", "translated": "Agosto", "pronunciation": "ah-GOHS-toh" },
+            { "en": "September", "translated": "Septiembre", "pronunciation": "sehp-TYEHM-breh" },
+            { "en": "October", "translated": "Octubre", "pronunciation": "ohk-TOO-breh" },
+            { "en": "November", "translated": "Noviembre", "pronunciation": "noh-BYEHM-breh" },
+            { "en": "December", "translated": "Diciembre", "pronunciation": "dee-SYEHM-breh" },
+            { "en": "Today / Tomorrow", "translated": "Hoy / Mañana", "pronunciation": "oy / mah-NYAH-nah" },
+            { "en": "Morning", "translated": "Mañana", "pronunciation": "mah-NYAH-nah" },
+            { "en": "Noon", "translated": "Mediodía", "pronunciation": "meh-dyoh-DEE-ah" },
+            { "en": "Afternoon", "translated": "Tarde", "pronunciation": "TAHR-deh" },
+            { "en": "Evening", "translated": "Atardecer / Tarde", "pronunciation": "ah-tahr-deh-SEHR / TAHR-deh" },
+            { "en": "Night", "translated": "Noche", "pronunciation": "NOH-cheh" }
+          ]
+        },
+        {
+          "id": "numbers",
+          "title": "Numbers",
+          "icon": "pin",
+          "phrases": [
+            { "en": "One", "translated": "Uno", "pronunciation": "OO-noh" },
+            { "en": "Two", "translated": "Dos", "pronunciation": "dohs" },
+            { "en": "Three", "translated": "Tres", "pronunciation": "trehs" },
+            { "en": "Four", "translated": "Cuatro", "pronunciation": "KWAH-troh" },
+            { "en": "Five", "translated": "Cinco", "pronunciation": "SEEN-koh" },
+            { "en": "Six", "translated": "Seis", "pronunciation": "says" },
+            { "en": "Seven", "translated": "Siete", "pronunciation": "SYEH-teh" },
+            { "en": "Eight", "translated": "Ocho", "pronunciation": "OH-choh" },
+            { "en": "Nine", "translated": "Nueve", "pronunciation": "NWEH-veh" },
+            { "en": "Ten", "translated": "Diez", "pronunciation": "dyehs" },
+            { "en": "Twenty", "translated": "Veinte", "pronunciation": "BEYN-teh" },
+            { "en": "Fifty", "translated": "Cincuenta", "pronunciation": "seen-KWEHN-tah" },
+            { "en": "One hundred", "translated": "Cien", "pronunciation": "syen" }
+          ]
+        },
+        {
+          "id": "museums",
+          "title": "Museums",
+          "icon": "museum",
+          "phrases": [
+            { "en": "Two adult tickets, please.", "translated": "Dos entradas para adultos, por favor.", "pronunciation": "dohs ehn-TRAH-dahs PAH-rah ah-DUL-tohs, pohr fah-BOHR" },
+            { "en": "Is this the line for entry?", "translated": "¿Es esta la fila para entrar?", "pronunciation": "ehs EHS-tah lah FEE-lah PAH-rah ehn-TRAHR" },
+            { "en": "Can we rent an audio guide?", "translated": "¿Podemos alquilar una audioguía?", "pronunciation": "poh-DEH-mohs ahl-kee-LAHR OO-nah ow-dyoh-GEE-ah" },
+            { "en": "Where are the restrooms?", "translated": "¿Dónde están los baños?", "pronunciation": "DOHN-deh ehs-TAHN lohs BAH-nyohs" }
+          ]
+        },
+        {
+          "id": "stores",
+          "title": "Stores",
+          "icon": "storefront",
+          "phrases": [
+            { "en": "How much does this cost?", "translated": "¿Cuánto cuesta esto?", "pronunciation": "KWAHN-toh KWEHS-tah EHS-toh" },
+            { "en": "Do you have this in a larger / smaller size?", "translated": "¿Tiene esto en una talla más grande / más pequeña?", "pronunciation": "TYEH-neh EHS-toh een oo-nah TAH-lyah mahs GRAHN-deh / mahs peh-KEH-nyah" },
+            { "en": "Could I have a receipt, please?", "translated": "¿Me da un recibo, por favor?", "pronunciation": "meh dah oon reh-SEE-boh, pohr fah-BOHR" },
+            { "en": "Do you accept credit cards?", "translated": "¿Aceptan tarjetas de crédito?", "pronunciation": "ah-SEHP-tahn tahr-HEH-tahs deh KREH-dee-toh" }
+          ]
+        },
+        {
+          "id": "general",
+          "title": "General",
+          "icon": "chat",
+          "phrases": [
+            { "en": "Hello / Good morning", "translated": "Buenos días", "pronunciation": "BWEH-nohs DEE-ahs" },
+            { "en": "Good evening", "translated": "Buenas tardes", "pronunciation": "BWEH-nahs TAHR-dehs" },
+            { "en": "Good night", "translated": "Buenas noches", "pronunciation": "BWEH-nahs NOH-chehs" },
+            { "en": "Goodbye", "translated": "Adiós", "pronunciation": "ah-DYOHS" },
+            { "en": "Please", "translated": "Por favor", "pronunciation": "pohr fah-BOHR" },
+            { "en": "Thank you", "translated": "Gracias", "pronunciation": "GRAH-syahs" },
+            { "en": "Excuse me", "translated": "Disculpe", "pronunciation": "dees-KOOL-peh" },
+            { "en": "Sorry", "translated": "Lo siento", "pronunciation": "loh SYEHN-toh" },
+            { "en": "Can you help me, please?", "translated": "¿Me puede ayudar, por favor?", "pronunciation": "meh PWEH-deh ah-yoo-DAHR, pohr fah-BOHR" },
+            { "en": "Where is the nearest pharmacy?", "translated": "¿Dónde está la farmacia más cercana?", "pronunciation": "DOHN-deh ehs-tah lah fahr-MAH-syah mahs sehr-KAH-nah" },
+            { "en": "Do you speak English?", "translated": "¿Habla inglés?", "pronunciation": "AH-blah een-GLEHS" },
+            { "en": "Do you have Wi-Fi?", "translated": "¿Tiene Wi-Fi?", "pronunciation": "TYEH-neh way-fy?" },
+            { "en": "Do you accept contactless payment?", "translated": "¿Aceptan pagos sin contacto?", "pronunciation": "ah-SEHP-tahn PAH-gohs seen kohn-TAHK-toh?" }
+          ]
+        }
+      ]
+    },
+    "pt": {
+      "name": "Portuguese",
+      "categories": [
+        {
+          "id": "logistics",
+          "title": "Logistical",
+          "icon": "train",
+          "phrases": [
+            { "en": "Where is the taxi stand?", "translated": "Onde fica o ponto de táxi?", "pronunciation": "OHN-deh FEE-kah oo POHN-toh deh TAHK-see" },
+            { "en": "Take me to this address, please.", "translated": "Leva-me para esta morada, por favor.", "pronunciation": "LEH-vah-meh PAH-rah EHS-tah moh-RAH-dah, pohr fah-VOHR" },
+            { "en": "How much is the fare to the airport?", "translated": "Quanto custa a tarifa para o aeroporto?", "pronunciation": "KWAHN-toh KOOS-tah ah tah-REE-fah PAH-rah oo ah-eh-roh-POHR-too" },
+            { "en": "Does this train go to [Lisbon]?", "translated": "Este comboio vai para [Lisboa]?", "pronunciation": "EHS-tah kohm-BOY-oo vigh PAH-rah [leez-BOH-ah]" },
+            { "en": "Where is the nearest train / metro station?", "translated": "Onde fica a estação de comboio / metro mais próxima?", "pronunciation": "OHN-deh FEE-kah ah ehs-tah-SYOWN deh kohm-BOY-oo / MEH-troh mighs PROH-ksee-mah" }
+          ]
+        },
+        {
+          "id": "hotels",
+          "title": "Hotels",
+          "icon": "hotel",
+          "phrases": [
+            { "en": "I have a reservation under [Name].", "translated": "Tenho uma reserva em nome de [Nome].", "pronunciation": "TEHN-yoo OO-nah reh-ZEHR-bah aym NOH-meh deh [NOH-meh]" },
+            { "en": "What time is check-out?", "translated": "A que horas é o check-out?", "pronunciation": "ah keh OH-rahs eh oo check-out" },
+            { "en": "Could I have extra towels, please?", "translated": "Podia dar-me toalhas extra, por favor?", "pronunciation": "poh-DEE-ah DAHR-meh twah-LYAHHS EKS-trah, pohr fah-VOHR" },
+            { "en": "Do you have any rooms available for tonight?", "translated": "Tem quartos disponíveis para esta noite?", "pronunciation": "taym KWAHR-tohs dees-poh-NEE-vehs PAH-rah EHS-tah NOY-teh" }
+          ]
+        },
+        {
+          "id": "restaurants",
+          "title": "Restaurants",
+          "icon": "restaurant",
+          "phrases": [
+            { "en": "A table for two, please.", "translated": "Uma mesa para dois, por favor.", "pronunciation": "OO-nah MEH-sah PAH-rah DOYSH, pohr fah-VOHR" },
+            { "en": "Do you have a vegetarian menu?", "translated": "Tem um menu vegetariano?", "pronunciation": "taym oon meh-NOO veh-jeh-tah-ree-AH-noo" },
+            { "en": "Can you recommend a dish?", "translated": "Pode recomendar um prato?", "pronunciation": "poh-deh reh-koh-mehn-DAHR oon PRAH-too" },
+            { "en": "Do you have outdoor seating?", "translated": "Têm esplanada?", "pronunciation": "tayn ehs-plah-NAH-dah" },
+            { "en": "We are ready to order.", "translated": "Estamos prontos para pedir.", "pronunciation": "ehs-TAH-mohs PROHN-tohs PAH-rah peh-DEER" },
+            { "en": "The food was delicious, thank you.", "translated": "A comida estava deliciosa, obrigado.", "pronunciation": "ah koo-MEE-dah ehs-TAH-bah deh-lee-syoh-ZAH, oh-bree-GAH-doo" },
+            { "en": "The bill, please.", "translated": "A conta, por favor.", "pronunciation": "ah KOHN-tah, pohr fah-VOHR" },
+            { "en": "Separate bills, please.", "translated": "Contas separadas, por favor.", "pronunciation": "KOHN-tahs seh-pah-RAH-dahs, pohr fah-VOHR" },
+            { "en": "A glass of red / white wine, please.", "translated": "Um copo de vinho tinto / branco, por favor.", "pronunciation": "oon KOH-poo deh VEE-nyoo TEEN-too / BLAHN-koo, pohr fah-VOHR" },
+            { "en": "A draft beer, please.", "translated": "Um imperial / cerveja à pressão, por favor.", "pronunciation": "oon eem-peh-ree-AL / sehr-VAY-zhah ah preh-SYOH-un, pohr fah-VOHR" },
+            { "en": "Still or sparkling water?", "translated": "Água natural ou com gás?", "pronunciation": "AH-gwah nah-too-RAHL oh kohn gahsh?" },
+            { "en": "Tap water, please.", "translated": "Água da torneira, por favor.", "pronunciation": "AH-gwah dah tor-NAY-rah, pohr fah-VOHR" },
+            { "en": "An espresso, please.", "translated": "Uma bica / um café, por favor.", "pronunciation": "OO-nah BEE-kah / oon kah-FEH, pohr fah-VOHR" },
+            { "en": "Is this dish spicy?", "translated": "Este prato é picante?", "pronunciation": "EHS-teh PRAH-too eh pee-KAHN-teh?" },
+            { "en": "Do you have English menus?", "translated": "Tem menus em inglês?", "pronunciation": "taym meh-NOO-zhaym een-GLEHSH?" }
+          ]
+        },
+        {
+          "id": "foods",
+          "title": "Foods & Dietary",
+          "icon": "restaurant_menu",
+          "phrases": [
+            { "en": "I am vegetarian / vegan.", "translated": "Sou vegetariano/a / vegano/a.", "pronunciation": "soh veh-jeh-tah-ree-AH-noo/nah / veh-GAH-noo/nah" },
+            { "en": "Without cheese, please.", "translated": "Sem queijo, por favor.", "pronunciation": "saym KAY-zhoo, pohr fah-VOHR" },
+            { "en": "Milk", "translated": "Leite", "pronunciation": "LAY-tee" },
+            { "en": "Juice", "translated": "Sumo", "pronunciation": "SOO-moo" },
+            { "en": "Orange", "translated": "Laranja", "pronunciation": "lah-RAHN-zhah" },
+            { "en": "Strawberry", "translated": "Morangos", "pronunciation": "moh-RAHN-goosh" },
+            { "en": "Broccoli", "translated": "Brócolos", "pronunciation": "BROH-koo-loosh" },
+            { "en": "Steak", "translated": "Bife", "pronunciation": "BEE-fee" },
+            { "en": "Vegetables", "translated": "Legumes", "pronunciation": "leh-GOO-mehsh" },
+            { "en": "Salad", "translated": "Salada", "pronunciation": "sah-LAH-dah" },
+            { "en": "Dessert", "translated": "Sobremesa", "pronunciation": "soh-breh-MEH-zah" },
+            { "en": "Burger", "translated": "Hambúrguer", "pronunciation": "ahm-BOOR-gair" },
+            { "en": "Bread, please.", "translated": "Pão, por favor.", "pronunciation": "pah-ohn, pohr fah-VOHR" },
+            { "en": "Meat / Fish / Chicken", "translated": "Carne / Peixe / Frango", "pronunciation": "KAHR-neh / PAY-sheh / FRAHN-goo" },
+            { "en": "Apple", "translated": "Maçã", "pronunciation": "mah-SAH" },
+            { "en": "Banana", "translated": "Banana", "pronunciation": "bah-NAH-nah" },
+            { "en": "Lemon", "translated": "Limão", "pronunciation": "lee-MAH-ohn" },
+            { "en": "Tomato", "translated": "Tomate", "pronunciation": "too-MAH-tee" },
+            { "en": "Potato", "translated": "Batata", "pronunciation": "bah-TAH-tah" },
+            { "en": "Carrot", "translated": "Cenoura", "pronunciation": "seh-NOH-rah" }
+          ]
+        },
+        {
+          "id": "calendar",
+          "title": "Calendar & Time",
+          "icon": "calendar_today",
+          "phrases": [
+            { "en": "Monday", "translated": "Segunda-feira", "pronunciation": "seh-GOON-dah-FAY-rah" },
+            { "en": "Tuesday", "translated": "Terça-feira", "pronunciation": "TEHR-sah-FAY-rah" },
+            { "en": "Wednesday", "translated": "Quarta-feira", "pronunciation": "KWAHR-tah-FAY-rah" },
+            { "en": "Thursday", "translated": "Quinta-feira", "pronunciation": "KEEN-tah-FAY-rah" },
+            { "en": "Friday", "translated": "Sexta-feira", "pronunciation": "SESH-tah-FAY-rah" },
+            { "en": "Saturday", "translated": "Sábado", "pronunciation": "SAH-bah-doo" },
+            { "en": "Sunday", "translated": "Domingo", "pronunciation": "doh-MEEN-goo" },
+            { "en": "January", "translated": "Janeiro", "pronunciation": "zhah-NAY-roo" },
+            { "en": "February", "translated": "Fevereiro", "pronunciation": "feh-veh-RAY-roo" },
+            { "en": "March", "translated": "Março", "pronunciation": "MAHR-soo" },
+            { "en": "April", "translated": "Abril", "pronunciation": "ah-BREEL" },
+            { "en": "May", "translated": "Maio", "pronunciation": "MY-oo" },
+            { "en": "June", "translated": "Junho", "pronunciation": "ZHOON-yoo" },
+            { "en": "July", "translated": "Julho", "pronunciation": "ZHOOL-yoo" },
+            { "en": "August", "translated": "Agosto", "pronunciation": "ah-GOHS-too" },
+            { "en": "September", "translated": "Setembro", "pronunciation": "seh-TEHM-broo" },
+            { "en": "October", "translated": "Outubro", "pronunciation": "oh-OO-too-broo" },
+            { "en": "November", "translated": "Novembro", "pronunciation": "noh-VEHM-broo" },
+            { "en": "December", "translated": "Dezembro", "pronunciation": "deh-ZEHM-broo" },
+            { "en": "Today / Tomorrow", "translated": "Hoje / Amanhã", "pronunciation": "OH-zhay / ah-mah-NYAH" },
+            { "en": "Morning", "translated": "Manhã", "pronunciation": "mah-NYAH" },
+            { "en": "Noon", "translated": "Meio-dia", "pronunciation": "MAY-oo-DEE-ah" },
+            { "en": "Afternoon", "translated": "Tarde", "pronunciation": "TAHR-deh" },
+            { "en": "Evening", "translated": "Final da tarde", "pronunciation": "fee-NAHL dah TAHR-deh" },
+            { "en": "Night", "translated": "Noite", "pronunciation": "NOY-tee" }
+          ]
+        },
+        {
+          "id": "numbers",
+          "title": "Numbers",
+          "icon": "pin",
+          "phrases": [
+            { "en": "One", "translated": "Um", "pronunciation": "oon" },
+            { "en": "Two", "translated": "Dois", "pronunciation": "doysh" },
+            { "en": "Three", "translated": "Três", "pronunciation": "trayzh" },
+            { "en": "Four", "translated": "Quatro", "pronunciation": "KWAH-troo" },
+            { "en": "Five", "translated": "Cinco", "pronunciation": "SEEN-koo" },
+            { "en": "Six", "translated": "Seis", "pronunciation": "says" },
+            { "en": "Seven", "translated": "Sete", "pronunciation": "SEH-teh" },
+            { "en": "Eight", "translated": "Oito", "pronunciation": "OY-too" },
+            { "en": "Nine", "translated": "Nove", "pronunciation": "NOH-veh" },
+            { "en": "Ten", "translated": "Dez", "pronunciation": "dayzh" },
+            { "en": "Twenty", "translated": "Vinte", "pronunciation": "VEEN-teh" },
+            { "en": "Fifty", "translated": "Cinquenta", "pronunciation": "seen-KWEHN-tah" },
+            { "en": "One hundred", "translated": "Cem", "pronunciation": "saym" }
+          ]
+        },
+        {
+          "id": "museums",
+          "title": "Museums",
+          "icon": "museum",
+          "phrases": [
+            { "en": "Two adult tickets, please.", "translated": "Dois bilhetes de adulto, por favor.", "pronunciation": "doysh beel-YET-shayz deh ah-DOOL-too, pohr fah-VOHR" },
+            { "en": "Is this the line for entry?", "translated": "É esta a fila para a entrada?", "pronunciation": "eh EHS-tah ah FEE-lah PAH-rah ah ehn-TRAH-dah" },
+            { "en": "Can we rent an audio guide?", "translated": "Podemos alugar um audioguia?", "pronunciation": "poh-DEH-mohs ah-loo-GAHR oon ow-dyoh-GEE-ah" },
+            { "en": "Where are the restrooms?", "translated": "Onde ficam as casas de banho?", "pronunciation": "OHN-deh FEE-kahm ahsh KAH-zahsh deh BAH-nyoo" }
+          ]
+        },
+        {
+          "id": "stores",
+          "title": "Stores",
+          "icon": "storefront",
+          "phrases": [
+            { "en": "How much does this cost?", "translated": "Quanto custa isto?", "pronunciation": "KWAHN-toh KOOS-tah EES-too" },
+            { "en": "Do you have this in a larger / smaller size?", "translated": "Tem isto num tamanho maior / mais pequeno?", "pronunciation": "taym EES-too noom tah-MAH-nyoo mah-YOHR / migh peh-KEH-noo" },
+            { "en": "Could I have a receipt, please?", "translated": "Pode dar-me o talão, por favor?", "pronunciation": "poh-deh DAHR-meh oo tah-LAOHN, pohr fah-VOHR" },
+            { "en": "Do you accept credit cards?", "translated": "Aceitam cartões de crédito?", "pronunciation": "ah-SAY-tahm kahr-TOH-yzh deh KREH-dee-toh" }
+          ]
+        },
+        {
+          "id": "general",
+          "title": "General",
+          "icon": "chat",
+          "phrases": [
+            { "en": "Hello / Good morning", "translated": "Bom dia", "pronunciation": "bohm DEE-ah" },
+            { "en": "Good evening", "translated": "Boa tarde", "pronunciation": "BOH-ah TAHR-deh" },
+            { "en": "Good night", "translated": "Boa noite", "pronunciation": "BOH-ah NOY-teh" },
+            { "en": "Goodbye", "translated": "Adeus", "pronunciation": "ah-DAY-oosh" },
+            { "en": "Please", "translated": "Por favor", "pronunciation": "pohr fah-VOHR" },
+            { "en": "Thank you", "translated": "Obrigado", "pronunciation": "oh-bree-GAH-doo" },
+            { "en": "Excuse me", "translated": "Com licença", "pronunciation": "kohm lee-SEHN-sah" },
+            { "en": "Sorry", "translated": "Desculpe", "pronunciation": "deesh-KOOL-peh" },
+            { "en": "Can you help me, please?", "translated": "Pode ajudar-me, por favor?", "pronunciation": "poh-deh ah-joo-DAHR-meh, pohr fah-VOHR" },
+            { "en": "Where is the nearest pharmacy?", "translated": "Onde fica a farmácia mais próxima?", "pronunciation": "OHN-deh FEE-kah ah fahr-MAH-syah mighs PROH-ksee-mah" },
+            { "en": "Do you speak English?", "translated": "Fala inglês?", "pronunciation": "FAH-lah een-GLEHSH" },
+            { "en": "Do you have Wi-Fi?", "translated": "Tem Wi-Fi?", "pronunciation": "taym way-fy?" },
+            { "en": "Do you accept contactless payment?", "translated": "Aceitam pagamento por proximidade / contactless?", "pronunciation": "ah-SAY-tahm pah-gah-MEN-too pohr proks-ee-mah-dee-de / kohn-tak-tles?" }
+          ]
+        }
+      ]
+    }
+  }
+}
