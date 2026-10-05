@@ -10,7 +10,7 @@
           "phrases": [
             { "en": "Where is the taxi stand?", "translated": "Dov'è il posteggio dei taxi?", "pronunciation": "doh-VEH eel poh-STEH-joh day TAHK-see" },
             { "en": "Take me to this address, please.", "translated": "Mi porti a questo indirizzo, per favore.", "pronunciation": "mee POHR-tee ah KWEH-stoh een-dee-REET-zoh, pehr fah-VOH-reh" },
-            { "en": "How much is the fare to the airport?", "translated": "Quant'è la tariffa per l'aeroporto?", "pronunciation": "kwahn-TEH lah tah-REEF-fah pehr lah-eh-roh-POHR-toh" },
+            { "en": "How much is the fare to the airport?", "translated": "Quant'è la tariffa per l'aeroporto?", "pronunciation": "kwahn-TEH lah tah-REEF-fah per lah-eh-roh-POHR-toh" },
             { "en": "Does this train go to [Rome]?", "translated": "Questo treno va a [Roma]?", "pronunciation": "KWEH-stoh TREH-noh vah ah [ROH-mah]" },
             { "en": "Where is the nearest train / metro station?", "translated": "Dov'è la stazione dei treni / della metropolitana più vicina?", "pronunciation": "doh-VEH lah stah-TSYOH-nee day TREH-nee / DEL-lah meh-troh-poh-lee-TAH-nah pyoo vee-CHEE-nah" }
           ]
@@ -33,6 +33,9 @@
           "phrases": [
             { "en": "A table for two, please.", "translated": "Un tavolo per due, per favore.", "pronunciation": "oon TAH-voh-loh pehr DOO-eh, pehr fah-VOH-reh" },
             { "en": "Do you have a vegetarian menu?", "translated": "Avete un menù vegetariano?", "pronunciation": "ah-VEH-teh oon meh-NOO veh-jeh-tah-RYAH-noh" },
+            { "en": "Can you recommend a dish?", "translated": "Ci consiglia un piatto?", "pronunciation": "chee kohn-SEEL-yah oon PYAT-toh" },
+            { "en": "Do you have outdoor seating?", "translated": "Avete tavoli all'aperto?", "pronunciation": "ah-VEH-teh TAH-voh-lee ahl-ah-PEHR-toh" },
+            { "en": "We are ready to order.", "translated": "Siamo pronti per ordinare.", "pronunciation": "SYAH-moh PROHN-tee pehr or-dee-NAH-reh" },
             { "en": "The food was delicious, thank you.", "translated": "Il cibo era delizioso, grazie.", "pronunciation": "eel CHEE-boh EH-rah deh-lee-TSYOH-zoh, GRAH-tsyeh" },
             { "en": "The bill, please.", "translated": "Il conto, per favore.", "pronunciation": "eel KOHN-toh, pehr fah-VOH-reh" },
             { "en": "Separate bills, please.", "translated": "Conti separati, per favore.", "pronunciation": "KOHN-tee seh-pah-RAH-tee, pehr fah-VOH-reh" },
@@ -50,11 +53,47 @@
           "title": "Foods & Dietary",
           "icon": "restaurant_menu",
           "phrases": [
-            { "en": "I am allergic to [nuts / shellfish / gluten].", "translated": "Sono allergico/a a [frutta secca / crostacei / glutine].", "pronunciation": "SOH-noh ah-LEHR-jee-koh/kah ah [FROOT-tah SEK-kah / kroh-STAH-chey / GLOO-tee-neh]" },
             { "en": "I am vegetarian / vegan.", "translated": "Sono vegetariano/a / vegano/a.", "pronunciation": "SOH-noh veh-jeh-tah-RYAH-noh/nah / veh-GAH-noh/nah" },
             { "en": "Without cheese, please.", "translated": "Senza formaggio, per favore.", "pronunciation": "SEN-tsah for-MAH-joh, pehr fah-VOH-reh" },
+            { "en": "Milk", "translated": "Latte", "pronunciation": "LAHT-teh" },
+            { "en": "Juice", "translated": "Succo", "pronunciation": "SOOK-koh" },
+            { "en": "Orange", "translated": "Arancia", "pronunciation": "ah-RAHN-chah" },
+            { "en": "Strawberry", "translated": "Fragola", "pronunciation": "FRAH-goh-lah" },
+            { "en": "Broccoli", "translated": "Broccoli", "pronunciation": "BROHK-koh-lee" },
+            { "en": "Steak", "translated": "Bistecca", "pronunciation": "bees-TEK-kah" },
+            { "en": "Vegetables", "translated": "Verdure", "pronunciation": "vehr-DOO-reh" },
+            { "en": "Salad", "translated": "Insalata", "pronunciation": "een-sah-LAH-tah" },
+            { "en": "Dessert", "translated": "Dolce", "pronunciation": "DOHL-cheh" },
+            { "en": "Burger", "translated": "Hamburger", "pronunciation": "ahm-boor-GEHR" },
             { "en": "Bread, please.", "translated": "Del pane, per favore.", "pronunciation": "del PAH-neh, pehr fah-VOH-reh" },
             { "en": "Meat / Fish / Chicken", "translated": "Carne / Pesce / Pollo", "pronunciation": "KAR-neh / PES-cheh / POHL-loh" }
+          ]
+        },
+        {
+          "id": "calendar",
+          "title": "Calendar & Time",
+          "icon": "calendar_today",
+          "phrases": [
+            { "en": "Monday", "translated": "Lunedì", "pronunciation": "loo-neh-DEE" },
+            { "en": "Tuesday", "translated": "Martedì", "pronunciation": "mar-teh-DEE" },
+            { "en": "Wednesday", "translated": "Mercoledì", "pronunciation": "mer-koh-leh-DEE" },
+            { "en": "Thursday", "translated": "Giovedì", "pronunciation": "joh-veh-DEE" },
+            { "en": "Friday", "translated": "Venerdì", "pronunciation": "veh-ner-DEE" },
+            { "en": "Saturday", "translated": "Sabato", "pronunciation": "SAH-bah-toh" },
+            { "en": "Sunday", "translated": "Domenica", "pronunciation": "doh-MEH-nee-kah" },
+            { "en": "January", "translated": "Gennaio", "pronunciation": "jen-NAH-yoh" },
+            { "en": "February", "translated": "Febbraio", "pronunciation": "feb-BRAH-yoh" },
+            { "en": "March", "translated": "Marzo", "pronunciation": "MAHR-tsoh" },
+            { "en": "April", "translated": "Aprile", "pronunciation": "ah-PREE-leh" },
+            { "en": "May", "translated": "Maggio", "pronunciation": "MAH-joh" },
+            { "en": "June", "translated": "Giugno", "pronunciation": "JOO-nyoh" },
+            { "en": "July", "translated": "Luglio", "pronunciation": "LOOL-yoh" },
+            { "en": "August", "translated": "Agosto", "pronunciation": "ah-GOH-stoh" },
+            { "en": "September", "translated": "Settembre", "pronunciation": "set-TEM-breh" },
+            { "en": "October", "translated": "Ottobre", "pronunciation": "ot-TOH-breh" },
+            { "en": "November", "translated": "Novembre", "pronunciation": "noh-VEM-breh" },
+            { "en": "December", "translated": "Dicembre", "pronunciation": "dee-VEM-breh" },
+            { "en": "Today / Tomorrow", "translated": "Oggi / Domani", "pronunciation": "OH-jee / doh-MAH-nee" }
           ]
         },
         {
@@ -82,8 +121,8 @@
           "title": "Museums",
           "icon": "museum",
           "phrases": [
-            { "en": "Two adult tickets, please.", "translated": "Due biglietti interi, per favore.", "pronunciation": "DOO-eh beel-YET-tee een-TEH-ree, pehr fah-VOH-reh" },
-            { "en": "Is this the line for entry?", "translated": "È questa la fila per l'ingresso?", "pronunciation": "eh KWEH-stah lah FEE-lah pehr leen-GRES-soh" },
+            { "en": "Two adult tickets, please.", "translated": "Due biglietti interi, per favore.", "pronunciation": "DOO-eh beel-YET-tee een-TEH-ree, per fah-VOH-reh" },
+            { "en": "Is this the line for entry?", "translated": "È questa la fila per l'ingresso?", "pronunciation": "eh KWEH-stah lah FEE-lah per leen-GRES-soh" },
             { "en": "Can we rent an audio guide?", "translated": "Possiamo noleggiare un'audioguida?", "pronunciation": "pohs-SYAH-moh noh-lej-JAH-reh oon-ow-dyoh-GWEE-dah" },
             { "en": "Where are the restrooms?", "translated": "Dove sono i bagni?", "pronunciation": "DOH-veh SOH-noh ee BAH-nyee" }
           ]
@@ -95,7 +134,7 @@
           "phrases": [
             { "en": "How much does this cost?", "translated": "Quanto costa questo?", "pronunciation": "KWAHN-toh KOH-stah KWEH-stoh" },
             { "en": "Do you have this in a larger / smaller size?", "translated": "Avete questo in una taglia più grande / piccola?", "pronunciation": "ah-VEH-teh KWEH-stoh een oo-nah TAH-lyah pyoo GRAHN-deh / PEEK-koh-lah" },
-            { "en": "Could I have a receipt, please?", "translated": "Potrei avere una ricevuta, per favore?", "pronunciation": "poh-TRAY ah-VEH-reh oo-nah ree-cheh-VOO-tah, pehr fah-VOH-reh" },
+            { "en": "Could I have a receipt, please?", "translated": "Potrei avere una ricevuta, per favore?", "pronunciation": "poh-TRAY ah-VEH-reh oo-nah ree-cheh-VOO-tah, per fah-VOH-reh" },
             { "en": "Do you accept credit cards?", "translated": "Accettate carte di credito?", "pronunciation": "ah-chet-TAH-teh KAHR-teh dee KREH-dee-toh" }
           ]
         },
@@ -108,11 +147,11 @@
             { "en": "Good evening", "translated": "Buonasera", "pronunciation": "bwohn-ah-SEH-rah" },
             { "en": "Good night", "translated": "Buonanotte", "pronunciation": "bwohn-ah-NOHT-teh" },
             { "en": "Goodbye", "translated": "Arrivederci", "pronunciation": "ah-ree-veh-DEHR-chee" },
-            { "en": "Please", "translated": "Per favore", "pronunciation": "pehr fah-VOH-reh" },
+            { "en": "Please", "translated": "Per favore", "pronunciation": "per fah-VOH-reh" },
             { "en": "Thank you", "translated": "Grazie", "pronunciation": "GRAH-tsyeh" },
             { "en": "Excuse me", "translated": "Mi scusi", "pronunciation": "mee SKOO-zee" },
             { "en": "Sorry", "translated": "Scusa / Mi dispiace", "pronunciation": "SKOO-zah / mee dees-PYAH-cheh" },
-            { "en": "Can you help me, please?", "translated": "Mi può aiutare, per favore?", "pronunciation": "mee pwoh ah-yoo-TAH-reh, pehr fah-VOH-reh" },
+            { "en": "Can you help me, please?", "translated": "Mi può aiutare, per favore?", "pronunciation": "mee pwoh ah-yoo-TAH-reh, per fah-VOH-reh" },
             { "en": "Where is the nearest pharmacy?", "translated": "Dov'è la farmacia più vicina?", "pronunciation": "doh-VEH lah far-mah-CHEE-ah pyoo vee-CHEE-nah" },
             { "en": "Do you speak English?", "translated": "Parla inglese?", "pronunciation": "PAHR-lah een-GLEH-zeh" },
             { "en": "Do you have Wi-Fi?", "translated": "Avete il Wi-Fi?", "pronunciation": "ah-VEH-teh eel way-fay?" },
@@ -154,6 +193,9 @@
           "phrases": [
             { "en": "A table for two, please.", "translated": "Une table pour deux, s'il vous plaît.", "pronunciation": "ewn tah-bluh poor duh, seel voo pleh" },
             { "en": "Do you have a vegetarian menu?", "translated": "Avez-vous un menu végétarien ?", "pronunciation": "ah-vay-voo uh muh-new vay-zhay-tah-ryan" },
+            { "en": "Can you recommend a dish?", "translated": "Que nous conseillez-vous ?", "pronunciation": "kuh noo kohn-say-yay-voo" },
+            { "en": "Do you have outdoor seating?", "translated": "Avez-vous une terrasse ?", "pronunciation": "ah-vay-voo ewn teh-rahs" },
+            { "en": "We are ready to order.", "translated": "Nous sommes prêts à commander.", "pronunciation": "noo sohm preh ah koh-mahn-day" },
             { "en": "The food was delicious, thank you.", "translated": "Le repas était délicieux, merci.", "pronunciation": "luh ruh-pah ay-teh day-lee-syuh, mair-see" },
             { "en": "The bill, please.", "translated": "L'addition, s'il vous plaît.", "pronunciation": "lah-dee-see-ohn, seel voo pleh" },
             { "en": "Separate bills, please.", "translated": "L'addition séparée, s'il vous plaît.", "pronunciation": "lah-dee-see-ohn say-pah-ray, seel voo pleh" },
@@ -171,11 +213,47 @@
           "title": "Foods & Dietary",
           "icon": "restaurant_menu",
           "phrases": [
-            { "en": "I am allergic to [nuts / shellfish / gluten].", "translated": "Je suis allergique aux [fruits à coque / crustacés / au gluten].", "pronunciation": "zhuh swee ah-lair-zheek oh [frwee ah kohk / kroos-tah-say / oh gloo-tahn]" },
             { "en": "I am vegetarian / vegan.", "translated": "Je suis végétarien(ne) / végan(e).", "pronunciation": "zhuh swee vay-zhay-tah-ryan(yen) / vay-gahn" },
             { "en": "Without cheese, please.", "translated": "Sans fromage, s'il vous plaît.", "pronunciation": "sahn fro-mahzh, seel voo pleh" },
+            { "en": "Milk", "translated": "Lait", "pronunciation": "lay" },
+            { "en": "Juice", "translated": "Jus", "pronunciation": "zhoo" },
+            { "en": "Orange", "translated": "Orange", "pronunciation": "oh-rahnzh" },
+            { "en": "Strawberry", "translated": "Fraise", "pronunciation": "frehz" },
+            { "en": "Broccoli", "translated": "Brocoli", "pronunciation": "broh-koh-lee" },
+            { "en": "Steak", "translated": "Steak", "pronunciation": "stek" },
+            { "en": "Vegetables", "translated": "Légumes", "pronunciation": "lay-goom" },
+            { "en": "Salad", "translated": "Salade", "pronunciation": "sah-lahd" },
+            { "en": "Dessert", "translated": "Dessert", "pronunciation": "deh-zair" },
+            { "en": "Burger", "translated": "Burger", "pronunciation": "bœr-ɡœr" },
             { "en": "Bread, please.", "translated": "Du pain, s'il vous plaît.", "pronunciation": "dew pan, seel voo pleh" },
             { "en": "Meat / Fish / Chicken", "translated": "Viande / Poisson / Poulet", "pronunciation": "vyahnd / pwah-sohn / poo-lay" }
+          ]
+        },
+        {
+          "id": "calendar",
+          "title": "Calendar & Time",
+          "icon": "calendar_today",
+          "phrases": [
+            { "en": "Monday", "translated": "Lundi", "pronunciation": "luhn-dee" },
+            { "en": "Tuesday", "translated": "Mardi", "pronunciation": "mahr-dee" },
+            { "en": "Wednesday", "translated": "Mercredi", "pronunciation": "mair-cruh-dee" },
+            { "en": "Thursday", "translated": "Jeudi", "pronunciation": "zhuh-dee" },
+            { "en": "Friday", "translated": "Vendredi", "pronunciation": "vahn-druh-dee" },
+            { "en": "Saturday", "translated": "Samedi", "pronunciation": "sahm-dee" },
+            { "en": "Sunday", "translated": "Dimanche", "pronunciation": "dee-mahnsh" },
+            { "en": "January", "translated": "Janvier", "pronunciation": "zhahn-vyay" },
+            { "en": "February", "translated": "Février", "pronunciation": "fay-vree-ay" },
+            { "en": "March", "translated": "Mars", "pronunciation": "mahrs" },
+            { "en": "April", "translated": "Avril", "pronunciation": "ah-vreel" },
+            { "en": "May", "translated": "Mai", "pronunciation": "may" },
+            { "en": "June", "translated": "Juin", "pronunciation": "zhwahn" },
+            { "en": "July", "translated": "Juillet", "pronunciation": "zhwee-ay" },
+            { "en": "August", "translated": "Août", "pronunciation": "oot" },
+            { "en": "September", "translated": "Septembre", "pronunciation": "sep-tahm-bruh" },
+            { "en": "October", "translated": "Octobre", "pronunciation": "ok-toh-bruh" },
+            { "en": "November", "translated": "Novembre", "pronunciation": "noh-vahm-bruh" },
+            { "en": "December", "translated": "Décembre", "pronunciation": "day-sahm-bruh" },
+            { "en": "Today / Tomorrow", "translated": "Aujourd'hui / Demain", "pronunciation": "oh-zhoor-wee / duh-man" }
           ]
         },
         {
@@ -275,6 +353,9 @@
           "phrases": [
             { "en": "A table for two, please.", "translated": "Una mesa para dos, por favor.", "pronunciation": "OO-nah MEH-sah PAH-rah dohs, pohr fah-BOHR" },
             { "en": "Do you have a vegetarian menu?", "translated": "¿Tiene un menú vegetariano?", "pronunciation": "TYEH-neh oon meh-NOO veh-heh-tah-RYAH-noh" },
+            { "en": "Can you recommend a dish?", "translated": "¿Qué plato nos recomienda?", "pronunciation": "keh PLAH-toh nohs reh-koh-MYEHN-dah" },
+            { "en": "Do you have outdoor seating?", "translated": "¿Tienen terraza?", "pronunciation": "TYEH-nehn teh-RAH-sah" },
+            { "en": "We are ready to order.", "translated": "Estamos listos para ordenar.", "pronunciation": "ehs-TAH-mohs LEES-tohs PAH-rah or-deh-NAHR" },
             { "en": "The food was delicious, thank you.", "translated": "La comida estaba deliciosa, gracias.", "pronunciation": "lah koh-MEE-dah ehs-TAH-bah deh-lee-SYOH-sah, GRAH-syahs" },
             { "en": "The bill, please.", "translated": "La cuenta, por favor.", "pronunciation": "lah KWEHN-tah, pohr fah-BOHR" },
             { "en": "Separate bills, please.", "translated": "Cuentas separadas, por favor.", "pronunciation": "KWEHN-tahs seh-pah-RAH-dahs, pohr fah-BOHR" },
@@ -292,11 +373,47 @@
           "title": "Foods & Dietary",
           "icon": "restaurant_menu",
           "phrases": [
-            { "en": "I am allergic to [nuts / shellfish / gluten].", "translated": "Tengo alergia a [los frutos secos / los mariscos / al gluten].", "pronunciation": "TEHN-goh ah-LEHR-hyah ah [lohs FROOT-ohs SEH-kohs / lohs mah-REES-kohs / ahl GLOO-tehn]" },
             { "en": "I am vegetarian / vegan.", "translated": "Soy vegetariano/a / vegano/a.", "pronunciation": "soy veh-heh-tah-RYAH-noh/nah / veh-GAH-noh/nah" },
             { "en": "Without cheese, please.", "translated": "Sin queso, por favor.", "pronunciation": "seen KEH-soh, pohr fah-BOHR" },
+            { "en": "Milk", "translated": "Leche", "pronunciation": "LEH-cheh" },
+            { "en": "Juice", "translated": "Jugo", "pronunciation": "HOO-goh" },
+            { "en": "Orange", "translated": "Naranja", "pronunciation": "nah-RAHN-hah" },
+            { "en": "Strawberry", "translated": "Fresa", "pronunciation": "FREH-sah" },
+            { "en": "Broccoli", "translated": "Brócoli", "pronunciation": "BROH-koh-lee" },
+            { "en": "Steak", "translated": "Bistec", "pronunciation": "bees-TEHK" },
+            { "en": "Vegetables", "translated": "Verduras", "pronunciation": "behr-DOO-rahs" },
+            { "en": "Salad", "translated": "Ensalada", "pronunciation": "ehn-sah-LAH-dah" },
+            { "en": "Dessert", "translated": "Postre", "pronunciation": "POHS-treh" },
+            { "en": "Burger", "translated": "Hamburguesa", "pronunciation": "ahm-boor-GEH-sah" },
             { "en": "Bread, please.", "translated": "Pan, por favor.", "pronunciation": "pahn, pohr fah-BOHR" },
             { "en": "Meat / Fish / Chicken", "translated": "Carne / Pescado / Pollo", "pronunciation": "KAHR-neh / pehs-KAH-doh / POH-lyoh" }
+          ]
+        },
+        {
+          "id": "calendar",
+          "title": "Calendar & Time",
+          "icon": "calendar_today",
+          "phrases": [
+            { "en": "Monday", "translated": "Lunes", "pronunciation": "LOO-nehs" },
+            { "en": "Tuesday", "translated": "Martes", "pronunciation": "MAHR-tehs" },
+            { "en": "Wednesday", "translated": "Miércoles", "pronunciation": "MYEHR-koh-lehs" },
+            { "en": "Thursday", "translated": "Jueves", "pronunciation": "HWEH-vehs" },
+            { "en": "Friday", "translated": "Viernes", "pronunciation": "BYEHR-nehs" },
+            { "en": "Saturday", "translated": "Sábado", "pronunciation": "SAH-bah-doh" },
+            { "en": "Sunday", "translated": "Domingo", "pronunciation": "doh-MEEN-goh" },
+            { "en": "January", "translated": "Enero", "pronunciation": "eh-NEH-roh" },
+            { "en": "February", "translated": "Febrero", "pronunciation": "feh-BREH-roh" },
+            { "en": "March", "translated": "Marzo", "pronunciation": "MAHR-soh" },
+            { "en": "April", "translated": "Abril", "pronunciation": "ah-BREEL" },
+            { "en": "May", "translated": "Mayo", "pronunciation": "MAH-yoh" },
+            { "en": "June", "translated": "Junio", "pronunciation": "HOO-nyoh" },
+            { "en": "July", "translated": "Julio", "pronunciation": "HOO-lyoh" },
+            { "en": "August", "translated": "Agosto", "pronunciation": "ah-GOHS-toh" },
+            { "en": "September", "translated": "Septiembre", "pronunciation": "sehp-TYEHM-breh" },
+            { "en": "October", "translated": "Octubre", "pronunciation": "ohk-TOO-breh" },
+            { "en": "November", "translated": "Noviembre", "pronunciation": "noh-BYEHM-breh" },
+            { "en": "December", "translated": "Diciembre", "pronunciation": "dee-SYEHM-breh" },
+            { "en": "Today / Tomorrow", "translated": "Hoy / Mañana", "pronunciation": "oy / mah-NYAH-nah" }
           ]
         },
         {
@@ -396,6 +513,9 @@
           "phrases": [
             { "en": "A table for two, please.", "translated": "Uma mesa para dois, por favor.", "pronunciation": "OO-nah MEH-sah PAH-rah DOYSH, pohr fah-VOHR" },
             { "en": "Do you have a vegetarian menu?", "translated": "Tem um menu vegetariano?", "pronunciation": "taym oon meh-NOO veh-jeh-tah-ree-AH-noo" },
+            { "en": "Can you recommend a dish?", "translated": "Pode recomendar um prato?", "pronunciation": "poh-deh reh-koh-mehn-DAHR oon PRAH-too" },
+            { "en": "Do you have outdoor seating?", "translated": "Têm esplanada?", "pronunciation": "tayn ehs-plah-NAH-dah" },
+            { "en": "We are ready to order.", "translated": "Estamos prontos para pedir.", "pronunciation": "ehs-TAH-mohs PROHN-tohs PAH-rah peh-DEER" },
             { "en": "The food was delicious, thank you.", "translated": "A comida estava deliciosa, obrigado.", "pronunciation": "ah koo-MEE-dah ehs-TAH-bah deh-lee-syoh-ZAH, oh-bree-GAH-doo" },
             { "en": "The bill, please.", "translated": "A conta, por favor.", "pronunciation": "ah KOHN-tah, pohr fah-VOHR" },
             { "en": "Separate bills, please.", "translated": "Contas separadas, por favor.", "pronunciation": "KOHN-tahs seh-pah-RAH-dahs, pohr fah-VOHR" },
@@ -413,11 +533,47 @@
           "title": "Foods & Dietary",
           "icon": "restaurant_menu",
           "phrases": [
-            { "en": "I am allergic to [nuts / shellfish / gluten].", "translated": "Sou alérgico/a a [frutos secos / marisco / glúten].", "pronunciation": "soh oo-AL-er-zhee-koo/kah ah [FROO-tohs SEH-koos / mah-REES-koo / GLOO-tahn]" },
             { "en": "I am vegetarian / vegan.", "translated": "Sou vegetariano/a / vegano/a.", "pronunciation": "soh veh-jeh-tah-ree-AH-noo/nah / veh-GAH-noo/nah" },
             { "en": "Without cheese, please.", "translated": "Sem queijo, por favor.", "pronunciation": "saym KAY-zhoo, pohr fah-VOHR" },
+            { "en": "Milk", "translated": "Leite", "pronunciation": "LAY-tee" },
+            { "en": "Juice", "translated": "Sumo", "pronunciation": "SOO-moo" },
+            { "en": "Orange", "translated": "Laranja", "pronunciation": "lah-RAHN-zhah" },
+            { "en": "Strawberry", "translated": "Morangos", "pronunciation": "moh-RAHN-goosh" },
+            { "en": "Broccoli", "translated": "Brócolos", "pronunciation": "BROH-koo-loosh" },
+            { "en": "Steak", "translated": "Bife", "pronunciation": "BEE-fee" },
+            { "en": "Vegetables", "translated": "Legumes", "pronunciation": "leh-GOO-mehsh" },
+            { "en": "Salad", "translated": "Salada", "pronunciation": "sah-LAH-dah" },
+            { "en": "Dessert", "translated": "Sobremesa", "pronunciation": "soh-breh-MEH-zah" },
+            { "en": "Burger", "translated": "Hambúrguer", "pronunciation": "ahm-BOOR-gair" },
             { "en": "Bread, please.", "translated": "Pão, por favor.", "pronunciation": "pah-ohn, pohr fah-VOHR" },
             { "en": "Meat / Fish / Chicken", "translated": "Carne / Peixe / Frango", "pronunciation": "KAHR-neh / PAY-sheh / FRAHN-goo" }
+          ]
+        },
+        {
+          "id": "calendar",
+          "title": "Calendar & Time",
+          "icon": "calendar_today",
+          "phrases": [
+            { "en": "Monday", "translated": "Segunda-feira", "pronunciation": "seh-GOON-dah-FAY-rah" },
+            { "en": "Tuesday", "translated": "Terça-feira", "pronunciation": "TEHR-sah-FAY-rah" },
+            { "en": "Wednesday", "translated": "Quarta-feira", "pronunciation": "KWAHR-tah-FAY-rah" },
+            { "en": "Thursday", "translated": "Quinta-feira", "pronunciation": "KEEN-tah-FAY-rah" },
+            { "en": "Friday", "translated": "Sexta-feira", "pronunciation": "SESH-tah-FAY-rah" },
+            { "en": "Saturday", "translated": "Sábado", "pronunciation": "SAH-bah-doo" },
+            { "en": "Sunday", "translated": "Domingo", "pronunciation": "doh-MEEN-goo" },
+            { "en": "January", "translated": "Janeiro", "pronunciation": "zhah-NAY-roo" },
+            { "en": "February", "translated": "Fevereiro", "pronunciation": "feh-veh-RAY-roo" },
+            { "en": "March", "translated": "Março", "pronunciation": "MAHR-soo" },
+            { "en": "April", "translated": "Abril", "pronunciation": "ah-BREEL" },
+            { "en": "May", "translated": "Maio", "pronunciation": "MY-oo" },
+            { "en": "June", "translated": "Junho", "pronunciation": "ZHOON-yoo" },
+            { "en": "July", "translated": "Julho", "pronunciation": "ZHOOL-yoo" },
+            { "en": "August", "translated": "Agosto", "pronunciation": "ah-GOHS-too" },
+            { "en": "September", "translated": "Setembro", "pronunciation": "seh-TEHM-broo" },
+            { "en": "October", "translated": "Outubro", "pronunciation": "oh-OO-too-broo" },
+            { "en": "November", "translated": "Novembro", "pronunciation": "noh-VEHM-broo" },
+            { "en": "December", "translated": "Dezembro", "pronunciation": "deh-ZEHM-broo" },
+            { "en": "Today / Tomorrow", "translated": "Hoje / Amanhã", "pronunciation": "OH-zhay / ah-mah-NYAH" }
           ]
         },
         {
@@ -486,4 +642,3 @@
     }
   }
 }
-
