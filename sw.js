@@ -1,7 +1,9 @@
-const CACHE_NAME = 'pocket-lingo-v7';
+const CACHE_NAME = 'pocket-lingo-v8';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
+  './app.js',
+  './billing.js',
   './manifest.json',
   './data/phrases.json',
   './icon-192.png',
