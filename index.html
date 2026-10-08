@@ -243,6 +243,26 @@
     </div>
   </div>
 
+  <!--
+  <script type="module">
+  import { initBilling, makePurchase } from './billing.js';
+
+  function unlockUI() {
+    document.body.classList.add('premium-unlocked');
+    // Hide ad banners, show extra phrase categories, etc.
+  }
+
+  // Run check when the page loads
+  window.addEventListener('DOMContentLoaded', () => {
+    initBilling(unlockUI);
+  });
+
+  // Wire up to your Upgrade button
+  document.getElementById('buy-btn').addEventListener('click', () => {
+    makePurchase(unlockUI);
+  });
+</script>
+  -->
   <script>
     let phraseData = {};
 
