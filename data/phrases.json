@@ -6,18 +6,66 @@
     "phrases": [
       {
         "en": "Where is the nearest hospital or clinic?",
-        "translated": "Dov'è l'ospedale o la clinica più vicina?",
-        "pronunciation": "doh-VEH loh-speh-DAH-leh oh lah KLEE-nee-kah pyoo vee-CHEE-nah"
+        "translations": {
+          "it": {
+            "translated": "Dov'è l'ospedale o la clinica più vicina?",
+            "pronunciation": "doh-VEH loh-speh-DAH-leh oh lah KLEE-nee-kah pyoo vee-CHEE-nah"
+          },
+          "fr": {
+            "translated": "Où se trouve l'hôpital ou la clinique la plus proche ?",
+            "pronunciation": "oo suh troov loh-pee-tahl oo lah klee-neek lah ploo prosh"
+          },
+          "es": {
+            "translated": "¿Dónde está el hospital o la clínica más cercana?",
+            "pronunciation": "DOHN-deh eh-STAH el os-pee-TAL o lah KLEE-nee-kah mas ser-KAH-nah"
+          },
+          "pt": {
+            "translated": "Onde fica o hospital ou clínica mais próxima?",
+            "pronunciation": "OHN-jee FEE-kah oo os-pee-TAW oh KLEE-nee-kah mays PROH-see-mah"
+          }
+        }
       },
       {
         "en": "I need a doctor.",
-        "translated": "Ho bisogno di un medico.",
-        "pronunciation": "oh bee-ZOH-nyoh dee oon MEH-dee-koh"
+        "translations": {
+          "it": {
+            "translated": "Ho bisogno di un medico.",
+            "pronunciation": "oh bee-ZOH-nyoh dee oon MEH-dee-koh"
+          },
+          "fr": {
+            "translated": "J'ai besoin d'un médecin.",
+            "pronunciation": "zhay buh-ZWAH dun may-d-SAH"
+          },
+          "es": {
+            "translated": "Necesito un médico.",
+            "pronunciation": "neh-seh-SEE-toh oon MEH-dee-koh"
+          },
+          "pt": {
+            "translated": "Eu preciso de um médico.",
+            "pronunciation": "eh-oo pree-SEE-zoo jee oom MEH-jee-koo"
+          }
+        }
       },
       {
         "en": "Where is the nearest pharmacy?",
-        "translated": "Dov'è la farmacia più vicina?",
-        "pronunciation": "doh-VEH lah far-mah-CHEE-ah pyoo vee-CHEE-nah"
+        "translations": {
+          "it": {
+            "translated": "Dov'è la farmacia più vicina?",
+            "pronunciation": "doh-VEH lah far-mah-CHEE-ah pyoo vee-CHEE-nah"
+          },
+          "fr": {
+            "translated": "Où est la pharmacie la plus proche ?",
+            "pronunciation": "oo eh lah far-mah-SEE lah ploo prosh"
+          },
+          "es": {
+            "translated": "¿Dónde está la farmacia más cercana?",
+            "pronunciation": "DOHN-deh eh-STAH lah far-MAH-syah mas ser-KAH-nah"
+          },
+          "pt": {
+            "translated": "Onde fica a farmácia mais próxima?",
+            "pronunciation": "OHN-jee FEE-kah ah far-MAH-syah mays PROH-see-mah"
+          }
+        }
       }
     ]
   },
@@ -28,38 +76,66 @@
     "phrases": [
       {
         "en": "Where is the taxi stand?",
-        "translated": "Dov'è il posteggio dei taxi?",
-        "pronunciation": "doh-VEH eel poh-STEH-joh day TAHK-see"
-      },
-      {
-        "en": "Take me to this address, please.",
-        "translated": "Mi porti a questo indirizzo, per favore.",
-        "pronunciation": "mee POHR-tee ah KWEH-stoh een-dee-REET-zoh, pehr fah-VOH-reh"
-      },
-      {
-        "en": "How much is the fare to the airport?",
-        "translated": "Quant'è la tariffa per l'aeroporto?",
-        "pronunciation": "kwahn-TEH lah tah-REEF-fah per lah-eh-roh-POHR-toh"
-      },
-      {
-        "en": "Does this train go to [Rome]?",
-        "translated": "Questo treno va a [Roma]?",
-        "pronunciation": "KWEH-stoh TREH-noh vah ah [ROH-mah]"
-      },
-      {
-        "en": "Where is the nearest train / metro station?",
-        "translated": "Dov'è la stazione dei treni / della metropolitana più vicina?",
-        "pronunciation": "doh-VEH lah stah-TSYOH-nee day TREH-nee / DEL-lah meh-troh-poh-lee-TAH-nah pyoo vee-CHEE-nah"
+        "translations": {
+          "it": {
+            "translated": "Dov'è il posteggio dei taxi?",
+            "pronunciation": "doh-VEH eel poh-STEH-joh day TAHK-see"
+          },
+          "fr": {
+            "translated": "Où est la station de taxis ?",
+            "pronunciation": "oo eh lah stah-SYOHN duh tahk-SEE"
+          },
+          "es": {
+            "translated": "¿Dónde está la parada de taxis?",
+            "pronunciation": "DOHN-deh eh-STAH lah pah-RAH-dah deh TAHK-sees"
+          },
+          "pt": {
+            "translated": "Onde é o ponto de táxi?",
+            "pronunciation": "OHN-jee eh oo POHN-too jee TAHK-see"
+          }
+        }
       },
       {
         "en": "How do I buy a ticket for this bus/train?",
-        "translated": "Come faccio a comprare un biglietto per questo autobus/treno?",
-        "pronunciation": "KOH-meh FAH-choh ah kohm-PRAH-reh oon beel-YET-toh per KWEH-stoh OW-toh-boos/TREH-noh"
+        "translations": {
+          "it": {
+            "translated": "Come faccio a comprare un biglietto per questo autobus/treno?",
+            "pronunciation": "KOH-meh FAH-choh ah kohm-PRAH-reh oon beel-YET-toh per KWEH-stoh OW-toh-boos/TREH-noh"
+          },
+          "fr": {
+            "translated": "Comment puis-je acheter un billet pour ce bus/train ?",
+            "pronunciation": "koh-MAHN pweezh ash-TAY un bee-YAY poor suh byoos/trahn"
+          },
+          "es": {
+            "translated": "¿Cómo compro un boleto para este autobús/tren?",
+            "pronunciation": "KOH-moh KOHM-proh oon boh-LEH-toh PAH-rah EHS-teh ow-toh-BOOS/trehn"
+          },
+          "pt": {
+            "translated": "Como compro uma passagem para este ônibus/trem?",
+            "pronunciation": "KOH-moo KOHM-proo oo-mah pah-SAH-zheng PAH-rah EHS-chee OH-nee-boos/treng"
+          }
+        }
       },
       {
         "en": "Is this the right platform for the train to [City]?",
-        "translated": "È questo il binario giusto per il treno per [Città]?",
-        "pronunciation": "eh KWEH-stoh eel bee-NAH-ryoh JOO-stoh per eel TREH-noh per [cheet-TAH]"
+        "translations": {
+          "it": {
+            "translated": "È questo il binario giusto per il treno per [Città]?",
+            "pronunciation": "eh KWEH-stoh eel bee-NAH-ryoh JOO-stoh per eel TREH-noh per [cheet-TAH]"
+          },
+          "fr": {
+            "translated": "Est-ce la bonne voie pour le train vers [Ville] ?",
+            "pronunciation": "ess lah bun vwah poor luh trahn vehr [veel]"
+          },
+          "es": {
+            "translated": "¿Es este el andén correcto para el tren a [Ciudad]?",
+            "pronunciation": "ehs EHS-teh el ahn-DEHN koh-RREK-toh PAH-rah el trehn ah [syoo-DAHD]"
+          },
+          "pt": {
+            "translated": "Esta é a plataforma certa para o trem para [Cidade]?",
+            "pronunciation": "EHS-tah eh ah plah-tah-FOHR-mah SEHR-tah PAH-rah oo treng PAH-rah [see-DAH-jee]"
+          }
+        }
       }
     ]
   },
@@ -70,38 +146,66 @@
     "phrases": [
       {
         "en": "How much does this cost?",
-        "translated": "Quanto costa questo?",
-        "pronunciation": "KWAHN-toh KOH-stah KWEH-stoh"
-      },
-      {
-        "en": "Do you have this in a larger / smaller size?",
-        "translated": "Avete questo in una taglia più grande / piccola?",
-        "pronunciation": "ah-VEH-teh KWEH-stoh een oo-nah TAH-lyah pyoo GRAHN-deh / PEEK-koh-lah"
-      },
-      {
-        "en": "Could I have a receipt, please?",
-        "translated": "Potrei avere una ricevuta, per favore?",
-        "pronunciation": "poh-TRAY ah-VEH-reh oo-nah ree-cheh-VOO-tah, per fah-VOH-reh"
-      },
-      {
-        "en": "Do you accept credit cards?",
-        "translated": "Accettate carte di credito?",
-        "pronunciation": "ah-chet-TAH-teh KAHR-teh dee KREH-dee-toh"
+        "translations": {
+          "it": {
+            "translated": "Quanto costa questo?",
+            "pronunciation": "KWAHN-toh KOH-stah KWEH-stoh"
+          },
+          "fr": {
+            "translated": "Combien ça coûte ?",
+            "pronunciation": "kohm-BYAN sah koot"
+          },
+          "es": {
+            "translated": "¿Cuánto cuesta esto?",
+            "pronunciation": "KWAHN-toh KWEHS-tah EHS-toh"
+          },
+          "pt": {
+            "translated": "Quanto custa isso?",
+            "pronunciation": "KWAHN-too KOOS-tah EE-soo"
+          }
+        }
       },
       {
         "en": "Do you accept contactless payment?",
-        "translated": "Accettate pagamenti contactless?",
-        "pronunciation": "ah-chet-TAH-teh pah-gah-MEN-tee kohn-tak-tles?"
-      },
-      {
-        "en": "Can you write the price down?",
-        "translated": "Può scrivermi il prezzo?",
-        "pronunciation": "pwoh SKREE-ver-mee eel PRET-soh"
+        "translations": {
+          "it": {
+            "translated": "Accettate pagamenti contactless?",
+            "pronunciation": "ah-chet-TAH-teh pah-gah-MEN-tee kohn-tak-tles?"
+          },
+          "fr": {
+            "translated": "Acceptez-vous le paiement sans contact ?",
+            "pronunciation": "ak-sep-TAY-voo luh pay-MAHN sahn kohn-TAKT"
+          },
+          "es": {
+            "translated": "¿Aceptan pago sin contacto?",
+            "pronunciation": "ah-SEHP-tahn PAH-goh seen kohn-TAHK-toh"
+          },
+          "pt": {
+            "translated": "Aceita pagamento por aproximação?",
+            "pronunciation": "ah-SAY-tah pah-gah-MEN-too pohr ah-proh-see-mah-SOWN"
+          }
+        }
       },
       {
         "en": "Do you have a bag I can buy/use?",
-        "translated": "Ha un sacchetto che posso comprare/usare?",
-        "pronunciation": "ah oon sahk-KET-toh keh POHS-soh kohm-PRAH-reh/oo-ZAH-reh"
+        "translations": {
+          "it": {
+            "translated": "Ha un sacchetto che posso comprare/usare?",
+            "pronunciation": "ah oon sahk-KET-toh keh POHS-soh kohm-PRAH-reh/oo-ZAH-reh"
+          },
+          "fr": {
+            "translated": "Avez-vous un sac que je peux acheter/utiliser ?",
+            "pronunciation": "ah-vay-VOO un sahk kuh zhuh puh ash-TAY/oo-tee-lee-ZAY"
+          },
+          "es": {
+            "translated": "¿Tiene una bolsa que pueda comprar/usar?",
+            "pronunciation": "TYEH-neh oo-nah BOHL-sah keh PWEH-dah kohm-PRAR/oo-SAR"
+          },
+          "pt": {
+            "translated": "Você tem uma sacola que eu possa comprar/usar?",
+            "pronunciation": "voh-SEH teng oo-mah sah-KOH-lah keh eh-oo POH-sah kohm-PRAR/oo-ZAR"
+          }
+        }
       }
     ]
   },
@@ -112,10 +216,67 @@
     "phrases": [
       {
         "en": "Do we pay at the table or at the counter?",
-        "translated": "Paghiamo al tavolo o alla cassa?",
-        "pronunciation": "pah-GYAH-moh ahl TAH-voh-loh oh AHL-lah KAHS-sah"
+        "translations": {
+          "it": {
+            "translated": "Paghiamo al tavolo o alla cassa?",
+            "pronunciation": "pah-GYAH-moh ahl TAH-voh-loh oh AHL-lah KAHS-sah"
+          },
+          "fr": {
+            "translated": "On paie à la table ou à la caisse ?",
+            "pronunciation": "ohn pay ah lah tahbl oo ah lah kess"
+          },
+          "es": {
+            "translated": "¿Pagamos en la mesa o en la caja?",
+            "pronunciation": "pah-GAH-mos en lah MEH-sah o en lah KAH-hah"
+          },
+          "pt": {
+            "translated": "Pagamos na mesa ou no caixa?",
+            "pronunciation": "pah-GAH-moos nah MEH-zah ow noo KAY-shah"
+          }
+        }
+      },
+      {
+        "en": "Could I see the menu, please?",
+        "translations": {
+          "it": {
+            "translated": "Potrei vedere il menù, per favore?",
+            "pronunciation": "poh-TRAY veh-DEH-reh eel meh-NOO, per fah-VOH-reh"
+          },
+          "fr": {
+            "translated": "Pourrais-je voir le menu, s'il vous plaît ?",
+            "pronunciation": "poo-REHZH vwahr luh muh-NOO, seel voo pleh"
+          },
+          "es": {
+            "translated": "¿Podría ver el menú, por favor?",
+            "pronunciation": "poh-DREE-ah vehr el meh-NOO, por fah-VOR"
+          },
+          "pt": {
+            "translated": "Posso ver o cardápio, por favor?",
+            "pronunciation": "POH-soo vehr oo kar-DAH-pyoo, por fah-VOHR"
+          }
+        }
+      },
+      {
+        "en": "The bill, please.",
+        "translations": {
+          "it": {
+            "translated": "Il conto, per favore.",
+            "pronunciation": "eel KOHN-toh, per fah-VOH-reh"
+          },
+          "fr": {
+            "translated": "L'addition, s'il vous plaît.",
+            "pronunciation": "lah-dee-SYOHN, seel voo pleh"
+          },
+          "es": {
+            "translated": "La cuenta, por favor.",
+            "pronunciation": "lah KWEN-tah, por fah-VOR"
+          },
+          "pt": {
+            "translated": "A conta, por favor.",
+            "pronunciation": "ah KOHN-tah, por fah-VOHR"
+          }
+        }
       }
-      // ... (Keep the rest of your 15 existing restaurant phrases here)
     ]
   },
   {
@@ -124,49 +285,46 @@
     "icon": "handshake",
     "phrases": [
       {
-        "en": "Hello / Good morning",
-        "translated": "Buongiorno",
-        "pronunciation": "bwohn-JOHR-noh"
-      },
-      {
-        "en": "Good evening",
-        "translated": "Buonasera",
-        "pronunciation": "bwohn-ah-SEH-rah"
-      },
-      {
-        "en": "Good night",
-        "translated": "Buonanotte",
-        "pronunciation": "bwohn-ah-NOHT-teh"
-      },
-      {
-        "en": "Goodbye",
-        "translated": "Arrivederci",
-        "pronunciation": "ah-ree-veh-DEHR-chee"
-      },
-      {
-        "en": "Please",
-        "translated": "Per favore",
-        "pronunciation": "per fah-VOH-reh"
-      },
-      {
         "en": "Thank you",
-        "translated": "Grazie",
-        "pronunciation": "GRAH-tsyeh"
+        "translations": {
+          "it": {
+            "translated": "Grazie",
+            "pronunciation": "GRAH-tsyeh"
+          },
+          "fr": {
+            "translated": "Merci",
+            "pronunciation": "mair-SEE"
+          },
+          "es": {
+            "translated": "Gracias",
+            "pronunciation": "GRAH-syahs"
+          },
+          "pt": {
+            "translated": "Obrigado (m) / Obrigada (f)",
+            "pronunciation": "oh-bree-GAH-doo / oh-bree-GAH-dah"
+          }
+        }
       },
       {
-        "en": "Excuse me",
-        "translated": "Mi scusi",
-        "pronunciation": "mee SKOO-zee"
-      },
-      {
-        "en": "Sorry",
-        "translated": "Scusa / Mi dispiace",
-        "pronunciation": "SKOO-zah / mee dees-PYAH-cheh"
-      },
-      {
-        "en": "Do you speak English?",
-        "translated": "Parla inglese?",
-        "pronunciation": "PAHR-lah een-GLEH-zeh"
+        "en": "Excuse me / Sorry",
+        "translations": {
+          "it": {
+            "translated": "Mi scusi / Scusa",
+            "pronunciation": "mee SKOO-zee / SKOO-zah"
+          },
+          "fr": {
+            "translated": "Excusez-moi / Pardon",
+            "pronunciation": "ex-kew-zay-MWAH / par-DOHN"
+          },
+          "es": {
+            "translated": "Disculpe / Perdón",
+            "pronunciation": "dees-KOOL-peh / pehr-DOHN"
+          },
+          "pt": {
+            "translated": "Com licença / Desculpe",
+            "pronunciation": "kohn lee-SEN-sah / jess-KOOL-pee"
+          }
+        }
       }
     ]
   },
@@ -177,13 +335,45 @@
     "phrases": [
       {
         "en": "Can you help me, please?",
-        "translated": "Mi può aiutare, per favore?",
-        "pronunciation": "mee pwoh ah-yoo-TAH-reh, per fah-VOH-reh"
+        "translations": {
+          "it": {
+            "translated": "Mi può aiutare, per favore?",
+            "pronunciation": "mee pwoh ah-yoo-TAH-reh, per fah-VOH-reh"
+          },
+          "fr": {
+            "translated": "Pouvez-vous m'aider, s'il vous plaît ?",
+            "pronunciation": "poo-vay-VOO may-DAY, seel voo pleh"
+          },
+          "es": {
+            "translated": "¿Puede ayudarme, por favor?",
+            "pronunciation": "PWEH-deh ah-yoo-DAR-meh, por fah-VOR"
+          },
+          "pt": {
+            "translated": "Pode me ajudar, por favor?",
+            "pronunciation": "POH-jee mee ah-zhoo-DAR, por fah-VOHR"
+          }
+        }
       },
       {
         "en": "Do you have Wi-Fi?",
-        "translated": "Avete il Wi-Fi?",
-        "pronunciation": "ah-VEH-teh eel way-fay?"
+        "translations": {
+          "it": {
+            "translated": "Avete il Wi-Fi?",
+            "pronunciation": "ah-VEH-teh eel way-fay?"
+          },
+          "fr": {
+            "translated": "Avez-vous le Wi-Fi ?",
+            "pronunciation": "ah-vay-VOO luh wee-fee"
+          },
+          "es": {
+            "translated": "¿Tienen Wi-Fi?",
+            "pronunciation": "TYEH-nehn wee-fee"
+          },
+          "pt": {
+            "translated": "Você tem Wi-Fi?",
+            "pronunciation": "voh-SEH teng way-fay"
+          }
+        }
       }
     ]
   }
