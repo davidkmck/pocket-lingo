@@ -78,7 +78,7 @@ function renderPhrases(langKey) {
           <span>${iconSymbol}</span>
           <span>${category.title}</span>
         </span>
-        <span style="display: flex; align-items: center; gap: 0.5rem;">
+      <span style="display: flex; align-items: center; gap: 2rem;">
           <button class="hide-cat-btn" onclick="toggleHideCategory(event, '${langKey}', '${category.id}')" title="Hide Category">👁️‍‍🗨️</button>
           <span style="font-size: 1.5rem; color: var(--primary); width: 1rem; text-align: center;" class="toggle-indicator">${toggleSymbol}</span>
         </span>
