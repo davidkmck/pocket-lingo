@@ -182,9 +182,7 @@ function toggleHidePhrase(langKey, catId, phraseKey) {
 // --- Manage Modal Logic ---
 function openManageModal() {
   const langKey = document.getElementById('language-selector').value;
-  const lang = phraseData[langKey];
   const container = document.getElementById('manage-modal-body');
-  if (!lang) return;
 
   let html = '';
 
@@ -197,7 +195,8 @@ function openManageModal() {
     html += `<ul style="list-style: none; padding: 0; margin-top: 0;">`;
     hiddenCats.forEach(catId => {
       let catTitle = catId;
-      const officialMatch = (lang.categories || []).find(c => c.id === catId);
+      // UPDATE: phraseData is now the array directly
+      const officialMatch = phraseData.find(c => c.id === catId);
       const customMatch = (customCategories[langKey] || []).find(c => c.id === catId);
       if (officialMatch) catTitle = officialMatch.title;
       else if (customMatch) catTitle = customMatch.title;
@@ -221,7 +220,9 @@ function openManageModal() {
       const lastHyphen = phraseKey.lastIndexOf('-');
       const catId = phraseKey.substring(0, lastHyphen);
       const pIndex = parseInt(phraseKey.substring(lastHyphen + 1));
-      const categoryObj = (lang.categories || []).find(c => c.id === catId);
+      
+      // UPDATE: phraseData is now the array directly
+      const categoryObj = phraseData.find(c => c.id === catId);
       const phraseObj = categoryObj && categoryObj.phrases && categoryObj.phrases[pIndex];
       const phraseText = phraseObj ? phraseObj.en : phraseKey;
 
