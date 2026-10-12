@@ -16,16 +16,24 @@ fetch('data/phrases.json')
     document.getElementById('app-content').innerHTML = '<p>Error loading phrases. Are you offline?</p>';
   });
 
+// Hardcode the supported languages since the JSON is now category-first
+const supportedLanguages = {
+  'it': 'Italian',
+  'fr': 'French',
+  'es': 'Spanish',
+  'pt': 'Portuguese'
+};
+
 function initApp() {
   const selector = document.getElementById('language-selector');
-  for (const [key, lang] of Object.entries(phraseData)) {
+  for (const [key, name] of Object.entries(supportedLanguages)) {
     const option = document.createElement('option');
     option.value = key;
-    option.textContent = lang.name;
+    option.textContent = name;
     selector.appendChild(option);
   }
   selector.addEventListener('change', (e) => renderPhrases(e.target.value));
-  renderPhrases(Object.keys(phraseData)[0]);
+  renderPhrases(Object.keys(supportedLanguages)[0]);
 }
 
 function getCategoryIcon(iconKey) {
@@ -78,7 +86,7 @@ function renderPhrases(langKey) {
       </summary>
       <div class="phrases-container">`;
 
-    const defaultPhrases = category.phrases || [];
+const defaultPhrases = category.phrases || [];
     const userPhrases = (customPhrases[langKey] && customPhrases[langKey][category.id]) || [];
 
     defaultPhrases.forEach((phrase, pIndex) => {
@@ -86,14 +94,18 @@ function renderPhrases(langKey) {
       const isHidden = hiddenPhrases[langKey] && hiddenPhrases[langKey].includes(phraseKey);
       if (isHidden) return;
 
-      const safeText = phrase.translated.replace(/'/g, "\\'");
+      // Extract the correct translation based on the selected langKey (e.g., 'pt')
+      const translationData = phrase.translations[langKey];
+      if (!translationData) return; // Skip if this phrase hasn't been translated to this language yet
+
+      const safeText = translationData.translated.replace(/'/g, "\\'");
       html += `<div class="phrase-card">
         <div class="phrase-en">${phrase.en}</div>
         <div class="phrase-translated">
-          ${phrase.translated}
+          ${translationData.translated}
           <button class="speak-btn" onclick="speakText('${safeText}', '${langKey}')" title="Listen">🔊</button>
         </div>
-        <div class="phrase-pronunciation">${phrase.pronunciation || ''}</div>
+        <div class="phrase-pronunciation">${translationData.pronunciation || ''}</div>
         <button class="hide-phrase-btn" onclick="toggleHidePhrase('${langKey}', '${category.id}', '${phraseKey}')">Hide Phrase</button>
       </div>`;
     });
