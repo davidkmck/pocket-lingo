@@ -9,7 +9,7 @@ let currentOpenCategory = null;
 fetch('data/phrases.json')
   .then(response => response.json())
   .then(data => {
-    phraseData = data.languages;
+    phraseData = data; // Save the array directly
     initApp();
   })
   .catch(err => {
@@ -56,11 +56,10 @@ function getCategoryIcon(iconKey) {
 
 function renderPhrases(langKey) {
   const content = document.getElementById('app-content');
-  const lang = phraseData[langKey];
-  if (!lang) return;
-
+  
   let html = '';
-  const officialCategories = lang.categories || [];
+  // phraseData is now the array of categories itself
+  const officialCategories = phraseData || [];
   const userCats = (customCategories[langKey]) || [];
   const allCategories = [...officialCategories, ...userCats];
 
