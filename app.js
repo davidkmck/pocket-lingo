@@ -39,6 +39,8 @@ function getCategoryIcon(iconKey) {
     'museum': '🏛️', 
     'storefront': '🛍', 
     'chat': '💬', 
+    'local_hospital': '🏥', // Added for Health & Emergencies
+    'handshake': '🤝',      // Added for Social & Politeness
     'default': '📂'
   };
   return iconMap[iconKey] || iconMap['default'];
@@ -261,7 +263,8 @@ function speakText(text, langKey) {
       'es': 'es-ES',
       'fr': 'fr-FR',
       'de': 'de-DE',
-      'ja': 'ja-JP'
+      'ja': 'ja-JP',
+      'pt': 'pt-BR' // Added Portuguese (Brazil). Use 'pt-PT' for Portugal.
     };
     utterance.lang = langMap[langKey] || 'en-US';
     window.speechSynthesis.speak(utterance);
